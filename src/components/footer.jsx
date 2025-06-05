@@ -1,5 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import { FaWhatsapp } from "react-icons/fa";
+import { MdPhoneInTalk } from "react-icons/md";
+
 
 const Footer = () => {
   return (
@@ -11,12 +14,12 @@ const Footer = () => {
         className="float-button whatsapp"
         title="Chat on WhatsApp"
       >
-        <i className="fab fa-whatsapp"></i>
+        <FaWhatsapp className="icon" />
       </a>
 
       {/* Call Button (Right) */}
       <a href="tel:+919520578080" className="float-button call" title="Call Us">
-        <i className="fas fa-phone"></i>
+        <MdPhoneInTalk className="icon" />
       </a>
 
       {/* Footer */}
