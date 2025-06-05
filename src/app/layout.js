@@ -1,5 +1,25 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import "@/styles/animate.min.css";
+import "@/styles/bootstrap.css";
+// import "@/styles/font-awesome.min.css";
+// import "@/styles/jquery.datepicker.css";
+// import "@/styles/jquery-clockpicker.min.css";
+// import "@/styles/lightgallery.min.css";
+// import "@/styles/magnific-popup.css";
+// import "@/styles/nice-select.css";
+// import "@/styles/owl.carousel.min.css";
+// import "@/styles/owl.theme.default.min.css";
+import "@/styles/responsive.css";
+// import "@/styles/slicknav.min.css";
+import "@/styles/style.css";
+
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+
+
+import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +40,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
