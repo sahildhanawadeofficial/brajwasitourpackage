@@ -29,7 +29,7 @@ const HomeContent = () => {
             <div className="col-lg-6">
               <div className="about-left">
                 <h1>Go Taxi Booking Services</h1>
-                <p>Trusted Since 2015 <b>Vrindavan-Mathura Taxi Service</b> has been proudly serving travelers since 2015, offering safe, professional, and premium taxi services for all occasions. Whether you're a pilgrim, tourist, or attending a special event, we ensure your journey is smooth, comfortable, and unforgettable.</p>
+                <p>Trusted Since 2015 <b>Vrindavan-Mathura Taxi Service</b> has been proudly serving travelers since 2015, offering safe, professional, and premium taxi services for all occasions. Whether you&apos;re a pilgrim, tourist, or attending a special event, we ensure your journey is smooth, comfortable, and unforgettable.</p>
 
                 <p>We offer the Top-rated skilled and trained Chauffeurs to make your drive secure & comfortable. Drivers are the most important people when it comes to travelling. They are not only who take you to your destination, but they also guide you in exploring the places which come along the way. We have the best professional drivers, who will take you safely to your destination and will also help you in exploring.</p>
 
@@ -421,7 +421,7 @@ const HomeContent = () => {
               fulfilling pilgrimage.</p>
 
               <p>With flexible <strong>3-day, 5-day, and 7-day yatra packages</strong>, we make your journey
-                convenient and spiritually enriching. Whether you're traveling alone, with family, or in a
+                convenient and spiritually enriching. Whether you&apos;re traveling alone, with family, or in a
                 group, our dedicated service ensures a safe, comfortable, and memorable experience.</p>
 
 
