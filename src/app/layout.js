@@ -9,9 +9,13 @@ import "@/styles/bootstrap.css";
 // import "@/styles/nice-select.css";
 // import "@/styles/owl.carousel.min.css";
 // import "@/styles/owl.theme.default.min.css";
-import "@/styles/responsive.css";
-// import "@/styles/slicknav.min.css";
-import "@/styles/style.css";
+import "@/styles/style.scss";
+import "@/styles/responsive.scss";
+import "@/styles/slicknav.min.css";
+
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";

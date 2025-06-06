@@ -12,6 +12,8 @@ import FaqSection from '@/components/FaqSection';
 import HireTaxiSedan from '@/components/HireTaxiSedan';
 import PromoArea from '@/components/PromoArea';
 import ServiceSection from '@/components/ServiceSection';
+import Slider from '@/components/Slider';
+import FindTaxiForm from '@/components/FindTaxiForm';
 
 // You'd typically have your global styles imported in layout.js or _app.js
 // import styles from './HomeContent.module.css'; // Example for CSS Modules
@@ -22,6 +24,11 @@ const HomeContent = () => {
 
   return (
     <>
+
+      <Slider />
+
+      <FindTaxiForm />
+
       {/* About Area Start */}
       <section className="gauto-about-area section_70">
         <div className="container">

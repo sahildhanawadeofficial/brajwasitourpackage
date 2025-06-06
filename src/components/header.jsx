@@ -1,7 +1,14 @@
-import Image from "next/image";
+import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import ResponsiveHeader from "./ResponsiveHeader";
+import BootstrapNavbar from "./BootstrapNavbar";
+
 
 const Header = () => {
+
+
+
   return (
     <>
       {/* Header Top Area Start */}
@@ -95,7 +102,7 @@ const Header = () => {
       {/* Main Header Area End */}
 
       {/* Mainmenu Area Start */}
-      <section className="gauto-mainmenu-area">
+      {/* <section className="gauto-mainmenu-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-11">
@@ -160,7 +167,17 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+
+      <BootstrapNavbar />
+
+
+
+
+
+      {/* <ResponsiveHeader /> */}
       {/* Mainmenu Area End */}
     </>
   );
