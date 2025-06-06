@@ -73,23 +73,23 @@ const Boat_riding_in_mathura = () => {
                   Package Inclusion
                 </div>
                 <div class="flex-horizontal-center mb-3 text-gray-1">
-                  <i class="fa fa-check" style="font-size: 24px; color: green"></i>
+                  <i class="fa fa-check" style={{ fontSize: 24, color: 'green' }}></i>
                   Private traditional wooden boat for 3 hours
                 </div>
                 <div class="flex-horizontal-center mb-3 text-gray-1">
-                  <i class="fa fa-check" style="font-size: 24px; color: green"></i>
+                  <i class="fa fa-check" style={{ fontSize: 24, color: 'green' }}></i>
                   Local guide providing spiritual and historical insights
                 </div>
                 <div class="flex-horizontal-center mb-3 text-gray-1">
-                  <i class="fa fa-check" style="font-size: 24px; color: green"></i>
+                  <i class="fa fa-check" style={{ fontSize: 24, color: 'green' }}></i>
                   Life jackets and safety equipment
                 </div>
                 <div class="flex-horizontal-center mb-3 text-gray-1">
-                  <i class="fa fa-check" style="font-size: 24px; color: green"></i>
+                  <i class="fa fa-check" style={{ fontSize: 24, color: 'green' }}></i>
                   Complimentary bottled water
                 </div>
                 <div class="flex-horizontal-center mb-3 text-gray-1">
-                  <i class="fa fa-check" style="font-size: 24px; color: green"></i>
+                  <i class="fa fa-check" style={{ fontSize: 24, color: 'green' }}></i>
                   Breakfast at a local eatery (Kachori, Jalebi, Lassi)
                 </div>
               </div>
