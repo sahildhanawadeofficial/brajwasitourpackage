@@ -19,14 +19,14 @@ export async function POST(req) { // Use 'export async function POST' for App Ro
         const transporter = nodemailer.createTransport({
             service: 'gmail', // You can use other services or direct SMTP configuration
             auth: {
-                user: process.env.FROM_EMAIL, // Use a more descriptive name, e.g., FROM_EMAIL
-                pass: process.env.EMAIL_PASS // Use a more descriptive name, e.g., EMAIL_PASS
+                user: process.env.FROM, // Use a more descriptive name, e.g., FROM
+                pass: process.env.PASS // Use a more descriptive name, e.g., PASS
             }
         });
 
         const mailOptions = {
-            from: process.env.FROM_EMAIL,
-            to: `${process.env.TO_EMAIL},${process.env.TO_SAHIL_EMAIL}`, // Assuming multiple recipients
+            from: process.env.FROM,
+            to: `${process.env.TO},${process.env.TOSAHIL}`, // Assuming multiple recipients
             subject: 'New Contact Form Submission',
             text: `A new submission has been received:\n\n${emailText}` // Include a brief intro for context
         };
