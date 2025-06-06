@@ -1,7 +1,11 @@
+import Breadcrumb from '@/components/Breadcrumb'
 
 
 export default function RootLayout({ children }) {
     return <>
+        <Breadcrumb title="services" items={[
+            { label: 'Home', href: '/' },
+        ]} />
         <section className="gauto-blog-page-area section_70">
             <div className="container">
                 <div className="row">

@@ -22,6 +22,8 @@ const HomeContent = () => {
 
     return (
         <>
+
+
             {/* About Area Start */}
             <section className="gauto-about-area section_70">
                 <div className="container">

@@ -69,10 +69,12 @@ const BootstrapNavbar = () => {
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" onClick={() => {
-                                if (pathname.includes("popularroutes")) return
-                                router.push('/popularroutes')
-                            }} id="routesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#"
+                                // onClick={() => {
+                                //     if (pathname.includes("popularroutes")) return
+                                //     router.push('/popularroutes')
+                                // }}
+                                id="routesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Popular Routes
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="routesDropdown">

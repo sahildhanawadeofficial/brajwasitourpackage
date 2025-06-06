@@ -1,0 +1,82 @@
+import React from 'react';
+import Image from 'next/image';
+import QuickInquiry from '@/components/QuickInquiry'; // Ensure this path is correct
+
+const Page = () => {
+  // Define the image path. Assuming your image is in the 'public' folder.
+  const carouselImageSrc = "/tour/mathura-to-agra-taxi-hire-on-rent-1.webp"; // Note: Image still shows 'mathura-to-agra', consider updating if specific to Meerut-Mathura
+
+  return (
+    <>
+      <div className="col-lg-9"> {/* Changed 'class' to 'className' */}
+        <div className="blog-page-left"> {/* Changed 'class' to 'className' */}
+          <div className="single-blog"> {/* Changed 'class' to 'className' */}
+            <div className="blog-image"> {/* Changed 'class' to 'className' */}
+              {/* Note: Bootstrap Carousel JavaScript needs to be loaded client-side for full functionality. */}
+              <div id="carouselExampleControls" className="carousel slide" data-ride="carousel"> {/* Changed 'class' to 'className' */}
+                <div className="carousel-inner"> {/* Changed 'class' to 'className' */}
+                  <div className="carousel-item active"> {/* Changed 'class' to 'className' */}
+                    {/* Using Next.js Image component for optimized images */}
+                    <Image
+                      className="d-block w-100" // Changed 'class' to 'className'
+                      src={carouselImageSrc}
+                      alt="Meerut to Mathura Taxi Hire on Rent" // Alt text reflects the page content
+                      width={800} // IMPORTANT: Replace with the actual width of your image
+                      height={500} // IMPORTANT: Replace with the actual height of your image
+                      priority // Use priority if this is an important image above the fold
+                    />
+                  </div>
+                  {/* Add more carousel-item divs here if you have more images */}
+                </div>
+                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> {/* Changed 'class' to 'className' */}
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span> {/* Changed 'class' to 'className' */}
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> {/* Changed 'class' to 'className' */}
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span> {/* Changed 'class' to 'className' */}
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div className="blog-text"> {/* Changed 'class' to 'className' */}
+              <h2>Book Meerut to Mathura Taxi/Cab</h2>
+
+              <p>If you're planning to travel to Mathura from Meerut, booking a **taxi or cab** will be the best option. **Meerut to Mathura taxi** fare varies depending on the cab you choose. **Meerut to Mathura cab** booking will be hassle-free. You can get a cab that is budget-friendly. If you want a luxurious trip, you can opt for more expensive cabs that offer good space and are air-conditioned.</p>
+              <br /> {/* Self-closing br tag */}
+              <div className="row"> {/* Changed 'class' to 'className' */}
+                <div className="call-box-inner12"> {/* Changed 'class' to 'className' */}
+                  <table border="1" width="100%">
+                    <thead> {/* Added for semantic HTML */}
+                      <tr><th>Select Car</th><th> Price</th><th> Booking Now</th></tr>
+                    </thead>
+                    <tbody> {/* Added for semantic HTML */}
+                      <tr><td>Swift Dzire </td><td>Rs. 9/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Ertiga </td><td>Rs. 11/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Innova</td><td>Rs. 14/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Innova Crysta</td><td>Rs. 16/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Etios</td><td>Rs. 10/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Scorpio</td><td>Rs. 15/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                      <tr><td>Marazzo</td><td>Rs. 14/KM</td><td><a href="#" className="btn btn-danger" data-toggle="modal" data-target="#exampleModal"> Book Now</a></td></tr> {/* Changed 'class' to 'className' */}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <QuickInquiry />
+              <div className="gauto-leave-comment"> {/* Changed 'class' to 'className' */}
+
+                <h2>Distance Covered By Meerut To Mathura Cab</h2>
+                <p>The distance between Meerut and Mathura by car is around **211 km**, and the travel time is approximately **4 to 5 hours**. The distance will, of course, change if you alter the route. The travel time can also differ according to traffic conditions. The time taken to cover the distance also depends on your speed and your stoppage time during the journey.</p>
+                <br /> {/* Self-closing br tag */}
+                <h3>Types of Meerut to Mathura Taxi Available</h3> {/* Corrected heading for grammar */}
+                <p>**Meerut to Mathura taxi** options range from 4-seater to 16-seater. The price of the vehicle also varies according to the passenger capacity and luggage. You will get a **Meerut to Mathura taxi** that is fully air-conditioned, and the drivers you will get for your journey are really experienced and ensure your safety during the journey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Page;
