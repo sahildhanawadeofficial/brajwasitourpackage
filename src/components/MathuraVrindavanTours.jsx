@@ -140,7 +140,9 @@ const MathuraVrindavanTours = ({ TourTableData, PickupTours, para, morecontent, 
                         {showMoreContent &&
                             <div>
                                 {morecontent}
-                                <TourTable data={TourTableData} />
+                                {TourTableData.length > 0 &&
+                                    < TourTable data={TourTableData} />
+                                }
                             </div>
                         }
                         <button className="toggle-button" onClick={toggleContent}>

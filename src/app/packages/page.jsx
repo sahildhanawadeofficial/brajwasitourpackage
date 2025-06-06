@@ -426,6 +426,332 @@ const HomeContent = () => {
 
 
 
+                    <MathuraVrindavanTours
+                        TourTableData={[]}
+                        PickupTours={[
+                            {
+                                imageSrc: "/tour/agra-mathura-vrindavan.jpg",
+                                imageAlt: "Mathura Tour",
+                                title: "Mathura Vrindavan Local Sighseeing Tour by Car",
+                                duration: "Same Day",
+                                detailsLink: "vrindavan-local-sighseeing-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹2000" },
+                                    { type: "MUV", price: "₹2500" },
+                                    { type: "SUV", price: "₹3000" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/nandgaon-barsana-govardhan.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Same Day Vrindavan to Nandgaon, Barsana & Govardhan Tour by Car",
+                                duration: "Same Day",
+                                detailsLink: "same-day-vrindavan-to-nandgaon-barsana-govardhan.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹2500" },
+                                    { type: "MUV", price: "₹3000" },
+                                    { type: "SUV", price: "₹4000" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/mathura-gokul-raman-reti.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Same Day Vrindavan to Mathura, Gokul & Raman Reti Tour by Car",
+                                duration: "Same Day",
+                                detailsLink: "same-day-vrindavan-to-mathura-gokul-raman-reti.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹2500" },
+                                    { type: "MUV", price: "₹3000" },
+                                    { type: "SUV", price: "₹4000" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/images/mathuraVrindavan.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Same Day Mathura Vrindavan Tour from Agra",
+                                duration: "Same Day",
+                                detailsLink: "same-day-agra-to-mathura-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹3000" },
+                                    { type: "MUV", price: "₹4200" },
+                                    { type: "SUV", price: "₹5500" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/mathura.jpg",
+                                imageAlt: "Mathura Tour",
+                                title: "2 days Mathura Vrindavan Darshan Tour by Car",
+                                duration: "2 Days",
+                                detailsLink: "2days-mathura-vrindavan-darshan-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹4500" },
+                                    { type: "MUV", price: "₹5500" },
+                                    { type: "SUV", price: "₹6000" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/mathura-gokul-raman-reti.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "2 Days Vrindavan to Mathura, Gokul & Raman Reti Tour",
+                                duration: "2 Days",
+                                detailsLink: "2-days-vrindavan-to-mathura-gokul-raman-reti.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹5000" },
+                                    { type: "MUV", price: "₹8000" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/images/mathura-vrindavan-gokul-goverdhan-barsana-nanndgaon.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "2 Days Mathura Vrindavan Tour from Agra",
+                                duration: "2 Days",
+                                detailsLink: "2-days-agra-to-mathura-vrindavan-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹7000" },
+                                    { type: "MUV", price: "₹12500" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/agra-tajmahal.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "3 Days Mathura Vrindavan Gokul Nandgaon Barsana Agra Tour by Car",
+                                duration: "3 Days",
+                                detailsLink: "3day-mathura-vrindavan-gokul-nandgaon-barsana-agra-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹10500" },
+                                    { type: "MUV", price: "₹17500" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+
+
+
+                        ]}
+                        para={<>Explore the divine charm of Mathura and Vrindavan with our exclusive local sightseeing tour by car. At Mathura Vrindavan Taxi Services, we provide comfortable, well-planned, and hassle-free travel experiences, ensuring you cover all the sacred sites with ease and devotion.</>}
+                        morecontent={<><p>Our customized sightseeing tours take you to the most iconic places, including Shri Krishna Janmabhoomi, Banke Bihari Temple, ISKCON Temple, Prem Mandir, Nidhivan, Vishram Ghat, Dwarkadhish Temple, and Govardhan Parikrama. Whether you are a devotee, a tourist, or a spiritual seeker, our personalized itineraries make your journey seamless and fulfilling.</p>
+
+                            <p>With a fleet of well-maintained cars, expert drivers, and flexible booking options, we ensure a comfortable and safe travel experience. Whether you prefer a half-day, full-day, or multi-day tour, we cater to your needs with affordable pricing and 24/7 assistance.</p>
+
+                            <p>At Mathura Vrindavan Taxi Services, we believe in offering more than just a ride—we provide a spiritually enriching journey where every stop connects you to the divine pastimes of Lord Krishna.
+                            </p></>}
+                        tagline={"Exclusive Travel Packages"}
+                        title={"Mathura Vrindavan Local Sightseeing Tour by Car"}
+                    />
+
+
+
+
+
+
+
+
+                    <MathuraVrindavanTours
+                        TourTableData={[]}
+                        PickupTours={[
+                            {
+                                imageSrc: "/tour/lathmar-holi-mathura.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Lathmar Holi Tour – Barsana and Nandgaon Special Tour by Car",
+                                duration: "3 Days",
+                                detailsLink: "lathmar-holi-mathura-vrindavan-barsana-nandgaon.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/phoolon-ki-holi.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Phoolon Ki Holi mathura Vrindavan Holi Festival Tour by Car",
+                                duration: "4 Days",
+                                detailsLink: "phoolon-ki-holi-mathura-vrindavan.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/5-days-grand-holi.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "5 Days Grand Holi Mathura, Vrindavan, Barsana & Nandgaon Tour by Car",
+                                duration: "5 Days",
+                                detailsLink: "5-days-grand-holi-festival-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+
+                        ]}
+                        para={<>Welcome to <strong>Go Taxi Booking Services</strong>, your reliable travel partner for{' '}
+                            <strong>safe, comfortable, and affordable taxi services</strong> in Mathura-Vrindavan. We specialize in
+                            providing hassle-free transportation for pilgrims, tourists, and business travelers, ensuring a smooth and
+                            enjoyable journey.</>}
+                        morecontent={<><p>
+                            Our fleet includes <strong>sedans, SUVs, tempo travelers, and luxury vehicles</strong>, all driven by
+                            professional and experienced drivers who prioritize your safety and convenience. Whether you need a taxi
+                            for <strong>temple visits, local sightseeing, Govardhan Parikrama, airport transfers, or outstation
+                                trips</strong>, we offer customized travel solutions at the most competitive rates.
+                        </p>
+
+                            <p>
+                                We cover all major religious and tourist destinations, including <strong>Shri Krishna Janmabhoomi,
+                                    Banke Bihari Temple, ISKCON Temple, Prem Mandir, Nidhivan, Gokul, Barsana, Nandgaon, and Agra Taj
+                                    Mahal </strong>tours. Our 24/7 service, easy online booking, and punctual pickups ensure a stress-free
+                                experience for every traveler.
+                            </p>
+
+                            <p>
+                                At Go Taxi Booking Services, we are committed to providing the best travel experience with top-notch
+                                service, clean and well-maintained vehicles, and courteous drivers. Whether you’re traveling solo, with
+                                family, or in a group, we guarantee a comfortable and memorable journey.
+                            </p>
+
+                            <h2>Compare Duration & Pricing for Taxi Services Mathura Vrindavan Tour Packages </h2>
+                            <p>
+                                For Mathura-Vrindavan, taxis offer flexible timings and pricing, ideal for personalized trips. Tour
+                                packages provide fixed itineraries with added services, often more cost-effective for structured tours.
+                                Choose based on budget, time, and preference for flexibility or convenience.
+                            </p></>}
+                        tagline={"Exclusive Travel Packages"}
+                        title={"Mathura Vrindavan Grand Holi Tour Packages"}
+                    />
+
+
+
+                    <MathuraVrindavanTours
+                        TourTableData={[]}
+                        PickupTours={[
+                            {
+                                imageSrc: "/images/84-kosh-yatra-7-night-8-days.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "3 Days Braj 84 Kos Express Yatra",
+                                duration: "3 Days",
+                                detailsLink: "3-days-braj-84-kos-express-yatra.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/84-kos-yatra-package.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "5-Days Braj 84 Kos Yatra",
+                                duration: "5 Days",
+                                detailsLink: "5-days-braj-84-kos-yatra.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/7-days-braj.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "7 Days Braj 84 Kos Yatra",
+                                duration: "7 Days",
+                                detailsLink: "7-days-braj-84-kos-yatra.html",
+                                pricing: [
+                                    { type: "Sedan", price: "₹20000" },
+                                    { type: "MUV", price: "₹24000" },
+                                    { type: "SUV", price: "₹28000" }
+                                ]
+                            },
+                        ]}
+                        para={<>The Braj 84 Kosh Yatra is a sacred pilgrimage that takes devotees through the divine land of Lord Krishna, covering 252 kilometers of holy sites associated with his pastimes. At Mathura Vrindavan Taxi Services, we offer well-planned and comfortable travel solutions for those seeking to complete this revered yatra in a hassle-free manner. Instead of the traditional long walking journey, we provide fully guided tours by car, ensuring a smooth and spiritually fulfilling experience.</>}
+                        morecontent={<> <p>Our Braj 84 Kosh Yatra Packages include visits to all the major religious landmarks, such as Shri Krishna Janmabhoomi, Banke Bihari Temple, ISKCON Temple, Govardhan Parikrama, Barsana, Nandgaon, Gokul, Radha Kund, Kusum Sarovar, and Baldeo Temple. With our well-maintained vehicles and professional drivers, we ensure a safe, comfortable, and flexible travel experience that allows devotees to focus entirely on their spiritual journey.</p>
+
+                            <p>At Mathura Vrindavan Taxi Services, we are committed to making this sacred yatra accessible and convenient for all, whether you are traveling alone, with family, or in a group. Our customized itineraries and 24/7 travel support ensure that your Braj Dham experience is both enriching and memorable.</p>
+                        </>}
+                        tagline={"Exclusive Travel Packages"}
+                        title={"Mathura Vrindavan Braj 84 Kosh Yatra Packages"}
+                    />
+
+
+
+                    <MathuraVrindavanTours
+                        TourTableData={[
+                        ]}
+                        PickupTours={[
+                            {
+                                imageSrc: "/tour/boat-riding-in-mathura.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "Yamuna River Boating in Mathura",
+                                duration: "3 Hours",
+                                detailsLink: "boat-riding-in-mathura.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/boat-riding-in-gokul.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "River Boating in Gokul",
+                                duration: "2.5 Hours",
+                                detailsLink: "boat-riding-in-gokul.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                        ]}
+                        para={<>Experience the divine beauty of Mathura and Vrindavan from a unique perspective with our Boat Ride Tour Packages. At Mathura Vrindavan Taxi Services, we offer a serene and spiritually uplifting boat ride along the holy Yamuna River, where you can witness the majestic ghats, ancient temples, and the soulful evening aarti from the waters.</>}
+                        morecontent={<><p>Our boat ride tours take you through Vishram Ghat, Kesi Ghat, Dwarkadhish Temple, and other sacred sites, offering a peaceful retreat amidst the vibrant energy of these holy cities. Whether you prefer a sunrise boat ride for a calm and meditative experience or an evening ride to witness the mesmerizing Yamuna Aarti, we provide customized options to suit your preferences.</p>
+
+                            <p>With our safe, well-maintained boats and experienced local boatmen, we ensure a smooth and memorable experience for devotees and tourists alike. Whether you're seeking spiritual bliss, photography opportunities, or a relaxing escape, our Mathura Vrindavan Boat Ride Tour offers an unforgettable journey through the heart of Krishna’s land.
+                            </p></>}
+                        tagline={"Exclusive Travel Packages"}
+                        title={"Mathura Vrindavan Boat Ride Tour Packages"}
+                    />
+
+
+
+
+                    <MathuraVrindavanTours
+                        TourTableData={[]}
+                        PickupTours={[
+                            {
+                                imageSrc: "/tour/2-day-pramanand-maharaj-ji.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "2 Days Pramanand Maharaj Ji Darshan Tour",
+                                duration: "2 Days",
+                                detailsLink: "2-day-pramanand-maharaj-ji-darshan-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            },
+                            {
+                                imageSrc: "/tour/3-day-pramanand-maharaj-ji.webp",
+                                imageAlt: "Mathura Tour",
+                                title: "3 Days Pramanand Maharaj Ji Darshan Tour",
+                                duration: "3 Days",
+                                detailsLink: "3-day-pramanand-maharaj-ji-darshan-tour.html",
+                                pricing: [
+                                    { type: "Sedan", price: "Ask for Price" },
+                                    { type: "MUV", price: "Ask for Price" },
+                                    { type: "SUV", price: "Ask for Price" }
+                                ]
+                            }
+                        ]}
+                        para={<>Experience the divine presence of Premanand Maharaj Ji with our specially curated Darshan Tour Packages. At Mathura Vrindavan Taxi Services, we offer a seamless and spiritually enriching journey, ensuring that devotees can visit Maharaj Ji’s ashram with complete ease and devotion.</>}
+                        morecontent={<> <p>Our tour packages include comfortable transportation, professional drivers, and flexible schedules, allowing you to attend Maharaj Ji’s satsangs, pravachans (discourses), and devotional gatherings without any travel worries. Whether you are traveling individually or in a group, we provide a safe, convenient, and hassle-free experience tailored to your needs.</p>
+
+                            <p>With our well-organized travel services, you can fully immerse yourself in the teachings and divine energy of Premanand Maharaj Ji, finding peace, devotion, and spiritual upliftment along the way. Let us take care of your journey so that you can focus on experiencing the true essence of bhakti and wisdom.
+                            </p></>}
+                        tagline={"Exclusive Travel Packages"}
+                        title={"Premanand Maharaj Ji Darshan Tour Packages"}
+                    />
 
 
 

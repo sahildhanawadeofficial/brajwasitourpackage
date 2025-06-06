@@ -1890,10 +1890,11 @@ button.gauto-theme-btn:hover {
 
 .header-promo-info {
 	color: #000;
+	font-size: 1rem;
 }
 
 .header-promo-info h3 {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 30px;
 	color: #3c3d40;
 	font-weight: 500;
@@ -1915,6 +1916,11 @@ button.gauto-theme-btn:hover {
 	font-weight: 500;
 	position: relative;
 	z-index: 1;
+	font-size: .9rem;
+}
+
+.icon {
+	font-size: 1.5em;
 }
 
 .header-action a:before {

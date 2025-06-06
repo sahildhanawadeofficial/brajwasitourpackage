@@ -4,16 +4,24 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRouter, usePathname } from 'next/navigation';
+import CarBookingForm from './CarBookingForm'; // Assuming this path is correct
 
 const BootstrapNavbar = () => {
     const router = useRouter()
     const pathname = usePathname()
     useEffect(() => {
-        import('bootstrap/dist/js/bootstrap.bundle.min.js');
+        // Ensure this only runs on the client side
+        if (typeof window !== 'undefined') {
+            import('bootstrap/dist/js/bootstrap.bundle.min.js')
+                .then(() => {
+                    // console.log('Bootstrap JS loaded'); // Optional: for debugging
+                })
+                .catch(error => console.error('Error loading Bootstrap JS:', error));
+        }
     }, []);
 
 
-    return (
+    return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
             <div className="container-fluid">
                 <Link className="navbar-brand" href="/">GoToTaxiBooking</Link>
@@ -65,15 +73,12 @@ const BootstrapNavbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Taxi / Car Booking</a>
+                            {/* THIS IS THE LINE THAT NEEDS TO BE CORRECTED: */}
+                            <a className="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Taxi / Car Booking</a>
                         </li>
 
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#"
-                                // onClick={() => {
-                                //     if (pathname.includes("popularroutes")) return
-                                //     router.push('/popularroutes')
-                                // }}
                                 id="routesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Popular Routes
                             </a>
@@ -110,7 +115,8 @@ const BootstrapNavbar = () => {
                 </div>
             </div>
         </nav>
-    );
+        <CarBookingForm />
+    </>
 };
 
 export default BootstrapNavbar;

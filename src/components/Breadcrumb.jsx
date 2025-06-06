@@ -3,12 +3,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { FaHome, FaAngleRight } from 'react-icons/fa'; // import icons from react-icons
 
 export default function Breadcrumb() {
     const pathname = usePathname();
     const pathSegments = pathname.split('/').filter(Boolean);
 
-    // Generate breadcrumbs from segments
     const breadcrumbs = pathSegments.map((segment, index) => {
         const href = '/' + pathSegments.slice(0, index + 1).join('/');
         return {
@@ -31,12 +31,13 @@ export default function Breadcrumb() {
                             <ul>
                                 <li>
                                     <Link href="/">
-                                        <i className="fa fa-home"></i>Home
+                                        <FaHome style={{ marginRight: 5 }} />
+                                        Home
                                     </Link>
                                 </li>
                                 {breadcrumbs.map((item, index) => (
                                     <React.Fragment key={index}>
-                                        <li><i className="fa fa-angle-right"></i></li>
+                                        <li><FaAngleRight /></li>
                                         {index < breadcrumbs.length - 1 ? (
                                             <li>
                                                 <Link href={item.href}>

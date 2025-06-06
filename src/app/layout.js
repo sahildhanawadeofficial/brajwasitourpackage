@@ -12,6 +12,7 @@ import "@/styles/bootstrap.css";
 import "@/styles/style.scss";
 import "@/styles/responsive.scss";
 import "@/styles/slicknav.min.css";
+
 import { ToastContainer } from 'react-toastify';
 
 
