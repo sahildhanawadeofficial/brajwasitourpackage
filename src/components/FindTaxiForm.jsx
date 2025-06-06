@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { toast } from 'react-toastify';
+// Assuming 'bootstrap/dist/css/bootstrap.min.css' is imported globally or in a layout file
+// If not, ensure it's imported correctly for the styles to apply.
 
 const FindTaxiForm = () => {
     const [formData, setFormData] = useState({
@@ -12,11 +14,59 @@ const FindTaxiForm = () => {
         journeyTime: ''
     });
 
+    const [loading, setLoading] = useState(false);
+    const [message, setMessage] = useState('');
+    const [isError, setIsError] = useState(false);
+
     const handleChange = (e) => {
         setFormData(prev => ({
             ...prev,
             [e.target.name]: e.target.value
         }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault(); // Prevent default form submission
+
+        setLoading(true);
+        setMessage('');
+        setIsError(false);
+
+        try {
+            const response = await fetch('/api/mail', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                toast.success('Inquiry sent! We will contact you soon.')
+
+                setMessage(result.message || "Your enquiry has been sent successfully!");
+                setIsError(false);
+                // Reset form fields on successful submission
+                setFormData({
+                    email: '',
+                    number: '',
+                    selecttempo: '',
+                    arriavaldate: '',
+                    journeyTime: ''
+                });
+            } else {
+                setMessage(result.error || "Failed to send enquiry. Please try again.");
+                setIsError(true);
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            setMessage("Network error. Please check your connection and try again.");
+            setIsError(true);
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -32,30 +82,28 @@ const FindTaxiForm = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-8">
-                                    <form
-                                        role="form"
-                                        method="post"
-                                        action="https://www.gotaxibooking.com/send-enquiry-home.php"
-                                    >
+                                    <form onSubmit={handleSubmit}> {/* Added onSubmit handler */}
                                         <div className="row mb-3">
                                             <div className="col-md-4">
                                                 <input
-                                                    type="text"
+                                                    type="email" // Changed type to email for better validation
                                                     name="email"
                                                     placeholder="Email"
                                                     className="form-control"
                                                     value={formData.email}
                                                     onChange={handleChange}
+                                                    required // Added required attribute
                                                 />
                                             </div>
                                             <div className="col-md-4">
                                                 <input
-                                                    type="text"
+                                                    type="tel" // Changed type to tel for phone numbers
                                                     name="number"
                                                     placeholder="Contact Number"
                                                     className="form-control"
                                                     value={formData.number}
                                                     onChange={handleChange}
+                                                    required // Added required attribute
                                                 />
                                             </div>
                                             <div className="col-md-4">
@@ -65,17 +113,18 @@ const FindTaxiForm = () => {
                                                     name="selecttempo"
                                                     value={formData.selecttempo}
                                                     onChange={handleChange}
+                                                    required // Added required attribute
                                                 >
                                                     <option value="">Select Vehicle</option>
-                                                    <option>Indigo</option>
-                                                    <option>Swift Dzire</option>
-                                                    <option>Etios</option>
-                                                    <option>Innova</option>
-                                                    <option>Innova Crysta</option>
-                                                    <option>Maruti Ertiga</option>
-                                                    <option>Tempo Traveller 12 Seater</option>
-                                                    <option>Ac Coach 35 to 45 Seater</option>
-                                                    <option>Other</option>
+                                                    <option value="Indigo">Indigo</option>
+                                                    <option value="Swift Dzire">Swift Dzire</option>
+                                                    <option value="Etios">Etios</option>
+                                                    <option value="Innova">Innova</option>
+                                                    <option value="Innova Crysta">Innova Crysta</option>
+                                                    <option value="Maruti Ertiga">Maruti Ertiga</option>
+                                                    <option value="Tempo Traveller 12 Seater">Tempo Traveller 12 Seater</option>
+                                                    <option value="Ac Coach 35 to 45 Seater">Ac Coach 35 to 45 Seater</option>
+                                                    <option value="Other">Other</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -89,7 +138,7 @@ const FindTaxiForm = () => {
                                                     className="form-control"
                                                     value={formData.arriavaldate}
                                                     onChange={handleChange}
-                                                    required
+                                                    required // Added required attribute
                                                 />
                                             </div>
                                             <div className="col-md-4 mb-3">
@@ -100,15 +149,22 @@ const FindTaxiForm = () => {
                                                     placeholder="Journey Time"
                                                     value={formData.journeyTime}
                                                     onChange={handleChange}
+                                                    required // Added required attribute
                                                 />
                                             </div>
                                             <div className="col-md-4 mb-3">
-                                                <button type="submit" className="gauto-theme-btn btn btn-primary w-100">
-                                                    Enquiry Now
+                                                <button type="submit" className="gauto-theme-btn btn btn-primary w-100" disabled={loading}>
+                                                    {loading ? 'Sending...' : 'Enquiry Now'}
                                                 </button>
                                             </div>
                                         </div>
                                     </form>
+                                    {/* Display messages to the user */}
+                                    {message && (
+                                        <div className={`mt-3 alert ${isError ? 'alert-danger' : 'alert-success'}`} role="alert">
+                                            {message}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>

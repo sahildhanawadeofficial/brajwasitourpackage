@@ -12,6 +12,7 @@ import "@/styles/bootstrap.css";
 import "@/styles/style.scss";
 import "@/styles/responsive.scss";
 import "@/styles/slicknav.min.css";
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -44,6 +45,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+
+        <ToastContainer
+          style={{ fontSize: "20px" }}
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          fontSize="2em"
+        />
         <Header />
         {children}
         <Footer />
