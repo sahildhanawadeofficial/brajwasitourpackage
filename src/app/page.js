@@ -404,16 +404,16 @@ const HomeContent = () => {
             ]}
             para={
               <>
-                Discover the breathtaking beauty of Uttarakhand's finest hill stations and scenic towns. Whether you're chasing misty mornings, tranquil lakes, or panoramic Himalayan views—these destinations offer a refreshing escape from city life.
+                Discover the breathtaking beauty of Uttarakhand&apos;s finest hill stations and scenic towns. Whether you&apos;re chasing misty mornings, tranquil lakes, or panoramic Himalayan views—these destinations offer a refreshing escape from city life.
               </>
             }
             morecontent={
               <>
                 <p>
-                  From the bustling charm of Nainital’s lakes and ropeways to the serene pine forests of Lansdowne, each town promises a unique blend of nature, culture, and leisure. Explore Mussoorie’s Mall Road and Kempty Falls, or unwind in Kausani with postcard-perfect views of snow-capped peaks.
+                  From the bustling charm of Nainital&apos;s lakes and ropeways to the serene pine forests of Lansdowne, each town promises a unique blend of nature, culture, and leisure. Explore Mussoorie’s Mall Road and Kempty Falls, or unwind in Kausani with postcard-perfect views of snow-capped peaks.
                 </p>
                 <p>
-                  Almora and Ranikhet welcome you with cultural richness and natural tranquility, while Chopta—dubbed the "Mini Switzerland of India"—offers both scenic grandeur and access to the sacred Tungnath temple.
+                  Almora and Ranikhet welcome you with cultural richness and natural tranquility, while Chopta—dubbed the <b>Mini Switzerland of India</b>—offers both scenic grandeur and access to the sacred Tungnath temple.
                 </p>
                 <p>
                   Our curated tour packages include local guides, well-maintained vehicles, and flexible itineraries to make your hill station journey stress-free and memorable.
@@ -511,7 +511,7 @@ const HomeContent = () => {
             morecontent={
               <>
                 <p>
-                  Auli offers world-class skiing and stunning cable car rides with views of snow-covered Himalayan peaks. If you're into rare flora, the Valley of Flowers—a UNESCO World Heritage Site—is a breathtaking trek through alpine meadows.
+                  Auli offers world-class skiing and stunning cable car rides with views of snow-covered Himalayan peaks. If you&apos;re into rare flora, the Valley of Flowers—a UNESCO World Heritage Site—is a breathtaking trek through alpine meadows.
                 </p>
                 <p>
                   For wildlife enthusiasts, Jim Corbett National Park is a top pick for tiger safaris and bird watching. Binsar and Mukteshwar offer panoramic views, trekking trails, and rock climbing, while Dhanaulti provides a peaceful escape with eco parks and forest camping.
@@ -605,7 +605,7 @@ const HomeContent = () => {
                   Pithoragarh’s Himalayan views and proximity to the Nepal border give it a unique cultural vibe. Chaukori’s tea gardens and sunrise points are ideal for relaxation, while Khirsu is a hidden retreat surrounded by deodar forests and mountain silence.
                 </p>
                 <p>
-                  Whether you're journaling in the hills, stargazing at night, or meditating in silence, these quiet escapes promise deep rejuvenation and a break from the digital noise.
+                  Whether you&apos;re journaling in the hills, stargazing at night, or meditating in silence, these quiet escapes promise deep rejuvenation and a break from the digital noise.
                 </p>
               </>
             }
