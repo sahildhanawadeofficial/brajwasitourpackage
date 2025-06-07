@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
                             <div className="sidebar-widget">
                                 <h3>Related Tour Packages</h3>
                                 <ul className="service-menu">
-                                    <li><Link className="dropdown-item" href="/packages/chardham-yatra">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                                    <li><Link href="/packages/chardham-yatra">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
                                     <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                                     <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
                                     <li><Link href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
@@ -43,11 +43,11 @@ export default function RootLayout({ children }) {
                                 <div className="col-md-12 col-sm-12 pt-4 text-link pb-4 my-de">
                                     <h4>Contact Details</h4>
                                     <ul>
-                                        <li><a href="tel:+919759071258"><i className="fa fa-phone" aria-hidden="true"></i>
-                                            +91-9759071258</a></li>
-                                        <li><a href="https://wa.me/+919759071258"><i className="fa fa-whatsapp"
-                                            aria-hidden="true"></i> +91-9759071258</a></li>
-                                        <li> <a href="mailto:info@mathuravrindavantaxiservices.com"><i
+                                        <li><a href="tel:+919634656654"><i className="fa fa-phone" aria-hidden="true"></i>
+                                            +91-9634656654</a></li>
+                                        <li><a href="https://wa.me/+919634656654"><i className="fa fa-whatsapp"
+                                            aria-hidden="true"></i> +91-9634656654</a></li>
+                                        <li> <a href="mailto:yatraukheaven@gmail.com"><i
                                             className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here)</a>
                                         </li>
                                     </ul>
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
                                     <h4>Address</h4>
                                     <p><i className="fa fa-map-marker" aria-hidden="true"></i> 35-A Mayur Vihar, Dholi Pyau
                                         Road,
-                                        Mathura (U.P.) 281001</p>
+                                        Uttarakhand (U.K.) 281001</p>
                                 </div>
                             </div>
                         </div>

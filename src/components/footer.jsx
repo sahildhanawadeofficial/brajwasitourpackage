@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       {/* WhatsApp Button (Left) */}
       <a
-        href="https://wa.me/919520578080"
+        href="https://api.whatsapp.com/send?phone=9634656654&text=Hello"
         target="_blank"
         className="float-button whatsapp"
         title="Chat on WhatsApp"
@@ -18,7 +18,7 @@ const Footer = () => {
       </a>
 
       {/* Call Button (Right) */}
-      <a href="tel:+919520578080" className="float-button call" title="Call Us">
+      <a href="tel:+919634656654" className="float-button call" title="Call Us">
         <MdPhoneInTalk className="icon" />
       </a>
 
@@ -145,9 +145,9 @@ const Footer = () => {
                       Janambhoomi Link Road<span>Mathura, Uttar Pradesh 281004</span>
                     </p>
                     <ul>
-                      <li>Phone: 9520578080</li>
-                      <li>Whatsapp: 9520578080</li>
-                      <li>Email: gotaxibooking@gmail.com</li>
+                      <li>Phone: 9634656654</li>
+                      <li>Whatsapp: 9634656654</li>
+                      <li>Email: yatraukheaven@gmail.com</li>
                     </ul>
                     <br />
                     <div className="map-here">
