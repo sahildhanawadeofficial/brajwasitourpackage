@@ -83,8 +83,8 @@ const FindTaxiForm = () => {
                                 </div>
                                 <div className="col-md-8">
                                     <form onSubmit={handleSubmit}> {/* Added onSubmit handler */}
-                                        <div className="row mb-3">
-                                            <div className="col-md-4">
+                                        <div className="row">
+                                            <div className="col-md-4 mb-3">
                                                 <input
                                                     type="email" // Changed type to email for better validation
                                                     name="email"
@@ -95,7 +95,7 @@ const FindTaxiForm = () => {
                                                     required // Added required attribute
                                                 />
                                             </div>
-                                            <div className="col-md-4">
+                                            <div className="col-md-4 mb-3">
                                                 <input
                                                     type="tel" // Changed type to tel for phone numbers
                                                     name="number"
@@ -106,7 +106,7 @@ const FindTaxiForm = () => {
                                                     required // Added required attribute
                                                 />
                                             </div>
-                                            <div className="col-md-4">
+                                            <div className="col-md-4 mb-3">
                                                 <select
                                                     id="select"
                                                     className="form-control"

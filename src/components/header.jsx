@@ -69,7 +69,7 @@ const Header = () => {
                   </div>
                   <div className="header-promo-info">
                     <h3>Janambhoomi Link Road,</h3>
-                    <p>Mathura (U.P.) 281004</p>
+                    <p>Uttarakhand (U.K.) 281004</p>
                   </div>
                 </div>
                 <div className="single-header-promo d-flex">

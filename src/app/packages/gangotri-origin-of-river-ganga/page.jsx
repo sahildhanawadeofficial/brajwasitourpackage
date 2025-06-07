@@ -16,7 +16,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/gangotri-origin-river-ganga.webp"
+                                            src="/tour/gangotri-ganga-origin.png"
                                             alt="Gangotri Glacier - Origin of River Ganga"
                                             width={1200}
                                             height={600}

@@ -19,12 +19,13 @@ export default function RootLayout({ children }) {
                             <div className="sidebar-widget">
                                 <h3>Related Tour Packages</h3>
                                 <ul className="service-menu">
+                                    <li><Link className="dropdown-item" href="/packages/chardham-yatra">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                                    <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
+                                    <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
+                                    <li><Link href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                                    <li><Link href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
                                     <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
                                     <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
-                                    <li><Link href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                                    <li><Link href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
-                                    <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                                    <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                                     <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>
                                     <li><Link href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage</Link></li>
                                     <li><Link href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes & Ropeway</Link></li>
