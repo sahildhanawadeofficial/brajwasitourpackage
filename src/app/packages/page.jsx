@@ -84,7 +84,7 @@ const HomeContent = () => {
             <section
                 className="hero-section"
                 style={{
-                    background: "url('/') no-repeat center center / cover",
+                    background: "url('/index.html') no-repeat center center / cover",
                 }}
             >
                 <div className="container">
@@ -222,7 +222,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Same Day Mathura Vrindavan Tour by Car",
                                 duration: "Same Day",
-                                detailsLink: "same-day-mathura-tour-from-delhi",
+                                detailsLink: "same-day-mathura-tour-from-delhi.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹5500" },
                                     { type: "MUV", price: "₹6500" },
@@ -234,7 +234,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Same Day Agra Mathura Vrindavan Tour by Car",
                                 duration: "Same Day",
-                                detailsLink: "same-day-agra-to-mathura-vrindavan",
+                                detailsLink: "same-day-agra-to-mathura-vrindavan.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹3000" },
                                     { type: "MUV", price: "₹4200" },
@@ -246,7 +246,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 Days Weekend Mathura Vrindavan Tour by Car",
                                 duration: "2 Days",
-                                detailsLink: "2-days-mathura-vrindavan-weekend-package-from-delhi",
+                                detailsLink: "2-days-mathura-vrindavan-weekend-package-from-delhi.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹6999" },
                                     { type: "MUV", price: "₹8499" },
@@ -258,7 +258,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 Days Mathura Vrindavan With Bharatpur Tour by Car",
                                 duration: "2 Days",
-                                detailsLink: "2-days-mathura-with-bharatpur-tour-package",
+                                detailsLink: "2-days-mathura-with-bharatpur-tour-package.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -270,7 +270,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Spritual Mathura Vrindavan Tour via Gokul by Car",
                                 duration: "3 Days",
-                                detailsLink: "3-days-spritual-mathura-vrindavan-tour-package-via-gokul",
+                                detailsLink: "3-days-spritual-mathura-vrindavan-tour-package-via-gokul.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹6999" },
                                     { type: "MUV", price: "₹8499" },
@@ -282,7 +282,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Mathura Vrindavan Agra Tour by Car",
                                 duration: "3 Days",
-                                detailsLink: "3day-mathura-vrindavan-agra-tour-package",
+                                detailsLink: "3day-mathura-vrindavan-agra-tour-package.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹7000" },
                                     { type: "MUV", price: "₹8500" },
@@ -294,7 +294,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Royal Spiritual Mathura Bharatpur Agra Tour by Car",
                                 duration: "3 Days",
-                                detailsLink: "3-days-royal-spiritual-mathura-bharatpur-agra-tour-package",
+                                detailsLink: "3-days-royal-spiritual-mathura-bharatpur-agra-tour-package.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -306,7 +306,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "4 Days Agra, Mathura Vrindavan & Ayodhya Tour by Car",
                                 duration: "4 Days",
-                                detailsLink: "4-days-in-agra-mathura-and-ayodhya",
+                                detailsLink: "4-days-in-agra-mathura-and-ayodhya.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -318,7 +318,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "4 Days Mathura Bharatpur Agra Memorable Tour by Car",
                                 duration: "4 Days",
-                                detailsLink: "3nights-4days-mathura-bharatpur-agra-memorable-tour-package",
+                                detailsLink: "3nights-4days-mathura-bharatpur-agra-memorable-tour-package.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -330,7 +330,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "4 Days Mathura Vrindavan Tour Package From Delhi by Car",
                                 duration: "4 Days",
-                                detailsLink: "3nights-4days-mathura-vrindavan-tour-package-from-delhi",
+                                detailsLink: "3nights-4days-mathura-vrindavan-tour-package-from-delhi.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -342,7 +342,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "4 Days Mathura Vrindavan Tour Package via Taj Mahal by Car",
                                 duration: "4 Days",
-                                detailsLink: "4-days-mathura-vrindavan-tour-package-via-taj-mahal",
+                                detailsLink: "4-days-mathura-vrindavan-tour-package-via-taj-mahal.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -354,7 +354,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "4 Days Delhi Agra Jaipur via Vrindavan Tour by Car",
                                 duration: "4 Days",
-                                detailsLink: "3nights-4days-delhi-agra-jaipur-via-vrindavan-tour-package",
+                                detailsLink: "3nights-4days-delhi-agra-jaipur-via-vrindavan-tour-package.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -366,7 +366,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "5-Days Kashi, Ayodhya, Prayagraj & Mathura Tour by Car",
                                 duration: "5 Days",
-                                detailsLink: "5-days-in-kashi-ayodhya-prayagraj-and-mathura",
+                                detailsLink: "5-days-in-kashi-ayodhya-prayagraj-and-mathura.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -378,7 +378,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "5 Days Agra, Mathura Vrindavan, Ayodhya, Prayagraj & Kashi Tour",
                                 duration: "5 Days",
-                                detailsLink: "5-days-in-agra-mathura-ayodhya-prayagraja-and-kashi",
+                                detailsLink: "5-days-in-agra-mathura-ayodhya-prayagraja-and-kashi.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -390,7 +390,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "6 Days Kashi, Prayagraj, Ayodhya, Mathura & Naimisharanya Tour by Car",
                                 duration: "6 Days",
-                                detailsLink: "6-days-in-kashi-prayagraj-ayodhya-mathura-and-naimisharanya",
+                                detailsLink: "6-days-in-kashi-prayagraj-ayodhya-mathura-and-naimisharanya.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -402,7 +402,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "7 Days Haridwar Rishikesh With Agra Mathura Vrindavan Tour",
                                 duration: "7 Days",
-                                detailsLink: "haridwar-rishikesh-religious-tour-package-via-agra-mathura-vrindavan",
+                                detailsLink: "haridwar-rishikesh-religious-tour-package-via-agra-mathura-vrindavan.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -434,7 +434,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Mathura Vrindavan Local Sighseeing Tour by Car",
                                 duration: "Same Day",
-                                detailsLink: "vrindavan-local-sighseeing-tour",
+                                detailsLink: "vrindavan-local-sighseeing-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹2000" },
                                     { type: "MUV", price: "₹2500" },
@@ -446,7 +446,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Same Day Vrindavan to Nandgaon, Barsana & Govardhan Tour by Car",
                                 duration: "Same Day",
-                                detailsLink: "same-day-vrindavan-to-nandgaon-barsana-govardhan",
+                                detailsLink: "same-day-vrindavan-to-nandgaon-barsana-govardhan.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹2500" },
                                     { type: "MUV", price: "₹3000" },
@@ -458,7 +458,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Same Day Vrindavan to Mathura, Gokul & Raman Reti Tour by Car",
                                 duration: "Same Day",
-                                detailsLink: "same-day-vrindavan-to-mathura-gokul-raman-reti",
+                                detailsLink: "same-day-vrindavan-to-mathura-gokul-raman-reti.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹2500" },
                                     { type: "MUV", price: "₹3000" },
@@ -470,7 +470,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Same Day Mathura Vrindavan Tour from Agra",
                                 duration: "Same Day",
-                                detailsLink: "same-day-agra-to-mathura-tour",
+                                detailsLink: "same-day-agra-to-mathura-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹3000" },
                                     { type: "MUV", price: "₹4200" },
@@ -482,7 +482,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 days Mathura Vrindavan Darshan Tour by Car",
                                 duration: "2 Days",
-                                detailsLink: "2days-mathura-vrindavan-darshan-tour",
+                                detailsLink: "2days-mathura-vrindavan-darshan-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹4500" },
                                     { type: "MUV", price: "₹5500" },
@@ -494,7 +494,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 Days Vrindavan to Mathura, Gokul & Raman Reti Tour",
                                 duration: "2 Days",
-                                detailsLink: "2-days-vrindavan-to-mathura-gokul-raman-reti",
+                                detailsLink: "2-days-vrindavan-to-mathura-gokul-raman-reti.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹5000" },
                                     { type: "MUV", price: "₹8000" },
@@ -506,7 +506,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 Days Mathura Vrindavan Tour from Agra",
                                 duration: "2 Days",
-                                detailsLink: "2-days-agra-to-mathura-vrindavan-tour",
+                                detailsLink: "2-days-agra-to-mathura-vrindavan-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹7000" },
                                     { type: "MUV", price: "₹12500" },
@@ -518,7 +518,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Mathura Vrindavan Gokul Nandgaon Barsana Agra Tour by Car",
                                 duration: "3 Days",
-                                detailsLink: "3day-mathura-vrindavan-gokul-nandgaon-barsana-agra-tour",
+                                detailsLink: "3day-mathura-vrindavan-gokul-nandgaon-barsana-agra-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹10500" },
                                     { type: "MUV", price: "₹17500" },
@@ -555,7 +555,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Lathmar Holi Tour – Barsana and Nandgaon Special Tour by Car",
                                 duration: "3 Days",
-                                detailsLink: "lathmar-holi-mathura-vrindavan-barsana-nandgaon",
+                                detailsLink: "lathmar-holi-mathura-vrindavan-barsana-nandgaon.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -567,7 +567,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Phoolon Ki Holi mathura Vrindavan Holi Festival Tour by Car",
                                 duration: "4 Days",
-                                detailsLink: "phoolon-ki-holi-mathura-vrindavan",
+                                detailsLink: "phoolon-ki-holi-mathura-vrindavan.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -579,7 +579,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "5 Days Grand Holi Mathura, Vrindavan, Barsana & Nandgaon Tour by Car",
                                 duration: "5 Days",
-                                detailsLink: "5-days-grand-holi-festival-tour",
+                                detailsLink: "5-days-grand-holi-festival-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -632,7 +632,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Braj 84 Kos Express Yatra",
                                 duration: "3 Days",
-                                detailsLink: "3-days-braj-84-kos-express-yatra",
+                                detailsLink: "3-days-braj-84-kos-express-yatra.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -644,7 +644,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "5-Days Braj 84 Kos Yatra",
                                 duration: "5 Days",
-                                detailsLink: "5-days-braj-84-kos-yatra",
+                                detailsLink: "5-days-braj-84-kos-yatra.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -656,7 +656,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "7 Days Braj 84 Kos Yatra",
                                 duration: "7 Days",
-                                detailsLink: "7-days-braj-84-kos-yatra",
+                                detailsLink: "7-days-braj-84-kos-yatra.html",
                                 pricing: [
                                     { type: "Sedan", price: "₹20000" },
                                     { type: "MUV", price: "₹24000" },
@@ -684,7 +684,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "Yamuna River Boating in Mathura",
                                 duration: "3 Hours",
-                                detailsLink: "boat-riding-in-mathura",
+                                detailsLink: "boat-riding-in-mathura.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -696,7 +696,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "River Boating in Gokul",
                                 duration: "2.5 Hours",
-                                detailsLink: "boat-riding-in-gokul",
+                                detailsLink: "boat-riding-in-gokul.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -724,7 +724,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "2 Days Pramanand Maharaj Ji Darshan Tour",
                                 duration: "2 Days",
-                                detailsLink: "2-day-pramanand-maharaj-ji-darshan-tour",
+                                detailsLink: "2-day-pramanand-maharaj-ji-darshan-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },
@@ -736,7 +736,7 @@ const HomeContent = () => {
                                 imageAlt: "Mathura Tour",
                                 title: "3 Days Pramanand Maharaj Ji Darshan Tour",
                                 duration: "3 Days",
-                                detailsLink: "3-day-pramanand-maharaj-ji-darshan-tour",
+                                detailsLink: "3-day-pramanand-maharaj-ji-darshan-tour.html",
                                 pricing: [
                                     { type: "Sedan", price: "Ask for Price" },
                                     { type: "MUV", price: "Ask for Price" },

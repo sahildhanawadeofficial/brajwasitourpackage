@@ -118,19 +118,20 @@ const Footer = () => {
                 <div className="single-footer quick_links">
                   <h3>Top Taxi / Car</h3>
                   <ul className="quick-links">
-                    <li><Link href="/packages/agra-to-delhi-taxi-hire-on-rent">Agra to Delhi Taxi</Link></li>
-                    <li><Link href="/packages/agra-to-jaipur-taxi-hire-on-rent">Agra to Jaipur Taxi</Link></li>
-                    <li><Link href="/packages/agra-to-mathura-taxi-hire-on-rent">Agra to Mathura Taxi</Link></li>
-                    <li><Link href="/packages/delhi-to-agra-taxi-hire-on-rent">Delhi to Agra Taxi</Link></li>
-                    <li><Link href="/packages/delhi-to-jaipur-taxi-hire-on-rent">Delhi to Jaipur Taxi</Link></li>
-                    <li><Link href="/packages/delhi-to-mathura-taxi-hire-on-rent">Delhi to Mathura Taxi</Link></li>
-                    <li><Link href="/packages/jaipur-to-agra-taxi-hire-on-rent">Jaipur to Agra Taxi</Link></li>
-                    <li><Link href="/packages/jaipur-to-delhi-taxi-hire-on-rent">Jaipur to Delhi Taxi</Link></li>
-                    <li><Link href="/packages/jaipur-to-mathura-taxi-hire-on-rent">Jaipur to Mathura Taxi</Link></li>
-                    <li><Link href="/packages/mathura-to-agra-taxi-hire-on-rent">Mathura to Agra Taxi</Link></li>
-                    <li><Link href="/packages/mathura-to-delhi-taxi-hire-on-rent">Mathura to Delhi Taxi</Link></li>
-                    <li><Link href="/packages/mathura-to-jaipur-taxi-hire-on-rent">Mathura to Jaipur Taxi</Link></li>
+                    <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
+                    <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
+                    <li><Link href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                    <li><Link href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                    <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
+                    <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
+                    <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>
+                    <li><Link href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage</Link></li>
+                    <li><Link href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes & Ropeway</Link></li>
+                    <li><Link href="/packages/mussoorie-queen-of-hills-kempty-falls-mall-road">Mussoorie – Queen of Hills</Link></li>
+                    <li><Link href="/packages/almora-culture-views-peaceful-town">Almora – Culture & Views</Link></li>
+                    <li><Link href="/packages/ranikhet-forests-golf-course-temples">Ranikhet – Golf Course & Temples</Link></li>
                   </ul>
+
                 </div>
               </div>
 

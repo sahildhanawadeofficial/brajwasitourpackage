@@ -59,16 +59,32 @@ const BootstrapNavbar = () => {
                                 Packages
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="packagesDropdown">
-                                <li><Link className="dropdown-item" href="/packages/same-day-agra-mathura-vrindavan-tour">Same day Agra Mathura tour</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/same-day-agra-tour-package-from-delhi">Same day Agra tour from Delhi</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/2-days-mathura-vrindavan-weekend-package-from-delhi">2 Days Mathura weekend tour</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/2-days-mathura-with-bharatpur-tour-package">2 Days Mathura Bharatpur tour</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/3-days-royal-spiritual-mathura-bharatpur-agra-tour-package">3 Days Mathura Bharatpur with Agra</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/3-days-spritual-mathura-vrindavan-tour-package-via-gokul">3 Days Mathura Tour via Gokul</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/3nights-4days-delhi-agra-jaipur-via-vrindavan-tour-package">4 Days Delhi Agra Jaipur with Vrindavan</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/3nights-4days-mathura-bharatpur-agra-memorable-tour-package">4 Days Mathura Bharatpur with Agra</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/3nights-4days-mathura-vrindavan-tour-package-from-delhi">4 Days Mathura from Delhi</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/4-days-mathura-vrindavan-tour-package-via-taj-mahal">4 Days Mathura with Taj Mahal</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Cluster of Ancient Shiva Temples</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage Site in the Himalayas</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes, Boating, Mall Road, Ropeway</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/mussoorie-queen-of-hills-kempty-falls-mall-road">Mussoorie – Queen of Hills, Kempty Falls, Mall Road</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/almora-culture-views-peaceful-town">Almora – Culture, Views, Peaceful Town</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/ranikhet-forests-golf-course-temples">Ranikhet – Forests, Golf Course, Temples</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/kausani-himalayan-views-tea-gardens">Kausani – Himalayan Views, Tea Gardens</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/chopta-mini-switzerland-of-india-base-for-tungnath">Chopta – Mini Switzerland of India, Base for Tungnath</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/lansdowne-quiet-military-town-pine-forests">Lansdowne – Quiet Military Town, Pine Forests</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/auli-skiing-cable-car-panoramic-himalayan-views">Auli – Skiing, Cable Car, Panoramic Himalayan Views</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/valley-of-flowers-unesco-site-rare-flora">Valley of Flowers – UNESCO Site, Rare Flora</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/jim-corbett-national-park-tigers-safaris-bird-watching">Jim Corbett National Park – Tigers, Safaris, Bird Watching</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/binsar-wildlife-sanctuary-mountain-views">Binsar – Wildlife Sanctuary, Mountain Views</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/mukteshwar-rock-climbing-trekking-views">Mukteshwar – Rock Climbing, Trekking, Views</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/dhanaulti-eco-parks-camping">Dhanaulti – Eco Parks, Camping</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/peora-hidden-gem-in-kumaon-region">Peora – Hidden Gem in Kumaon Region</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/munsiyari-gateway-to-the-johar-valley-trekking-hub">Munsiyari – Gateway to the Johar Valley, Trekking Hub</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/pithoragarh-scenic-town-near-nepal-border">Pithoragarh – Scenic Town Near Nepal Border</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/chaukori-tea-gardens-and-himalaya-views">Chaukori – Tea Gardens and Himalaya Views</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/khirsu-offbeat-quiet-hill-town">Khirsu – Offbeat, Quiet Hill Town</Link></li>
                             </ul>
                         </li>
 
