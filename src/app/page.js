@@ -36,14 +36,14 @@ const HomeContent = () => {
             <div className="col-lg-6">
               <div className="about-left">
                 <h1>Go Taxi Booking Services</h1>
-                <p>Trusted Since 2015 <b>Vrindavan-Mathura Taxi Service</b> has been proudly serving travelers since 2015, offering safe, professional, and premium taxi services for all occasions. Whether you&apos;re a pilgrim, tourist, or attending a special event, we ensure your journey is smooth, comfortable, and unforgettable.</p>
+                <p>Trusted Since 2015 <b>Uttarakhand Taxi Service</b> has been proudly serving travelers since 2015, offering safe, professional, and premium taxi services for all occasions. Whether you&apos;re a pilgrim, tourist, or attending a special event, we ensure your journey is smooth, comfortable, and unforgettable.</p>
 
                 <p>We offer the Top-rated skilled and trained Chauffeurs to make your drive secure & comfortable. Drivers are the most important people when it comes to travelling. They are not only who take you to your destination, but they also guide you in exploring the places which come along the way. We have the best professional drivers, who will take you safely to your destination and will also help you in exploring.</p>
 
-                <p>We commit to providing the most economic taxi services in Mathura - Vrindavan as well as luxury services as per your need and comfort. We understand that travelling to a city without a taxi can be really inconvenient, some aim to provide the most economical taxi services in Mathura Vrindavan.</p>
+                <p>We commit to providing the most economic taxi services in Uttarakhand as well as luxury services as per your need and comfort. We understand that travelling to a city without a taxi can be really inconvenient, some aim to provide the most economical taxi services in Uttarakhand.</p>
                 <br /><br />
                 <div className="about-list">
-                  <h3>Mathura Vrindavan Tour Package Available:-</h3>
+                  <h3>Uttarakhand Tour Package Available:-</h3>
                   <ul>
                     <li><FontAwesomeIcon icon={faCheck} />Local Sightseeing.</li>
                     <li><FontAwesomeIcon icon={faCheck} />Temple Darshan.</li>
@@ -73,7 +73,7 @@ const HomeContent = () => {
       <section className="hero-section" style={{ backgroundImage: "url('/index')" /* Adjust path if needed */ }}>
         <div className="container">
           <div className="hero-content">
-            <h1>Explore the Beauty of Mathura and Vrindavan</h1>
+            <h1>Explore the Beauty of Uttarakhand</h1>
             <p>Your journey to the most sacred and historical destinations starts here!</p>
             <Link href="/packages" className="btnmy btn-spe">
               Explore Packages
@@ -90,9 +90,9 @@ const HomeContent = () => {
 
 
       <PromoArea
-        heading={`Book Mathura Taxi service`}
-        para1={<>You will get the best <b>Mathura taxi service</b> to travel the distance most comfortable and also very budget-friendly.There are also a wide variety of services for your comfortable travel experience while planning a trip to Mathura.</>}
-        para2={<>For booking a <strong>taxi service in Mathura</strong> you will get a list of cars with their price and you can choose one from it according to the passenger capacity and your budget. It can be a <Link href="/packages">Mathura Vrindavan tour</Link> which will be very easily accomplished by booking a taxi service which will give you a comfortable right and will be very economical.</>}
+        heading={`Book Uttarakhand Taxi service`}
+        para1={<>You will get the best <b>Uttarakhand taxi service</b> to travel the distance most comfortable and also very budget-friendly.There are also a wide variety of services for your comfortable travel experience while planning a trip to Uttarakhand.</>}
+        para2={<>For booking a <strong>taxi service in Uttarakhand</strong> you will get a list of cars with their price and you can choose one from it according to the passenger capacity and your budget. It can be a <Link href="/packages">Uttarakhand tour</Link> which will be very easily accomplished by booking a taxi service which will give you a comfortable right and will be very economical.</>}
       />
 
 
@@ -102,56 +102,56 @@ const HomeContent = () => {
           name: 'Innova Crysta',
           price: '₹18/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/innova-crysta.png',
+          image: '/images/innova-crysta.webp',
         },
         {
           type: 'muv',
           name: 'Maruti Ertiga',
           price: '₹13/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/ertiga-car.png',
+          image: '/images/ertiga-car.webp',
         },
         {
           type: 'muv',
           name: 'Kia Carens',
           price: '₹13/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/kia-carens.png',
+          image: '/images/kia-carens.webp',
         },
         {
           type: 'muv',
           name: 'Innova Car',
           price: '₹14/ KM',
           limit: '',
-          image: '/images/innova-car.png',
+          image: '/images/innova-car.webp',
         },
         {
           type: 'sedan',
           name: 'Swift Dzire',
           price: '₹11/ KM',
           limit: '',
-          image: '/images/swift-desire.png',
+          image: '/images/swift-desire.webp',
         },
         {
           type: 'sedan',
           name: 'Toyota Etios',
           price: '₹11/ KM',
           limit: '',
-          image: '/images/itios-car.png',
+          image: '/images/itios-car.webp',
         },
         {
           type: 'suv',
           name: 'Tata Safari',
           price: 'Ask Price',
           limit: '/ KM',
-          image: '/images/tata-safari.png',
+          image: '/images/tata-safari.webp',
         },
         {
           type: 'suv',
           name: 'Maruti Fronx',
           price: '₹12/ KM',
           limit: '',
-          image: '/images/fronx.png',
+          image: '/images/fronx.webp',
         },
         {
           type: 'tempo',
@@ -165,14 +165,14 @@ const HomeContent = () => {
           name: 'Tempo Traveller 17 Seater',
           price: '₹26/km',
           limit: '(Min. Per day 300 k.m limit)',
-          image: '/tour/tempo-traveller-hire.png',
+          image: '/tour/tempo-traveller-hire.webp',
         },
         {
           type: 'bus',
           name: 'Bus',
           price: 'Ask Price',
           limit: '/ KM',
-          image: '/tour/bus-hire-in-mathura.png',
+          image: '/tour/bus-hire-in-mathura.webp',
         },
         {
           type: 'bus',
@@ -624,28 +624,28 @@ const HomeContent = () => {
               subtitle: 'Swift Dzire, etc.',
               price: '₹11/km',
               bgColor: '#ff9999',
-              imgSrc: '/images/swift-desire.png',
+              imgSrc: '/images/swift-desire.webp',
             },
             {
               title: 'MUV',
               subtitle: 'Ertiga',
               price: '₹14/km',
               bgColor: '#66b3ff',
-              imgSrc: '/images/ertiga-car.png',
+              imgSrc: '/images/ertiga-car.webp',
             },
             {
               title: 'XUV',
               subtitle: 'Innova',
               price: '₹18/km',
               bgColor: '#ffcc66',
-              imgSrc: '/images/innova-crysta.png',
+              imgSrc: '/images/innova-crysta.webp',
             },
             {
               title: 'Kia Carens',
               subtitle: 'SUV',
               price: '₹16/km',
               bgColor: '#ff9966',
-              imgSrc: '/images/kia-carens.png',
+              imgSrc: '/images/kia-carens.webp',
             },
             {
               title: 'Tempo Traveller',
@@ -670,7 +670,7 @@ const HomeContent = () => {
             taxiPackages={[
               {
                 type: 'Sedan',
-                image: '/images/swift-desire.png', // Image paths are relative to the `public` directory in Next.js
+                image: '/images/swift-desire.webp', // Image paths are relative to the `public` directory in Next.js
                 alt: 'Sedan Taxi',
                 description: 'Swift Dzire, etc. (4-seater)',
                 price: '₹2000',
@@ -680,7 +680,7 @@ const HomeContent = () => {
               },
               {
                 type: 'MUV',
-                image: '/images/ertiga-car.png',
+                image: '/images/ertiga-car.webp',
                 alt: 'MUV Taxi',
                 description: 'Ertiga, etc. (6-seater)',
                 price: '₹2500',
@@ -690,7 +690,7 @@ const HomeContent = () => {
               },
               {
                 type: 'XUV',
-                image: '/images/innova-crysta.png',
+                image: '/images/innova-crysta.webp',
                 alt: 'XUV Taxi',
                 description: 'Innova Crysta, etc. (6-seater)',
                 price: '₹3000',
