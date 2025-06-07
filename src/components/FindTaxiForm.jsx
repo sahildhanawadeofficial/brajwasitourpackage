@@ -139,6 +139,8 @@ const FindTaxiForm = () => {
                                                     value={formData.arriavaldate}
                                                     onChange={handleChange}
                                                     required // Added required attribute
+                                                    placeholder="Date"
+
                                                 />
                                             </div>
                                             <div className="col-md-4 mb-3">
