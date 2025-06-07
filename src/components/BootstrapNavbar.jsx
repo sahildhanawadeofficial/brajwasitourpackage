@@ -24,7 +24,7 @@ const BootstrapNavbar = () => {
     return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
             <div className="container-fluid">
-                <Link className="navbar-brand" href="/">GoToTaxiBooking</Link>
+                <Link className="navbar-brand" href="/">Uttarakhand Yatra</Link>
 
                 <button
                     className="navbar-toggler"

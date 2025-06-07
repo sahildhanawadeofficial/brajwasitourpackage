@@ -99,11 +99,13 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
+	background: linear-gradient(#fff1f2 30%, #fdf2f8 30%, #fdf2f8 60%, #fdf4ff, #faf5ff, #f5f3ff, #eef2ff, #eff6ff, #f0f9ff, #ecfeff, #f0fdfa, #ecfdf5, #f0fdf4, #f7fee7, #fefce8, #fffbeb, #fff7ed, #fef2f2, #fafaf9, #fafafa, #fafafa);
+
 }
 
 html,
 body {
-	height: 100%;
+	// height: 100%;
 }
 
 img {
@@ -1164,12 +1166,12 @@ td {}
 
 .home-table th {
 	padding: 10px;
-	background-color: red;
+	background-color: 8338EC;
 }
 
 .form-design12 {
 	padding: 34px;
-	background-color: #07294c;
+	background-color: oklch(68.5% 0.169 237.323);
 	color: #fff;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -1178,7 +1180,7 @@ td {}
 .my-de h4 {
 	font-size: 23px;
 	margin-bottom: 10px;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .my-de a {
@@ -1222,7 +1224,7 @@ td {}
 	bottom: -13px;
 	width: 18%;
 	height: 2px;
-	background: #ec3323;
+	background: #3A86FF;
 	left: 0;
 }
 
@@ -1280,7 +1282,7 @@ button.gauto-theme-btn {
 	background: transparent;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #ec3323;
+	border-color: #3A86FF;
 	position: relative;
 	margin: 1em;
 	display: inline-block;
@@ -1300,7 +1302,7 @@ button.gauto-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
-	border-color: #ec3323;
+	border-color: #3A86FF;
 	box-sizing: border-box;
 	border-style: solid;
 	width: 1em;
@@ -1330,22 +1332,22 @@ button.gauto-theme-btn:hover:before,
 button.gauto-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
-	border-color: #ec3323
+	border-color: #3A86FF
 }
 
 .gauto-btn:hover,
 button.gauto-theme-btn:hover {
 	color: #fff;
-	background-color: #ec3323;
-	border-color: #ec3323
+	background-color: #3A86FF;
+	border-color: #3A86FF
 }
 
 button.gauto-theme-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	background: transparent;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #ec3323;
+	border-color: #3A86FF;
 	position: relative;
 	display: block;
 	padding: 8px 15px;
@@ -1365,7 +1367,7 @@ button.gauto-theme-btn:after {
 	content: '';
 	display: block;
 	position: absolute;
-	border-color: #ec3323;
+	border-color: #3A86FF;
 	box-sizing: border-box;
 	border-style: solid;
 	width: 1em;
@@ -1393,14 +1395,14 @@ button.gauto-theme-btn:hover:before,
 button.gauto-theme-btn:hover:after {
 	width: calc(100% + 12px);
 	height: calc(100% + 12px);
-	border-color: #ec3323
+	border-color: #3A86FF
 }
 
 .gauto-btn:hover,
 button.gauto-theme-btn:hover {
 	color: #fff;
-	background-color: #ec3323;
-	border-color: #ec3323
+	background-color: #3A86FF;
+	border-color: #3A86FF
 }
 
 .site-heading {
@@ -1412,7 +1414,7 @@ button.gauto-theme-btn:hover {
 
 .site-heading h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #3A86FF;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -1502,7 +1504,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_arrow {
 	float: right;
-	color: #ec3323
+	color: #3A86FF
 }
 
 .slicknav_nav a:hover {
@@ -1515,7 +1517,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_nav a:hover,
 .slicknav_nav .slicknav_row:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff
 }
 
@@ -1541,7 +1543,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_nav {
 	background: #fff none repeat scroll 0 0;
-	border-top: 1px solid #ec3323;
+	border-top: 1px solid #3A86FF;
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.19)
 }
 
@@ -1686,7 +1688,7 @@ button.gauto-theme-btn:hover {
 }
 
 .breadcromb-box li i {
-	color: #ec3323
+	color: #3A86FF
 }
 
 
@@ -1703,8 +1705,8 @@ button.gauto-theme-btn:hover {
 }
 
 .btntoTop {
-	background-color: #ec3323;
-	border: 2px solid #ec3323;
+	background-color: #3A86FF;
+	border: 2px solid #3A86FF;
 	border-radius: 5px;
 	bottom: 70px;
 	cursor: pointer;
@@ -1790,7 +1792,7 @@ button.gauto-theme-btn:hover {
 	height: 25px;
 	line-height: 25px;
 	background: #fff none repeat scroll 0 0;
-	color: #ec3323;
+	color: #3A86FF;
 	border-radius: 50%;
 	margin: 0 2px;
 }
@@ -1810,7 +1812,7 @@ button.gauto-theme-btn:hover {
 .header-top-right>.dropdown .dropdown-menu.show {
 	border-radius: 0;
 	border: medium none;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	color: #fff;
 	margin: 0;
 	left: auto !important;
@@ -1850,7 +1852,7 @@ button.gauto-theme-btn:hover {
 
 .gauto-main-header-area {
 	padding: 6px 0;
-	background-color: bisque;
+	background-color: #FFBE0B;
 }
 
 .header-promo {
@@ -1910,7 +1912,7 @@ button.gauto-theme-btn:hover {
 	display: inline-block;
 	text-align: center;
 	padding: 10px 25px 10px 0px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -1925,7 +1927,7 @@ button.gauto-theme-btn:hover {
 
 .header-action a:before {
 	position: absolute;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	content: "";
 	top: 0;
 	left: -25px;
@@ -1970,7 +1972,7 @@ button.gauto-theme-btn:hover {
 
 .mainmenu ul li:hover>a,
 .mainmenu ul li.active>a {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .mainmenu ul li ul {
@@ -2039,7 +2041,7 @@ button.gauto-theme-btn:hover {
 	position: absolute;
 	width: 18px;
 	height: 18px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	font-size: 10px;
 	line-height: 20px;
 	color: #fff;
@@ -2119,7 +2121,7 @@ button.gauto-theme-btn:hover {
 .product-remove {
 	float: right;
 	font-size: 16px !important;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .cart-btn-pro-img {
@@ -2174,7 +2176,7 @@ button.gauto-theme-btn:hover {
 
 .cart-btn {
 	text-align: center;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -2198,7 +2200,7 @@ button.gauto-theme-btn:hover {
 	content: "";
 	width: 66%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -2208,11 +2210,11 @@ button.gauto-theme-btn:hover {
 }
 
 .cart-btn:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 }
 
 .cart-btn:hover:after {
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 }
 
 
@@ -2391,7 +2393,7 @@ button.gauto-theme-btn:hover {
 
 
 .find-form p input:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #3A86FF
 }
 
 .find-form .nice-select {
@@ -2488,7 +2490,7 @@ button.gauto-theme-btn:hover {
 
 .about-left h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #3A86FF;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -2526,7 +2528,7 @@ button.gauto-theme-btn:hover {
 	height: 20px;
 	text-align: center;
 	border-radius: 2px;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff;
 	line-height: 20px;
 	font-size: 12px;
@@ -2636,7 +2638,7 @@ button.gauto-theme-btn:hover {
 
 .service-text a:hover,
 .service-text h3:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .service-slider .owl-dots {
@@ -2653,7 +2655,7 @@ button.gauto-theme-btn:hover {
 .service-slider .owl-dots .owl-dot span {
 	-webkit-backface-visibility: visible;
 	backface-visibility: visible;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	border-radius: 0;
 	display: block;
 	height: 12px;
@@ -2665,7 +2667,7 @@ button.gauto-theme-btn:hover {
 
 .service-slider .owl-dots .owl-dot.active span,
 .service-slider .owl-dots .owl-dot:hover span {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 }
 
 
@@ -2709,7 +2711,7 @@ button.gauto-theme-btn:hover {
 
 .promo-box-left:after {
 	position: absolute;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	content: "";
 	top: 0;
 	right: 55%;
@@ -2798,7 +2800,7 @@ button.gauto-theme-btn:hover {
 	width: 100%;
 	height: 100%;
 	left: 0;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	z-index: -1;
 	-webkit-transform: skew(40deg);
 	transform: skew(40deg);
@@ -2807,7 +2809,7 @@ button.gauto-theme-btn:hover {
 }
 
 #offerTab li.nav-item a.nav-link:hover:after {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	-webkit-transform: skew(-40deg);
 	transform: skew(-40deg);
 }
@@ -2822,7 +2824,7 @@ button.gauto-theme-btn:hover {
 	z-index: -1;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	-webkit-transform: skew(-40deg);
 	transform: skew(-40deg);
 }
@@ -2866,7 +2868,7 @@ button.gauto-theme-btn:hover {
 }
 
 .offer-text h4 {
-	color: #020202;
+	color: #FB5607;
 	font-size: 18px;
 	text-transform: capitalize;
 	margin-top: 8px;
@@ -2874,13 +2876,13 @@ button.gauto-theme-btn:hover {
 
 .offer-text h4 span {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #3A86FF;
 	font-size: 16px;
 }
 
 .offer-action {
 	text-align: center;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -2905,7 +2907,7 @@ button.gauto-theme-btn:hover {
 	content: "";
 	width: 66%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -2915,11 +2917,11 @@ button.gauto-theme-btn:hover {
 }
 
 .offer-action:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 }
 
 .offer-action:hover:after {
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 }
 
 .offer-text ul {
@@ -2935,7 +2937,7 @@ button.gauto-theme-btn:hover {
 
 .offer-text ul li i {
 	margin-right: 5px;
-	color: #ec3323
+	color: #3A86FF
 }
 
 
@@ -3018,7 +3020,7 @@ button.gauto-theme-btn:hover {
 }
 
 .client-info p {
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .testimonial-slider .owl-dots {
@@ -3047,7 +3049,7 @@ button.gauto-theme-btn:hover {
 
 .testimonial-slider .owl-dots .owl-dot.active span,
 .testimonial-slider .owl-dots .owl-dot:hover span {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 }
 
 
@@ -3094,7 +3096,7 @@ button.gauto-theme-btn:hover {
 	height: 40px;
 	text-align: center;
 	line-height: 40px;
-	background-color: #ec3323;
+	background-color: #3A86FF;
 	border-radius: 50%;
 	color: #fff;
 	font-size: 14px;
@@ -3222,7 +3224,7 @@ button.gauto-theme-btn:hover {
 }
 
 .driver-text a h3:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .driver_page .pagination-box-row {
@@ -3235,7 +3237,7 @@ button.gauto-theme-btn:hover {
 }
 
 .load-more a.gauto-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	margin-bottom: 0
 }
 
@@ -3298,7 +3300,7 @@ button.gauto-theme-btn:hover {
 }
 
 .call-box-inner12 table th {
-	background-color: #ec3323;
+	background-color: #3A86FF;
 	padding: 10px;
 	color: #fff;
 }
@@ -3340,7 +3342,7 @@ button.gauto-theme-btn:hover {
 }
 
 .call-box h2 span {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .call-box-inner p {
@@ -3435,7 +3437,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text h3 a:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .blog-meta-home {
@@ -3490,7 +3492,7 @@ button.gauto-theme-btn:hover {
 
 .blog-meta-right p i {
 	margin-right: 5px;
-	color: #ec3323
+	color: #3A86FF
 }
 
 .gauto-blog-page-area {
@@ -3512,7 +3514,7 @@ button.gauto-theme-btn:hover {
 
 .blog-text ul li i {
 	margin-right: 5px;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .blog-text ul li a {
@@ -3520,7 +3522,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text a.gauto-btn {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .blog-text a.gauto-btn:hover {
@@ -3528,7 +3530,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text a.gauto-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 20px 0 0 0;
 }
 
@@ -3602,7 +3604,7 @@ button.gauto-theme-btn:hover {
 	bottom: -13px;
 	width: 18%;
 	height: 2px;
-	background: #ec3323;
+	background: #3A86FF;
 	left: 0;
 }
 
@@ -3653,7 +3655,7 @@ button.gauto-theme-btn:hover {
 	background: transparent;
 	right: 10px;
 	height: 100%;
-	color: #ec3323;
+	color: #3A86FF;
 	cursor: pointer;
 }
 
@@ -3704,7 +3706,7 @@ button.gauto-theme-btn:hover {
 
 .footer-bottom-area {
 	padding: 20px 0;
-	background: #020202;
+	background: black;
 	border-top: 1px solid #333;
 }
 
@@ -3715,7 +3717,7 @@ button.gauto-theme-btn:hover {
 }
 
 .copyright p i {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 0 2px;
 }
 
@@ -3731,7 +3733,7 @@ button.gauto-theme-btn:hover {
 }
 
 .copyright12 p i {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 0 2px;
 }
 
@@ -3761,7 +3763,7 @@ button.gauto-theme-btn:hover {
 
 .about-page-left h4 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #3A86FF;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -3771,7 +3773,7 @@ button.gauto-theme-btn:hover {
 
 .about-page-left h2 {
 	font-size: 20px;
-	color: #ec3323;
+	color: #3A86FF;
 	margin-bottom: 10px;
 	display: block;
 	font-weight: 500;
@@ -3818,12 +3820,12 @@ button.gauto-theme-btn:hover {
 .page-call-icon {
 	font-size: 50px;
 	margin-right: 30px;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .call-info p {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #3A86FF;
 	font-size: 17px;
 	margin-bottom: 5px;
 }
@@ -3864,7 +3866,7 @@ button.gauto-theme-btn:hover {
 }
 
 .about-promo-text h3 span {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .about-promo-image {
@@ -3913,13 +3915,13 @@ button.gauto-theme-btn:hover {
 
 .service-menu li.active a,
 .service-menu li a:hover {
-	color: #ec3323;
+	color: #3A86FF;
 	padding-left: 25px
 }
 
 .brochures {
 	text-align: center;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -3934,7 +3936,7 @@ button.gauto-theme-btn:hover {
 	content: "";
 	width: 62%;
 	height: 100%;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	right: -36px;
 	z-index: -1;
 	-webkit-transform: skewX(40deg);
@@ -3958,11 +3960,11 @@ button.gauto-theme-btn:hover {
 }
 
 .brochures:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 }
 
 .brochures:hover:after {
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 }
 
 .service-page-banner {
@@ -4007,7 +4009,7 @@ button.gauto-theme-btn:hover {
 }
 
 .service-page-banner a:hover {
-	color: #ec3323;
+	color: #3A86FF;
 	background-color: #fff;
 	border-color: #fff;
 }
@@ -4059,7 +4061,7 @@ button.gauto-theme-btn:hover {
 }
 
 .service-details-list li i {
-	color: #ec3323;
+	color: #3A86FF;
 	margin-right: 5px;
 }
 
@@ -4095,7 +4097,7 @@ button.gauto-theme-btn:hover {
 }
 
 .Tags-catagory a:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .single_faq_accordian {
@@ -4106,7 +4108,7 @@ button.gauto-theme-btn:hover {
 	display: block;
 	text-align: left;
 	padding: 15px 15px 15px 85px;
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	font-size: 15px;
 	color: #fff;
 	text-transform: capitalize;
@@ -4120,7 +4122,7 @@ button.gauto-theme-btn:hover {
 
 .faq_accordian_header>a:hover,
 .faq_accordian_header>a:focus {
-	background: #020202 none repeat scroll 0 0;
+	background: #FB5607 none repeat scroll 0 0;
 	color: #fff;
 	outline: medium none
 }
@@ -4152,7 +4154,7 @@ button.gauto-theme-btn:hover {
 	width: 7%;
 	height: 101%;
 	left: -26px;
-	background: #ec3323;
+	background: #3A86FF;
 	-webkit-transform: skew(-30deg);
 	transform: skew(-30deg);
 	-webkit-transition: all 0.4s ease 0s;
@@ -4166,7 +4168,7 @@ button.gauto-theme-btn:hover {
 	width: 7%;
 	height: 101%;
 	left: -26px;
-	background: #ec3323;
+	background: #3A86FF;
 	-webkit-transform: skew(30deg);
 	transform: skew(30deg);
 }
@@ -4201,7 +4203,7 @@ button.gauto-theme-btn:hover {
 }
 
 .sidebar-widget form p input:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #3A86FF;
 }
 
 .sidebar-widget form {
@@ -4308,7 +4310,7 @@ button.gauto-theme-btn:hover {
 	padding: 5px 15px;
 	line-height: 20px;
 	text-transform: uppercase;
-	background: #ec3323;
+	background: #3A86FF;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
@@ -4331,7 +4333,7 @@ button.gauto-theme-btn:hover {
 }
 
 .car-booking-right h4 {
-	color: #020202;
+	color: #FB5607;
 	font-size: 18px;
 	text-transform: capitalize;
 	margin-top: 0px;
@@ -4340,7 +4342,7 @@ button.gauto-theme-btn:hover {
 
 .car-booking-right h4 span {
 	text-transform: capitalize;
-	color: #ec3323;
+	color: #3A86FF;
 	font-size: 16px;
 }
 
@@ -4386,7 +4388,7 @@ button.gauto-theme-btn:hover {
 
 .car-features ul li i {
 	margin-right: 5px;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .single-booking h3,
@@ -4448,7 +4450,7 @@ button.gauto-theme-btn:hover {
 }
 
 .single-booking form p input:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #3A86FF
 }
 
 .single-booking {
@@ -4480,7 +4482,7 @@ button.gauto-theme-btn:hover {
 	z-index: 9;
 	cursor: pointer;
 	-webkit-transition: all 0.25s linear;
-	color: #020202;
+	color: #FB5607;
 	font-weight: 500;
 }
 
@@ -4513,15 +4515,15 @@ button.gauto-theme-btn:hover {
 }
 
 input[type="radio"]:checked~.check {
-	border: 3px solid #ec3323;
+	border: 3px solid #3A86FF;
 }
 
 input[type="radio"]:checked~.check:before {
-	background: #ec3323;
+	background: #3A86FF;
 }
 
 input[type="radio"]:checked~label {
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .payment img {
@@ -4534,7 +4536,7 @@ input[type="radio"]:checked~label {
 }
 
 .action-btn a.gauto-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 30px 0 0 0
 }
 
@@ -4660,7 +4662,7 @@ input[type="radio"]:checked~label {
 	font-size: 16px;
 	line-height: 60px;
 	font-weight: 500;
-	background: #ec3323;
+	background: #3A86FF;
 	text-transform: capitalize;
 	font-family: 'Poppins', sans-serif;
 	-webkit-transition: all 500ms ease;
@@ -4797,7 +4799,7 @@ input[type="radio"]:checked~label {
 
 .recent-text p,
 .product-title p {
-	color: #ec3323;
+	color: #3A86FF;
 	font-weight: 500;
 }
 
@@ -4862,9 +4864,9 @@ input[type="radio"]:checked~label {
 }
 
 .product-action a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323
+	border: 1px solid #3A86FF
 }
 
 .product-item {
@@ -4927,11 +4929,11 @@ input[type="radio"]:checked~label {
 }
 
 .single-shop-price p span {
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .single-shop-page-btn a.gauto-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 0;
 }
 
@@ -4973,9 +4975,9 @@ input[type="radio"]:checked~label {
 
 .single-shop-page-btn ul li a:hover,
 .gauto-cart-close a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323
+	border: 1px solid #3A86FF
 }
 
 .gauto-related-products .product-item {
@@ -5077,7 +5079,7 @@ input[type="radio"]:checked~label {
 }
 
 .cart-clear a:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .order-summury-box {
@@ -5108,7 +5110,7 @@ input[type="radio"]:checked~label {
 }
 
 .checkout-action a.gauto-btn {
-	color: #ec3323;
+	color: #3A86FF;
 	margin: 0
 }
 
@@ -5162,7 +5164,7 @@ input[type="radio"]:checked~label {
 }
 
 .checkout-left-box form input:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #3A86FF;
 }
 
 .checkout-left-box form label {
@@ -5292,7 +5294,7 @@ input[type="radio"]:checked~label {
 }
 
 .comment-info a:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .comment-info a i {
@@ -5327,7 +5329,7 @@ input[type="radio"]:checked~label {
 
 .gauto-leave-comment form input:focus,
 .gauto-leave-comment form textarea:focus {
-	border: 2px solid #ec3323
+	border: 2px solid #3A86FF
 }
 
 .gauto-leave-comment .gauto-theme-btn {
@@ -5376,7 +5378,7 @@ input[type="radio"]:checked~label {
 
 .notfound-box a.gauto-btn {
 	margin: 30px 0 0 0;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .notfound-box a.gauto-btn:hover {
@@ -5408,7 +5410,7 @@ input[type="radio"]:checked~label {
 .login-page-heading i {
 	font-size: 22px;
 	margin-right: 5px;
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .login-page-heading>h3 {
@@ -5482,7 +5484,7 @@ input[type="radio"]:checked~label {
 }
 
 .login-sign-up>a:hover {
-	color: #ec3323
+	color: #3A86FF
 }
 
 .login-page-box .remember {
@@ -5542,7 +5544,7 @@ input[type="radio"]:checked~label {
 }
 
 .lost-pass a:hover {
-	color: #ec3323;
+	color: #3A86FF;
 }
 
 .checkbox label {
@@ -5644,8 +5646,8 @@ input[type="radio"]:checked~label {
 .checkbox-spin:checked+label span:before {
 	-webkit-transform: rotateZ(180deg);
 	transform: rotateZ(180deg);
-	background: #ec3323;
-	border: 1px solid #ec3323;
+	background: #3A86FF;
+	border: 1px solid #3A86FF;
 }
 
 
@@ -5691,7 +5693,7 @@ input[type="radio"]:checked~label {
 
 .contact-left form input:focus,
 .contact-left form textarea:focus {
-	border: 2px solid #ec3323;
+	border: 2px solid #3A86FF;
 }
 
 .single-contact-field button.gauto-theme-btn {
@@ -5701,7 +5703,7 @@ input[type="radio"]:checked~label {
 }
 
 .contact-details p i {
-	color: #ec3323;
+	color: #3A86FF;
 	margin-right: 5px;
 }
 
@@ -5732,7 +5734,7 @@ input[type="radio"]:checked~label {
 	letter-spacing: 1px;
 	color: #fff;
 	font-weight: 500;
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	border-radius: 4px;
 }
 
@@ -5761,9 +5763,9 @@ input[type="radio"]:checked~label {
 }
 
 .social-links-contact ul li a:hover {
-	background: #ec3323 none repeat scroll 0 0;
+	background: #3A86FF none repeat scroll 0 0;
 	color: #fff;
-	border: 1px solid #ec3323;
+	border: 1px solid #3A86FF;
 }
 
 .content {
@@ -5771,7 +5773,7 @@ input[type="radio"]:checked~label {
 }
 
 a.call-btn {
-	background: #ec3323;
+	background: #3A86FF;
 	color: #fff;
 	padding: 5px 20px;
 	border-radius: 2px;
@@ -5779,7 +5781,7 @@ a.call-btn {
 }
 
 .call-btn:hover {
-	background: #07294c;
+	background: #FF006E;
 }
 
 .whatsapp-btn {
@@ -5797,7 +5799,7 @@ a.call-btn {
 .e-btn {
 	width: 100%;
 	margin-top: 20px;
-	background: #07294c;
+	background: #FF006E;
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -5807,7 +5809,7 @@ a.call-btn {
 
 
 .e-btn:hover {
-	background: #ec3323;
+	background: #3A86FF;
 }
 
 @media screen and (max-width: 768px) {
@@ -5865,7 +5867,7 @@ a.call-btn {
 .tour-info .duration12 {
 	font-size: 20px;
 	font-weight: bold;
-	color: red;
+	color: 8338EC;
 	display: flex;
 	align-items: center;
 }
@@ -5900,7 +5902,7 @@ a.call-btn {
 
 .site-title-tagline {
 	font-size: 20px;
-	color: red;
+	color: 8338EC;
 	font-weight: 600;
 	display: block;
 	margin-bottom: 10px;
@@ -5927,7 +5929,7 @@ a.call-btn {
 .heading-divider {
 	width: 80px;
 	height: 4px;
-	background: red;
+	background: 8338EC;
 	margin: 15px auto;
 	border-radius: 3px;
 }
@@ -5960,7 +5962,7 @@ a.call-btn {
 .toggle-button {
 	cursor: pointer;
 	margin: 20px 0 40px 0;
-	background-color: #d9534f;
+	background-color: #FB5607;
 	color: white;
 	border: none;
 	padding: 12px 24px;
@@ -5975,7 +5977,7 @@ a.call-btn {
 }
 
 .toggle-button:hover {
-	background-color: red;
+	background-color: 8338EC;
 	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -5985,7 +5987,7 @@ a.call-btn {
 }
 
 .section-header h1 span {
-	color: red;
+	color: 8338EC;
 }
 
 .section-header h5 {
@@ -6084,12 +6086,12 @@ table tbody tr:hover {
 }
 
 .table-container::-webkit-scrollbar-thumb {
-	background: #ec3323;
+	background: #3A86FF;
 	border-radius: 10px;
 }
 
 .table-container::-webkit-scrollbar-thumb:hover {
-	background: #d9534f;
+	background: #FB5607;
 }
 
 .custom-table {
@@ -6143,7 +6145,7 @@ table tbody tr:hover {
 	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	background-color: #e63500;
+	background-color: oklch(43.8% 0.218 303.724);
 	padding: 10px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -6356,7 +6358,7 @@ header {
 	// padding: 0 12rem;
 	// padding-top: .9rem;
 	box-shadow: 0 0 .1rem $greyshadow;
-	// background-color: red;
+	// background-color: 8338EC;
 
 	.navdiv1 {
 		width: 30em;
@@ -6451,7 +6453,7 @@ header {
 				font-size: 3.4em;
 
 				.cancelicon:hover {
-					color: red;
+					color: 8338EC;
 					cursor: pointer;
 				}
 			}

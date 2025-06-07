@@ -48,7 +48,7 @@ const Header = () => {
               <div className="site-logo">
                 <Link href="/">
                   <Image
-                    src="https://i.ibb.co/PsksSKgG/go-taxi-booking-logo-1.png"
+                    src="/images/yatra-uk-logo2.jpeg"
                     alt="gauto"
                     width={200}
                     height={50}

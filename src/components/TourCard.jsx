@@ -34,7 +34,7 @@ const TourCard = ({ tour }) => {
                                 <td>{priceOption.price}</td>
                                 <td>
                                     <div className="d-flex flex-wrap justify-content-between">
-                                        <Link href={tour.detailsLink} className="btn btn-primary flex-fill m-1">
+                                        <Link href={`/packages/${tour.detailsLink}`} className="btn btn-primary flex-fill m-1">
                                             Details
                                         </Link>
                                         {/* For the Enquiry button, you'd typically have a modal component here */}
@@ -42,8 +42,8 @@ const TourCard = ({ tour }) => {
                                             type="button"
                                             className="btn btn-success flex-fill m-1"
                                             style={{ color: 'white' }}
-                                            data-toggle="modal"
-                                            data-target="#exampleModal"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal"
                                         // You'll need to implement modal logic in the parent component or a separate modal component
                                         >
                                             Enquiry

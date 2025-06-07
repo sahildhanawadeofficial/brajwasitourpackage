@@ -80,10 +80,8 @@ export default function LocalTaxiServices({ taxiPackages }) {
                                         <p style={{ fontSize: '14px', color: '#555' }}>{pkg.additionalCharges}</p>
                                     </div>
                                     <div className="d-flex justify-content-between mt-3">
-                                        <Link href="tel:+919520578080" passHref legacyBehavior>
-                                            <a className="btn btn-primary" style={{ flex: 1, marginRight: '5px' }}>
-                                                Call Us
-                                            </a>
+                                        <Link href="tel:+919520578080" className="btn btn-primary" style={{ flex: 1, marginRight: '5px' }}>
+                                            Call Us
                                         </Link>
                                         {/* For the Enquiry button, assuming it triggers a modal.
                         In Next.js, you'd typically manage modal state with React state.
@@ -91,8 +89,8 @@ export default function LocalTaxiServices({ taxiPackages }) {
                     */}
                                         <button
                                             className="btn btn-success flex-fill m-1"
-                                            // onClick={() => openEnquiryModal()} // You'd define this function
                                             style={{ color: 'white' }}
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal"
                                         >
                                             Enquiry
                                         </button>

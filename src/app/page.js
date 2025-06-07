@@ -70,7 +70,7 @@ const HomeContent = () => {
       {/* About Area End */}
 
       {/* Hero Section Start */}
-      <section className="hero-section" style={{ backgroundImage: "url('/index.html')" /* Adjust path if needed */ }}>
+      <section className="hero-section" style={{ backgroundImage: "url('/index')" /* Adjust path if needed */ }}>
         <div className="container">
           <div className="hero-content">
             <h1>Explore the Beauty of Mathura and Vrindavan</h1>
@@ -209,7 +209,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "Same Day Mathura Vrindavan Tour by Car",
                 duration: "Same Day",
-                detailsLink: "/same-day-mathura-tour-from-delhi.html",
+                detailsLink: "/same-day-mathura-tour-from-delhi",
                 pricing: [
                   { type: "Sedan", price: "₹5500" },
                   { type: "MUV", price: "₹6500" },
@@ -221,7 +221,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "Same Day Agra Mathura Vrindavan Tour by Car",
                 duration: "Same Day",
-                detailsLink: "/same-day-agra-to-mathura-vrindavan.html",
+                detailsLink: "/same-day-agra-to-mathura-vrindavan",
                 pricing: [
                   { type: "Sedan", price: "₹3000" },
                   { type: "MUV", price: "₹4200" },
@@ -233,7 +233,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "2 Days Weekend Mathura Vrindavan Tour by Car",
                 duration: "2 Days",
-                detailsLink: "/2-days-mathura-vrindavan-weekend-package-from-delhi.html",
+                detailsLink: "/2-days-mathura-vrindavan-weekend-package-from-delhi",
                 pricing: [
                   { type: "Sedan", price: "₹6999" },
                   { type: "MUV", price: "₹8499" },
@@ -290,7 +290,7 @@ const HomeContent = () => {
                   imageAlt: "Mathura Tour",
                   title: "Mathura Vrindavan Local Sightseeing Tour by Car",
                   duration: "Same Day",
-                  detailsLink: "/vrindavan-local-sighseeing-tour.html",
+                  detailsLink: "/vrindavan-local-sighseeing-tour",
                   pricing: [
                     { type: "Sedan", price: "₹2000" },
                     { type: "MUV", price: "₹2500" },
@@ -302,7 +302,7 @@ const HomeContent = () => {
                   imageAlt: "Mathura Tour",
                   title: "Same Day Vrindavan to Nandgaon, Barsana & Govardhan Tour by Car",
                   duration: "Same Day",
-                  detailsLink: "/same-day-vrindavan-to-nandgaon-barsana-govardhan.html",
+                  detailsLink: "/same-day-vrindavan-to-nandgaon-barsana-govardhan",
                   pricing: [
                     { type: "Sedan", price: "₹2500" },
                     { type: "MUV", price: "₹3000" },
@@ -314,7 +314,7 @@ const HomeContent = () => {
                   imageAlt: "Mathura Tour",
                   title: "Same Day Vrindavan to Mathura, Gokul & Raman Reti Tour by Car",
                   duration: "Same Day",
-                  detailsLink: "/same-day-vrindavan-to-mathura-gokul-raman-reti.html",
+                  detailsLink: "/same-day-vrindavan-to-mathura-gokul-raman-reti",
                   pricing: [
                     { type: "Sedan", price: "₹2500" },
                     { type: "MUV", price: "₹3000" },
@@ -384,7 +384,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "3 Days Braj 84 Kos Express Yatra",
                 duration: "3 Days",
-                detailsLink: "/3-days-braj-84-kos-express-yatra.html",
+                detailsLink: "/3-days-braj-84-kos-express-yatra",
                 pricing: [
                   { type: "Sedan", price: "Ask for Price" },
                   { type: "MUV", price: "Ask for Price" },
@@ -396,7 +396,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "5-Days Braj 84 Kos Yatra",
                 duration: "5 Days",
-                detailsLink: "/5-days-braj-84-kos-yatra.html",
+                detailsLink: "/5-days-braj-84-kos-yatra",
                 pricing: [
                   { type: "Sedan", price: "Ask for Price" },
                   { type: "MUV", price: "Ask for Price" },
@@ -408,7 +408,7 @@ const HomeContent = () => {
                 imageAlt: "Mathura Tour",
                 title: "7 Days Braj 84 Kos Yatra",
                 duration: "7 Days",
-                detailsLink: "/7-days-braj-84-kos-yatra.html",
+                detailsLink: "/7-days-braj-84-kos-yatra",
                 pricing: [
                   { type: "Sedan", price: "₹20000" },
                   { type: "MUV", price: "₹24000" },

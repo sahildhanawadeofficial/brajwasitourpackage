@@ -116,10 +116,7 @@ const TaxiServices = ({ taxis }) => {
                                         <button
                                             className="btn btn-success flex-fill m-1"
                                             style={{ color: 'white' }}
-                                            onClick={() => {
-                                                // Replace with your modal trigger
-                                                alert('Open enquiry modal');
-                                            }}
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal"
                                         >
                                             Enquiry
                                         </button>

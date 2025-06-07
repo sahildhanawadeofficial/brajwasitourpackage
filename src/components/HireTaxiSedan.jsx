@@ -63,7 +63,9 @@ const HireTaxiSedan = ({ carData }) => {
                                                 <div className="offer-text">
                                                     <h3>{car.name}</h3>
                                                     <h4><span>{car.price}</span> {car.limit}</h4>
-                                                    <button type="button" className="offer-btn-1 e-btn" onClick={() => { /* Handle modal open logic here */ }}>Enquiry Now</button>
+                                                    <button type="button" className="offer-btn-1 e-btn"
+                                                        data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                                    >Enquiry Now</button>
                                                 </div>
                                             </div>
                                         </div>

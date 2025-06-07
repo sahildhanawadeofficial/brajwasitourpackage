@@ -33,7 +33,7 @@ const Footer = () => {
                   <div className="footer-logo">
                     <Link href="/">
                       <img
-                        src="https://i.ibb.co/PsksSKgG/go-taxi-booking-logo-1.png"
+                        src="/images/yatra-uk-logo2.jpeg"
                         alt="footer-logo"
                       />
                     </Link>
@@ -118,18 +118,18 @@ const Footer = () => {
                 <div className="single-footer quick_links">
                   <h3>Top Taxi / Car</h3>
                   <ul className="quick-links">
-                    <li><Link href="/agra-to-delhi-taxi-hire-on-rent">Agra to Delhi Taxi</Link></li>
-                    <li><Link href="/agra-to-jaipur-taxi-hire-on-rent">Agra to Jaipur Taxi</Link></li>
-                    <li><Link href="/agra-to-mathura-taxi-hire-on-rent">Agra to Mathura Taxi</Link></li>
-                    <li><Link href="/delhi-to-agra-taxi-hire-on-rent">Delhi to Agra Taxi</Link></li>
-                    <li><Link href="/delhi-to-jaipur-taxi-hire-on-rent">Delhi to Jaipur Taxi</Link></li>
-                    <li><Link href="/delhi-to-mathura-taxi-hire-on-rent">Delhi to Mathura Taxi</Link></li>
-                    <li><Link href="/jaipur-to-agra-taxi-hire-on-rent">Jaipur to Agra Taxi</Link></li>
-                    <li><Link href="/jaipur-to-delhi-taxi-hire-on-rent">Jaipur to Delhi Taxi</Link></li>
-                    <li><Link href="/jaipur-to-mathura-taxi-hire-on-rent">Jaipur to Mathura Taxi</Link></li>
-                    <li><Link href="/mathura-to-agra-taxi-hire-on-rent">Mathura to Agra Taxi</Link></li>
-                    <li><Link href="/mathura-to-delhi-taxi-hire-on-rent">Mathura to Delhi Taxi</Link></li>
-                    <li><Link href="/mathura-to-jaipur-taxi-hire-on-rent">Mathura to Jaipur Taxi</Link></li>
+                    <li><Link href="/packages/agra-to-delhi-taxi-hire-on-rent">Agra to Delhi Taxi</Link></li>
+                    <li><Link href="/packages/agra-to-jaipur-taxi-hire-on-rent">Agra to Jaipur Taxi</Link></li>
+                    <li><Link href="/packages/agra-to-mathura-taxi-hire-on-rent">Agra to Mathura Taxi</Link></li>
+                    <li><Link href="/packages/delhi-to-agra-taxi-hire-on-rent">Delhi to Agra Taxi</Link></li>
+                    <li><Link href="/packages/delhi-to-jaipur-taxi-hire-on-rent">Delhi to Jaipur Taxi</Link></li>
+                    <li><Link href="/packages/delhi-to-mathura-taxi-hire-on-rent">Delhi to Mathura Taxi</Link></li>
+                    <li><Link href="/packages/jaipur-to-agra-taxi-hire-on-rent">Jaipur to Agra Taxi</Link></li>
+                    <li><Link href="/packages/jaipur-to-delhi-taxi-hire-on-rent">Jaipur to Delhi Taxi</Link></li>
+                    <li><Link href="/packages/jaipur-to-mathura-taxi-hire-on-rent">Jaipur to Mathura Taxi</Link></li>
+                    <li><Link href="/packages/mathura-to-agra-taxi-hire-on-rent">Mathura to Agra Taxi</Link></li>
+                    <li><Link href="/packages/mathura-to-delhi-taxi-hire-on-rent">Mathura to Delhi Taxi</Link></li>
+                    <li><Link href="/packages/mathura-to-jaipur-taxi-hire-on-rent">Mathura to Jaipur Taxi</Link></li>
                   </ul>
                 </div>
               </div>
