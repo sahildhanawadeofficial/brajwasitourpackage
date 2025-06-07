@@ -165,14 +165,14 @@ const HomeContent = () => {
           name: 'Tempo Traveller 17 Seater',
           price: '₹26/km',
           limit: '(Min. Per day 300 k.m limit)',
-          image: '/tour/tempo-traveller-hire.webp',
+          image: 'https://gotaxibooking.com/tour/tempo-traveller-hire.webp',
         },
         {
           type: 'bus',
           name: 'Bus',
           price: 'Ask Price',
           limit: '/ KM',
-          image: '/tour/bus-hire-in-mathura.webp',
+          image: 'https://gotaxibooking.com/tour/bus-hire-in-mathura.webp',
         },
         {
           type: 'bus',
