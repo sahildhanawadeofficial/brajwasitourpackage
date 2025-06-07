@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/nainital-lake-boating.webp"
+                                        src="/tour/nainital-boating-ropeway.png"
                                         alt="Nainital - Lakes, Boating, Mall Road & Ropeway"
                                         width={1200}
                                         height={600}

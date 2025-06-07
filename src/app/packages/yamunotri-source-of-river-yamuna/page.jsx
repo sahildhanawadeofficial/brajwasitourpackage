@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/yamunotri-source-of-river-yamuna.webp"
+                                        src="/tour/yamunotri-yamuna-source.png"
                                         alt="Yamunotri Source of River Yamuna"
                                         width={1200}
                                         height={600}

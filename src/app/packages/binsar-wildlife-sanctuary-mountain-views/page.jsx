@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/binsar-wildlife-sanctuary-mountain-views.webp"
+                                            src="/tour/binsar-mountain-wildlife.png"
                                             alt="Binsar Wildlife Sanctuary Mountain Views"
                                             width={1200}
                                             height={600}

@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/khirsu-offbeat-quiet-hill-town.webp"
+                                        src="/tour/khirsu-quiet-hill-town.png"
                                         alt="Khirsu - Offbeat Quiet Hill Town"
                                         width={1200}
                                         height={600}

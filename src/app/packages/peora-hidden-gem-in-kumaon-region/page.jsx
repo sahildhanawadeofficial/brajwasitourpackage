@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/peora-kumaon.webp"
+                                        src="/tour/peora-kumaon-hidden-gem.png"
                                         alt="Peora - Hidden Gem in Kumaon Region"
                                         width={1200}
                                         height={600}

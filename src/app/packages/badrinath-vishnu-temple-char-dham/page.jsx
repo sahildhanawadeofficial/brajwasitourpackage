@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/badrinath-vishnu-temple-char-dham.webp"
+                                            src="/tour/badrinath-dham.png"
                                             alt="Badrinath Vishnu Temple Char Dham Yatra"
                                             width={1200}
                                             height={600}

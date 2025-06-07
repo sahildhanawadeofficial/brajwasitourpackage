@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/hemkund-sahib-sikh-pilgrimage.webp"
+                                        src="/tour/hemkund-sahib.png"
                                         alt="Hemkund Sahib - Sikh Pilgrimage Site in the Himalayas"
                                         width={1200}
                                         height={600}

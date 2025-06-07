@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/almora-culture-views.webp"
+                                            src="/tour/almora-culture-view.png"
                                             alt="Almora Culture Views Peaceful Town"
                                             width={1200}
                                             height={600}

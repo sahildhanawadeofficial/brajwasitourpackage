@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/pithoragarh-town.webp"
+                                        src="/tour/pithoragarh-nepal-border-views.png"
                                         alt="Pithoragarh - Scenic Town Near Nepal Border"
                                         width={1200}
                                         height={600}

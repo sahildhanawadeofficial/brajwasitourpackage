@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/chopta-mini-switzerland-tungnath.webp"
+                                            src="/tour/chopta-mini-switzerland.png"
                                             alt="Chopta Mini Switzerland of India and Base for Tungnath"
                                             width={1200}
                                             height={600}

@@ -102,56 +102,56 @@ const HomeContent = () => {
           name: 'Innova Crysta',
           price: '₹18/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/innova-crysta.webp',
+          image: '/images/innova-crysta.png',
         },
         {
           type: 'muv',
           name: 'Maruti Ertiga',
           price: '₹13/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/ertiga-car.webp',
+          image: '/images/ertiga-car.png',
         },
         {
           type: 'muv',
           name: 'Kia Carens',
           price: '₹13/ KM',
           limit: '(Per day 300 k.m limit)',
-          image: '/images/kia-carens.webp',
+          image: '/images/kia-carens.png',
         },
         {
           type: 'muv',
           name: 'Innova Car',
           price: '₹14/ KM',
           limit: '',
-          image: '/images/innova-car.webp',
+          image: '/images/innova-car.png',
         },
         {
           type: 'sedan',
           name: 'Swift Dzire',
           price: '₹11/ KM',
           limit: '',
-          image: '/images/swift-desire.webp',
+          image: '/images/swift-desire.png',
         },
         {
           type: 'sedan',
           name: 'Toyota Etios',
           price: '₹11/ KM',
           limit: '',
-          image: '/images/itios-car.webp',
+          image: '/images/itios-car.png',
         },
         {
           type: 'suv',
           name: 'Tata Safari',
           price: 'Ask Price',
           limit: '/ KM',
-          image: '/images/tata-safari.webp',
+          image: '/images/tata-safari.png',
         },
         {
           type: 'suv',
           name: 'Maruti Fronx',
           price: '₹12/ KM',
           limit: '',
-          image: '/images/fronx.webp',
+          image: '/images/fronx.png',
         },
         {
           type: 'tempo',
@@ -165,14 +165,14 @@ const HomeContent = () => {
           name: 'Tempo Traveller 17 Seater',
           price: '₹26/km',
           limit: '(Min. Per day 300 k.m limit)',
-          image: '/tour/tempo-traveller-hire.webp',
+          image: '/tour/tempo-traveller-hire.png',
         },
         {
           type: 'bus',
           name: 'Bus',
           price: 'Ask Price',
           limit: '/ KM',
-          image: '/tour/bus-hire-in-mathura.webp',
+          image: '/tour/bus-hire-in-mathura.png',
         },
         {
           type: 'bus',
@@ -189,255 +189,428 @@ const HomeContent = () => {
 
 
 
+
           <MathuraVrindavanTours
-            TourTableData={[
-              { packageName: "Same Day Mathura Vrindavan Tour", duration: "Same Day", sedanPrice: "₹5500", muvPrice: "₹6500", suvPrice: "₹8000" },
-              { packageName: "Same Day Agra Mathura Vrindavan Tour", duration: "Same Day", sedanPrice: "₹3000", muvPrice: "₹4200", suvPrice: "₹5500" },
-              { packageName: "2 Days Weekend Mathura Vrindavan Tour", duration: "2 Days", sedanPrice: "₹6999", muvPrice: "₹8499", suvPrice: "₹10499" },
-              { packageName: "2 Days Mathura Vrindavan With Bharatpur Tour", duration: "2 Days", sedanPrice: "₹12000", muvPrice: "₹14000", suvPrice: "₹16000" },
-              { packageName: "3 Days Spiritual Mathura Vrindavan Tour via Gokul", duration: "3 Days", sedanPrice: "₹6999", muvPrice: "₹8499", suvPrice: "₹10499" },
-              { packageName: "3 Days Mathura Vrindavan Agra Tour", duration: "3 Days", sedanPrice: "₹7000", muvPrice: "₹8500", suvPrice: "₹10000" },
-              { packageName: "3 Days Royal Spiritual Mathura Bharatpur Agra Tour", duration: "3 Days", sedanPrice: "₹15000", muvPrice: "₹18000", suvPrice: "₹20000" },
-              { packageName: "4 Days Agra, Mathura Vrindavan & Ayodhya Tour", duration: "4 Days", sedanPrice: "₹18000", muvPrice: "₹22000", suvPrice: "₹25000" },
-              { packageName: "5 Days Kashi, Ayodhya, Prayagraj & Mathura Tour", duration: "5 Days", sedanPrice: "₹20000", muvPrice: "₹24000", suvPrice: "₹28000" },
-              { packageName: "6 Days Kashi, Prayagraj, Ayodhya, Mathura & Naimisharanya Tour", duration: "6 Days", sedanPrice: "₹22000", muvPrice: "₹26000", suvPrice: "₹30000" },
-              { packageName: "7 Days Haridwar Rishikesh With Agra Mathura Vrindavan Tour", duration: "7 Days", sedanPrice: "₹25000", muvPrice: "₹28000", suvPrice: "₹32000" },
-            ]}
+            TourTableData={[]}
             PickupTours={[
               {
-                imageSrc: "/images/mathura-vrindavan-package-one-day-tour.webp",
-                imageAlt: "Mathura Tour",
-                title: "Same Day Mathura Vrindavan Tour by Car",
-                duration: "Same Day",
-                detailsLink: "/same-day-mathura-tour-from-delhi",
+                imageSrc: "/tour/haridwar-ganga-aarti.png",
+                imageAlt: "Haridwar Tour",
+                title: "Haridwar – Ganga Aarti & Har Ki Pauri",
+                duration: "1 Day",
+                detailsLink: "haridwar-ganga-aarti-har-ki-pauri-temples",
                 pricing: [
-                  { type: "Sedan", price: "₹5500" },
-                  { type: "MUV", price: "₹6500" },
-                  { type: "SUV", price: "₹8000" },
-                ],
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                imageSrc: "/tour/4-days-in-agra.webp",
-                imageAlt: "Mathura Tour",
-                title: "Same Day Agra Mathura Vrindavan Tour by Car",
-                duration: "Same Day",
-                detailsLink: "/same-day-agra-to-mathura-vrindavan",
+                imageSrc: "/tour/rishikesh-aarti-rafting.png",
+                imageAlt: "Rishikesh Tour",
+                title: "Rishikesh – Yoga Capital & Rafting",
+                duration: "1 Day",
+                detailsLink: "rishikesh-yoga-capital-ganga-aarti-rafting",
                 pricing: [
-                  { type: "Sedan", price: "₹3000" },
-                  { type: "MUV", price: "₹4200" },
-                  { type: "SUV", price: "₹5500" },
-                ],
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                imageSrc: "/images/mathura-vrindavan-gokul-goverdhan-barsana-nanndgaon.webp",
-                imageAlt: "Mathura Tour",
-                title: "2 Days Weekend Mathura Vrindavan Tour by Car",
+                imageSrc: "/tour/kedarnath-dham.png",
+                imageAlt: "Kedarnath Temple",
+                title: "Kedarnath – Char Dham Shiva Temple",
                 duration: "2 Days",
-                detailsLink: "/2-days-mathura-vrindavan-weekend-package-from-delhi",
+                detailsLink: "kedarnath-one-of-the-char-dham-shiva-temple",
                 pricing: [
-                  { type: "Sedan", price: "₹6999" },
-                  { type: "MUV", price: "₹8499" },
-                  { type: "SUV", price: "₹10499" },
-                ],
-              },
-            ]}
-            para={<>Welcome to <strong>Go Taxi Booking Services</strong>, your reliable travel partner for{' '}
-              <strong>safe, comfortable, and affordable taxi services</strong> in Mathura-Vrindavan. We specialize in
-              providing hassle-free transportation for pilgrims, tourists, and business travelers, ensuring a smooth and
-              enjoyable journey.</>}
-            morecontent={<><p>
-              Our fleet includes <strong>sedans, SUVs, tempo travelers, and luxury vehicles</strong>, all driven by
-              professional and experienced drivers who prioritize your safety and convenience. Whether you need a taxi
-              for <strong>temple visits, local sightseeing, Govardhan Parikrama, airport transfers, or outstation
-                trips</strong>, we offer customized travel solutions at the most competitive rates.
-            </p>
-
-              <p>
-                We cover all major religious and tourist destinations, including <strong>Shri Krishna Janmabhoomi,
-                  Banke Bihari Temple, ISKCON Temple, Prem Mandir, Nidhivan, Gokul, Barsana, Nandgaon, and Agra Taj
-                  Mahal </strong>tours. Our 24/7 service, easy online booking, and punctual pickups ensure a stress-free
-                experience for every traveler.
-              </p>
-
-              <p>
-                At Go Taxi Booking Services, we are committed to providing the best travel experience with top-notch
-                service, clean and well-maintained vehicles, and courteous drivers. Whether you’re traveling solo, with
-                family, or in a group, we guarantee a comfortable and memorable journey.
-              </p>
-
-              <h2>Compare Duration & Pricing for Taxi Services Mathura Vrindavan Tour Packages </h2>
-              <p>
-                For Mathura-Vrindavan, taxis offer flexible timings and pricing, ideal for personalized trips. Tour
-                packages provide fixed itineraries with added services, often more cost-effective for structured tours.
-                Choose based on budget, time, and preference for flexibility or convenience.
-              </p></>}
-            tagline={"Exclusive Travel Packages"}
-            title={"Taxi Services for Mathura Vrindavan Tour Packages"}
-          />
-
-
-
-          <MathuraVrindavanTours
-            TourTableData={[
-              { packageName: "Mathura Vrindavan Local Sightseeing Tour", duration: "Same Day", sedanPrice: "₹2000", muvPrice: "₹2500", suvPrice: "₹3000" },
-              { packageName: "Same Day Vrindavan to Nandgaon, Barsana & Govardhan Tour", duration: "Same Day", sedanPrice: "₹2500", muvPrice: "₹3000", suvPrice: "₹4000" },
-              { packageName: "Same Day Vrindavan to Mathura, Gokul & Raman Reti Tour", duration: "Same Day", sedanPrice: "₹2500", muvPrice: "₹3000", suvPrice: "₹4000" },
-            ]}
-            PickupTours={
-              [
-                {
-                  imageSrc: "/tour/agra-mathura-vrindavan.jpg",
-                  imageAlt: "Mathura Tour",
-                  title: "Mathura Vrindavan Local Sightseeing Tour by Car",
-                  duration: "Same Day",
-                  detailsLink: "/vrindavan-local-sighseeing-tour",
-                  pricing: [
-                    { type: "Sedan", price: "₹2000" },
-                    { type: "MUV", price: "₹2500" },
-                    { type: "SUV", price: "₹3000" },
-                  ],
-                },
-                {
-                  imageSrc: "/tour/nandgaon-barsana-govardhan.webp",
-                  imageAlt: "Mathura Tour",
-                  title: "Same Day Vrindavan to Nandgaon, Barsana & Govardhan Tour by Car",
-                  duration: "Same Day",
-                  detailsLink: "/same-day-vrindavan-to-nandgaon-barsana-govardhan",
-                  pricing: [
-                    { type: "Sedan", price: "₹2500" },
-                    { type: "MUV", price: "₹3000" },
-                    { type: "SUV", price: "₹4000" },
-                  ],
-                },
-                {
-                  imageSrc: "/tour/mathura-gokul-raman-reti.webp",
-                  imageAlt: "Mathura Tour",
-                  title: "Same Day Vrindavan to Mathura, Gokul & Raman Reti Tour by Car",
-                  duration: "Same Day",
-                  detailsLink: "/same-day-vrindavan-to-mathura-gokul-raman-reti",
-                  pricing: [
-                    { type: "Sedan", price: "₹2500" },
-                    { type: "MUV", price: "₹3000" },
-                    { type: "SUV", price: "₹4000" },
-                  ],
-                },
-              ]}
-            para={<>Explore the sacred cities of <stronh>Mathura and Vrindavan</stronh> with <strong>Mathura Vrindavan
-              Taxi Services</strong>, your trusted travel partner for <strong>comfortable and hassle-free
-                local sightseeing tours by car</strong>. We offer well-maintained vehicles with professional
-              drivers, ensuring a smooth and enriching journey through the holy sites of Lord Krishna’s
-              birthplace.</>}
-
-
-            morecontent={<><p>Our <strong>customized sightseeing tours</strong> cover all major temples and attractions,
-              including <strong>Shri Krishna Janmabhoomi, Banke Bihari Temple, Prem Mandir, ISKCON Temple,
-                Nidhivan, Vishram Ghat, Dwarkadhish Temple, and Govardhan Parikrama</strong>. Whether you’re
-              visiting for a spiritual journey, photography, or cultural exploration, we ensure a seamless
-              travel experience.</p>
-
-              <p>With a fleet of <strong>sedans, SUVs, tempo travelers, and luxury cars</strong>, we cater to solo
-                travelers, families, and groups. Our affordable pricing, 24/7 service, and flexible booking
-                options make your Mathura-Vrindavan tour convenient and budget-friendly.</p>
-
-              <p>At <strong>Go Taxi Booking Services</strong>, we prioritize comfort, punctuality, and
-                customer satisfaction, offering the best local sightseeing tours by car. Sit back, relax, and
-                enjoy a divine journey through these sacred cities with our expert drivers.</p>
-
-              <h2>Compare Duration & Pricing for Mathura Vrindavan Local Sightseeing Tour by Car </h2>
-              <p>For Mathura-Vrindavan sightseeing, taxis provide customizable durations and pricing, perfect for
-                personalized tours. Pre-packaged tours offer fixed schedules, sometimes with guides or
-                inclusions, often more affordable. Decide based on your need for flexibility or structured
-                plans.</p></>}
-            tagline={"Exclusive Travel Packages"}
-            title={"Mathura Vrindavan Local Sightseeing Tour by Car"}
-          />
-
-
-
-          <MathuraVrindavanTours
-            TourTableData={[
-              {
-                packageName: "3 Days Braj 84 Kos Express Yatra",
-                duration: "3 Days",
-                sedanPrice: "₹14000",
-                muvPrice: "₹16000",
-                suvPrice: "₹18000"
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                packageName: "5-Days Braj 84 Kos Yatra",
-                duration: "5 Days",
-                sedanPrice: "₹20000",
-                muvPrice: "₹22000",
-                suvPrice: "₹26000"
+                imageSrc: "/tour/badrinath-dham.png",
+                imageAlt: "Badrinath Temple",
+                title: "Badrinath – Vishnu Temple Char Dham",
+                duration: "2 Days",
+                detailsLink: "badrinath-vishnu-temple-char-dham",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                packageName: "7 Days Braj 84 Kos Yatra",
-                duration: "7 Days",
-                sedanPrice: "₹20000",
-                muvPrice: "₹30000",
-                suvPrice: "₹28000"
+                imageSrc: "/tour/gangotri-ganga-origin.png",
+                imageAlt: "Gangotri Temple",
+                title: "Gangotri – Origin of River Ganga",
+                duration: "2 Days",
+                detailsLink: "gangotri-origin-of-river-ganga",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/yamunotri-yamuna-source.png",
+                imageAlt: "Yamunotri Temple",
+                title: "Yamunotri – Source of River Yamuna",
+                duration: "2 Days",
+                detailsLink: "yamunotri-source-of-river-yamuna",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/jageshwar-temples.png",
+                imageAlt: "Jageshwar Temples",
+                title: "Jageshwar – Ancient Shiva Temples",
+                duration: "1 Day",
+                detailsLink: "jageshwar-cluster-of-ancient-shiva-temples",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/hemkund-sahib.png",
+                imageAlt: "Hemkund Sahib",
+                title: "Hemkund Sahib – Sikh Pilgrimage",
+                duration: "2 Days",
+                detailsLink: "hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               }
             ]}
+            para={
+              <>
+                Embark on a spiritually enriching journey through the most sacred pilgrimage sites of India. Explore the divine heritage of Uttarakhand&apos;s Char Dham and other revered temples, surrounded by the majestic Himalayas and the sacred rivers Ganga and Yamuna.
+              </>
+            }
+            morecontent={
+              <>
+                <p>
+                  Our specially curated tours take you to Haridwar for the Ganga Aarti at Har Ki Pauri, Rishikesh for yoga, meditation and adventure, and onward to the legendary shrines of Kedarnath and Badrinath—two of the revered Char Dham destinations.
+                </p>
+                <p>
+                  You&apos;ll also discover the origins of India&apos;s holiest rivers at Gangotri and Yamunotri, the tranquil ancient Shiva temples in Jageshwar, and the awe-inspiring Sikh pilgrimage site of Hemkund Sahib nestled high in the Himalayas.
+                </p>
+                <p>
+                  Whether you seek blessings, peace, or a spiritual escape, these destinations offer a profound connection to India&apos;s rich religious legacy.
+                </p>
+              </>
+            }
+            tagline={"🛕 Religious/Spiritual Destinations"}
+            title={"Uttarakhand Religious Tour Packages"}
+          />
+
+
+
+          <MathuraVrindavanTours
+            TourTableData={[]}
             PickupTours={[
               {
-                imageSrc: "/images/84-kosh-yatra-7-night-8-days.webp",
-                imageAlt: "Mathura Tour",
-                title: "3 Days Braj 84 Kos Express Yatra",
-                duration: "3 Days",
-                detailsLink: "/3-days-braj-84-kos-express-yatra",
+                imageSrc: "/tour/nainital-boating-ropeway.png",
+                imageAlt: "Nainital Tour",
+                title: "Nainital – Lakes, Boating & Ropeway",
+                duration: "1 Day",
+                detailsLink: "nainital-lakes-boating-mall-road-ropeway",
                 pricing: [
                   { type: "Sedan", price: "Ask for Price" },
                   { type: "MUV", price: "Ask for Price" },
-                  { type: "SUV", price: "Ask for Price" },
-                ],
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                imageSrc: "/tour/84-kos-yatra-package.webp",
-                imageAlt: "Mathura Tour",
-                title: "5-Days Braj 84 Kos Yatra",
-                duration: "5 Days",
-                detailsLink: "/5-days-braj-84-kos-yatra",
+                imageSrc: "/tour/mussoorie-hill-station.png",
+                imageAlt: "Mussoorie Tour",
+                title: "Mussoorie – Queen of Hills",
+                duration: "1 Day",
+                detailsLink: "mussoorie-queen-of-hills-kempty-falls-mall-road",
                 pricing: [
                   { type: "Sedan", price: "Ask for Price" },
                   { type: "MUV", price: "Ask for Price" },
-                  { type: "SUV", price: "Ask for Price" },
-                ],
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               },
               {
-                imageSrc: "/tour/7-days-braj.webp",
-                imageAlt: "Mathura Tour",
-                title: "7 Days Braj 84 Kos Yatra",
-                duration: "7 Days",
-                detailsLink: "/7-days-braj-84-kos-yatra",
+                imageSrc: "/tour/almora-town-view.png",
+                imageAlt: "Almora Tour",
+                title: "Almora – Culture & Panoramic Views",
+                duration: "1 Day",
+                detailsLink: "almora-culture-views-peaceful-town",
                 pricing: [
-                  { type: "Sedan", price: "₹20000" },
-                  { type: "MUV", price: "₹24000" },
-                  { type: "SUV", price: "₹28000" },
-                ],
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/ranikhet-golf-temple.png",
+                imageAlt: "Ranikhet Tour",
+                title: "Ranikhet – Forests, Temples & Golf Course",
+                duration: "1 Day",
+                detailsLink: "ranikhet-forests-golf-course-temples",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/kausani-himalayan-tea.png",
+                imageAlt: "Kausani Tour",
+                title: "Kausani – Himalayan Views & Tea Gardens",
+                duration: "1 Day",
+                detailsLink: "kausani-himalayan-views-tea-gardens",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/chopta-mini-switzerland.png",
+                imageAlt: "Chopta Tour",
+                title: "Chopta – Mini Switzerland of India",
+                duration: "2 Days",
+                detailsLink: "chopta-mini-switzerland-of-india-tungnath",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/lansdowne-pine-forests.png",
+                imageAlt: "Lansdowne Tour",
+                title: "Lansdowne – Peaceful Pine Forest Town",
+                duration: "1 Day",
+                detailsLink: "lansdowne-quiet-military-town-pine-forests",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
               }
             ]}
-            para={<>Join the <strong>sacred Braj 84 Kosh Yatra with Go Taxi Booking Services</strong>, your
-              trusted travel partner for a divine and hassle-free pilgrimage. Covering 252 kilometers of holy
-              land, this yatra takes you through the most revered places connected to Lord Krishna’s leelas,
-              offering a deeply spiritual experience.</>}
+            para={
+              <>
+                Discover the breathtaking beauty of Uttarakhand's finest hill stations and scenic towns. Whether you're chasing misty mornings, tranquil lakes, or panoramic Himalayan views—these destinations offer a refreshing escape from city life.
+              </>
+            }
+            morecontent={
+              <>
+                <p>
+                  From the bustling charm of Nainital’s lakes and ropeways to the serene pine forests of Lansdowne, each town promises a unique blend of nature, culture, and leisure. Explore Mussoorie’s Mall Road and Kempty Falls, or unwind in Kausani with postcard-perfect views of snow-capped peaks.
+                </p>
+                <p>
+                  Almora and Ranikhet welcome you with cultural richness and natural tranquility, while Chopta—dubbed the "Mini Switzerland of India"—offers both scenic grandeur and access to the sacred Tungnath temple.
+                </p>
+                <p>
+                  Our curated tour packages include local guides, well-maintained vehicles, and flexible itineraries to make your hill station journey stress-free and memorable.
+                </p>
+              </>
+            }
+            tagline={"🏞️ Hill Stations & Scenic Towns"}
+            title={"Uttarakhand Hill Station Tour Packages"}
+          />
 
 
-            morecontent={<><p>Our Braj 84 Kosh Yatra includes <strong>visits to Mathura, Vrindavan, Govardhan, Barsana,
-              Nandgaon, Gokul, Radha Kund, Baldeo, and many more sacred sites</strong>. We provide
-              comfortable cars, professional drivers, and customized travel plans, ensuring a smooth and
-              fulfilling pilgrimage.</p>
-
-              <p>With flexible <strong>3-day, 5-day, and 7-day yatra packages</strong>, we make your journey
-                convenient and spiritually enriching. Whether you&apos;re traveling alone, with family, or in a
-                group, our dedicated service ensures a safe, comfortable, and memorable experience.</p>
 
 
-              <h2>Mathura Vrindavan Braj 84 Kosh Yatra Packages: Compare Duration & Pricing </h2>
-              <p>Mathura-Vrindavan Braj 84 Kosh Yatra packages vary in duration (2-5 days) and pricing, depending
-                on inclusions like transport, stays, and meals. Compare options to find the best fit for your
-                budget and spiritual journey.</p></>}
-            tagline={"Exclusive Travel Packages"}
-            title={"Mathura Vrindavan Braj 84 Kosh Yatra Packages"}
+          <MathuraVrindavanTours
+            TourTableData={[]}
+            PickupTours={[
+              {
+                imageSrc: "/tour/auli-skiing-cable-car.png",
+                imageAlt: "Auli Tour",
+                title: "Auli – Skiing & Himalayan Views",
+                duration: "2 Days",
+                detailsLink: "auli-skiing-cable-car-himalayan-views",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/valley-of-flowers.png",
+                imageAlt: "Valley of Flowers Tour",
+                title: "Valley of Flowers – UNESCO Heritage Site",
+                duration: "3 Days",
+                detailsLink: "valley-of-flowers-rare-flora-unesco-site",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/jim-corbett-national-park.png",
+                imageAlt: "Jim Corbett Tour",
+                title: "Jim Corbett – Tigers & Jungle Safari",
+                duration: "2 Days",
+                detailsLink: "jim-corbett-national-park-safari-bird-watching",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/binsar-mountain-wildlife.png",
+                imageAlt: "Binsar Tour",
+                title: "Binsar – Wildlife Sanctuary & Views",
+                duration: "2 Days",
+                detailsLink: "binsar-wildlife-sanctuary-mountain-views",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/mukteshwar-trekking.png",
+                imageAlt: "Mukteshwar Tour",
+                title: "Mukteshwar – Trekking & Rock Climbing",
+                duration: "1 Day",
+                detailsLink: "mukteshwar-trekking-rock-climbing-views",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/dhanaulti-camping.png",
+                imageAlt: "Dhanaulti Tour",
+                title: "Dhanaulti – Eco Parks & Camping",
+                duration: "1 Day",
+                detailsLink: "dhanaulti-eco-parks-camping-nature",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              }
+            ]}
+            para={
+              <>
+                Embark on an adventure-filled journey through Uttarakhand’s pristine wilderness and thrilling landscapes. These destinations are perfect for thrill-seekers, nature lovers, and explorers looking to get off the beaten path.
+              </>
+            }
+            morecontent={
+              <>
+                <p>
+                  Auli offers world-class skiing and stunning cable car rides with views of snow-covered Himalayan peaks. If you're into rare flora, the Valley of Flowers—a UNESCO World Heritage Site—is a breathtaking trek through alpine meadows.
+                </p>
+                <p>
+                  For wildlife enthusiasts, Jim Corbett National Park is a top pick for tiger safaris and bird watching. Binsar and Mukteshwar offer panoramic views, trekking trails, and rock climbing, while Dhanaulti provides a peaceful escape with eco parks and forest camping.
+                </p>
+                <p>
+                  Each package is designed for an immersive outdoor experience with safe transport, local expertise, and flexible itineraries to maximize your adventure.
+                </p>
+              </>
+            }
+            tagline={"🧗 Adventure & Nature Destinations"}
+            title={"Adventure & Nature Tour Packages in Uttarakhand"}
+          />
+
+
+
+          <MathuraVrindavanTours
+            TourTableData={[]}
+            PickupTours={[
+              {
+                imageSrc: "/tour/peora-kumaon-hidden-gem.png",
+                imageAlt: "Peora Tour",
+                title: "Peora – Hidden Gem in Kumaon",
+                duration: "1 Day",
+                detailsLink: "peora-hidden-gem-kumaon",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/munsiyari-johar-valley-trekking.png",
+                imageAlt: "Munsiyari Tour",
+                title: "Munsiyari – Trekking Hub & Johar Valley Gateway",
+                duration: "3 Days",
+                detailsLink: "munsiyari-johar-valley-trekking-hub",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/pithoragarh-nepal-border-views.png",
+                imageAlt: "Pithoragarh Tour",
+                title: "Pithoragarh – Scenic Town Near Nepal Border",
+                duration: "2 Days",
+                detailsLink: "pithoragarh-scenic-town-near-nepal-border",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/chaukori-tea-gardens-himalayas.png",
+                imageAlt: "Chaukori Tour",
+                title: "Chaukori – Tea Gardens & Himalayan Views",
+                duration: "2 Days",
+                detailsLink: "chaukori-tea-gardens-himalaya-views",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              },
+              {
+                imageSrc: "/tour/khirsu-quiet-hill-town.png",
+                imageAlt: "Khirsu Tour",
+                title: "Khirsu – Quiet & Offbeat Hill Town",
+                duration: "1 Day",
+                detailsLink: "khirsu-offbeat-quiet-hill-town",
+                pricing: [
+                  { type: "Sedan", price: "Ask for Price" },
+                  { type: "MUV", price: "Ask for Price" },
+                  { type: "SUV", price: "Ask for Price" }
+                ]
+              }
+            ]}
+            para={
+              <>
+                Discover the calm side of Uttarakhand with our Offbeat & Quiet Escape Packages. Perfect for travelers seeking peace, solitude, and scenic beauty away from the crowds.
+              </>
+            }
+            morecontent={
+              <>
+                <p>
+                  Peora, a lesser-known gem in the Kumaon hills, offers raw beauty and village charm. Munsiyari, nestled in the Johar Valley, is a paradise for trekkers and nature lovers.
+                </p>
+                <p>
+                  Pithoragarh’s Himalayan views and proximity to the Nepal border give it a unique cultural vibe. Chaukori’s tea gardens and sunrise points are ideal for relaxation, while Khirsu is a hidden retreat surrounded by deodar forests and mountain silence.
+                </p>
+                <p>
+                  Whether you're journaling in the hills, stargazing at night, or meditating in silence, these quiet escapes promise deep rejuvenation and a break from the digital noise.
+                </p>
+              </>
+            }
+            tagline={"🧘 Offbeat & Quiet Escapes"}
+            title={"Offbeat & Quiet Hill Station Tour Packages in Uttarakhand"}
           />
 
 
@@ -451,28 +624,28 @@ const HomeContent = () => {
               subtitle: 'Swift Dzire, etc.',
               price: '₹11/km',
               bgColor: '#ff9999',
-              imgSrc: '/images/swift-desire.webp',
+              imgSrc: '/images/swift-desire.png',
             },
             {
               title: 'MUV',
               subtitle: 'Ertiga',
               price: '₹14/km',
               bgColor: '#66b3ff',
-              imgSrc: '/images/ertiga-car.webp',
+              imgSrc: '/images/ertiga-car.png',
             },
             {
               title: 'XUV',
               subtitle: 'Innova',
               price: '₹18/km',
               bgColor: '#ffcc66',
-              imgSrc: '/images/innova-crysta.webp',
+              imgSrc: '/images/innova-crysta.png',
             },
             {
               title: 'Kia Carens',
               subtitle: 'SUV',
               price: '₹16/km',
               bgColor: '#ff9966',
-              imgSrc: '/images/kia-carens.webp',
+              imgSrc: '/images/kia-carens.png',
             },
             {
               title: 'Tempo Traveller',
@@ -497,7 +670,7 @@ const HomeContent = () => {
             taxiPackages={[
               {
                 type: 'Sedan',
-                image: '/images/swift-desire.webp', // Image paths are relative to the `public` directory in Next.js
+                image: '/images/swift-desire.png', // Image paths are relative to the `public` directory in Next.js
                 alt: 'Sedan Taxi',
                 description: 'Swift Dzire, etc. (4-seater)',
                 price: '₹2000',
@@ -507,7 +680,7 @@ const HomeContent = () => {
               },
               {
                 type: 'MUV',
-                image: '/images/ertiga-car.webp',
+                image: '/images/ertiga-car.png',
                 alt: 'MUV Taxi',
                 description: 'Ertiga, etc. (6-seater)',
                 price: '₹2500',
@@ -517,7 +690,7 @@ const HomeContent = () => {
               },
               {
                 type: 'XUV',
-                image: '/images/innova-crysta.webp',
+                image: '/images/innova-crysta.png',
                 alt: 'XUV Taxi',
                 description: 'Innova Crysta, etc. (6-seater)',
                 price: '₹3000',

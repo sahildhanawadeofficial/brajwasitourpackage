@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/valley-of-flowers-unesco-site-rare-flora.webp"
+                                        src="/tour/valley-of-flowers.png"
                                         alt="Valley of Flowers UNESCO Site Rare Flora"
                                         width={1200}
                                         height={600}

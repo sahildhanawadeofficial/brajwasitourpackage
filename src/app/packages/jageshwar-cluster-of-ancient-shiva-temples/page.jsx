@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/jageshwar-shiva-temples.webp"
+                                        src="/tour/jageshwar-temples.png"
                                         alt="Jageshwar Cluster of Ancient Shiva Temples"
                                         width={1200}
                                         height={600}

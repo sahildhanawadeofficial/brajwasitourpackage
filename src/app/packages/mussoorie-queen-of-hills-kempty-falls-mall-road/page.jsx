@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/mussoorie-queen-of-hills.webp"
+                                        src="/tour/mussoorie-hill-station.png"
                                         alt="Mussoorie - Queen of Hills, Kempty Falls & Mall Road"
                                         width={1200}
                                         height={600}

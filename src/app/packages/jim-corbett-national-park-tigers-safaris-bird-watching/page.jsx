@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/jim-corbett-national-park.webp"
+                                        src="/tour/jim-corbett-national-park.png"
                                         alt="Jim Corbett National Park Tigers Safaris Bird Watching"
                                         width={1200}
                                         height={600}

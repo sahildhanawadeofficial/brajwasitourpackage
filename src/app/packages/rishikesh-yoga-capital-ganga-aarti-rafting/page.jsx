@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/rishikesh-yoga-capital-ganga-aarti-rafting.webp"
+                                        src="/tour/rishikesh-aarti-rafting.png"
                                         alt="Rishikesh Yoga Capital Ganga Aarti Rafting"
                                         width={1200}
                                         height={600}

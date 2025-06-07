@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/munsiyari-gateway-johar-valley-trekking.webp"
+                                        src="/tour/munsiyari-johar-valley-trekking.png"
                                         alt="Munsiyari - Gateway to the Johar Valley & Trekking Hub"
                                         width={1200}
                                         height={600}

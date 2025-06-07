@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/haridwar-tour.webp"
+                                            src="/tour/haridwar-ganga-aarti.png"
                                             alt="Haridwar Tour"
                                             width={1200}
                                             height={600}

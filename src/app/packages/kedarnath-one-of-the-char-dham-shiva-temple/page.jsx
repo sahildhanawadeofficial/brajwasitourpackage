@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/kedarnath-char-dham-shiva-temple.webp"
+                                        src="/tour/kedarnath-dham.png"
                                         alt="Kedarnath - One of the Char Dham Shiva Temples"
                                         width={1200}
                                         height={600}

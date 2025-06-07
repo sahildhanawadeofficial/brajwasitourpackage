@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/auli-skiing-cable-car.webp"
+                                            src="/tour/auli-skiing-cable-car.png"
                                             alt="Auli Skiing Cable Car Panoramic Himalayan Views"
                                             width={1200}
                                             height={600}

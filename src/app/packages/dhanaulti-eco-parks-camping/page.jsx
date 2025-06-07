@@ -18,7 +18,7 @@ const Page = () => {
                                     <div className="carousel-item active">
                                         <Image
                                             className="d-block w-100"
-                                            src="/tour/dhanaulti-eco-parks-camping.webp"
+                                            src="/tour/dhanaulti-camping.png"
                                             alt="Dhanaulti Eco Parks and Camping Experience"
                                             width={1200}
                                             height={600}

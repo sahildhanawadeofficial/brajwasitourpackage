@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/lansdowne-quiet-military-town-pine-forests.webp"
+                                        src="/tour/lansdowne-pine-forests.png"
                                         alt="Lansdowne - Quiet Military Town & Pine Forests"
                                         width={1200}
                                         height={600}

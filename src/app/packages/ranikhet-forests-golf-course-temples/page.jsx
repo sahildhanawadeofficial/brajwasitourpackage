@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/ranikhet-forests-golf-course-temples.webp"
+                                        src="/tour/ranikhet-golf-temple.png"
                                         alt="Ranikhet - Forests, Golf Course, Temples"
                                         width={1200}
                                         height={600}

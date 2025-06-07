@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/mukteshwar-rock-climbing-trekking-views.webp"
+                                        src="/tour/mukteshwar-trekking.png"
                                         alt="Mukteshwar - Rock Climbing, Trekking & Views"
                                         width={1200}
                                         height={600}

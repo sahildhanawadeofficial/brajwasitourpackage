@@ -15,7 +15,7 @@ const Page = () => {
                                 <div className="carousel-item active">
                                     <Image
                                         className="d-block w-100"
-                                        src="/tour/kausani-himalayan-views-tea-gardens.webp"
+                                        src="/tour/kausani-himalayan-tea.png"
                                         alt="Kausani Himalayan Views and Tea Gardens"
                                         width={1200}
                                         height={600}
