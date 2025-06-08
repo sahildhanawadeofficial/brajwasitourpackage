@@ -41,7 +41,7 @@ export default function LocalTaxiServices({ taxiPackages }) {
             <div className="container">
                 <div className="text-center mb-5">
                     <h2 style={{ fontSize: '36px', color: '#333', fontWeight: 'bold' }}>
-                        Mathura Vrindavan Local Taxi Services
+                        Uttarakhand Local Taxi Services
                     </h2>
                     <p style={{ fontSize: '18px', color: '#555' }}>
                         Choose from flexible 8-hour, 80-km taxi packages for a convenient and comfortable

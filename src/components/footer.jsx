@@ -39,7 +39,7 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p>
-                    Launched in 2015, Mathura-Vrindavan Taxi services in Mathura offers highly
+                    Launched in 2015, Uttarakhand-Yatra Taxi services in Uttarakhand offers highly
                     professional & premium services for all types of occasions and guests. We have
                     luxury taxi with well trained & groomed drivers. Special supervision by our
                     agent during trip.
@@ -118,11 +118,11 @@ const Footer = () => {
                 <div className="single-footer quick_links">
                   <h3>Top Taxi / Car</h3>
                   <ul className="quick-links">
-                    <li><Link className="dropdown-item" href="/packages/chardham-yatra">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                    <li><Link href="/packages/char-dham-trour">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
                     <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                     <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                    <li><Link href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                    <li><Link href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                    <li><Link href="/packages/kedarnath-tour-2024">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                    <li><Link href="/packages/badrinath-tour">Badrinath – Vishnu Temple, Char Dham</Link></li>
                     <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
                     <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
                     <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>
@@ -142,7 +142,7 @@ const Footer = () => {
                   <div className="footer-address">
                     <h3>Head office</h3>
                     <p>
-                      Janambhoomi Link Road<span>Mathura, Uttar Pradesh 281004</span>
+                      Janambhoomi Link Road<span>Uttarakhand,  281004</span>
                     </p>
                     <ul>
                       <li>Phone: 9634656654</li>

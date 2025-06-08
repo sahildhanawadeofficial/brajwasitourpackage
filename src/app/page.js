@@ -35,7 +35,7 @@ const HomeContent = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="about-left">
-                <h1>Go Taxi Booking Services</h1>
+                <h1>Uttarakhand Yatra Taxi Booking Services</h1>
                 <p>Trusted Since 2015 <b>Uttarakhand Taxi Service</b> has been proudly serving travelers since 2015, offering safe, professional, and premium taxi services for all occasions. Whether you&apos;re a pilgrim, tourist, or attending a special event, we ensure your journey is smooth, comfortable, and unforgettable.</p>
 
                 <p>We offer the Top-rated skilled and trained Chauffeurs to make your drive secure & comfortable. Drivers are the most important people when it comes to travelling. They are not only who take you to your destination, but they also guide you in exploring the places which come along the way. We have the best professional drivers, who will take you safely to your destination and will also help you in exploring.</p>
@@ -56,7 +56,7 @@ const HomeContent = () => {
             <div className="col-lg-6">
               <div className="about-right">
                 <Image
-                  src="https://5.imimg.com/data5/SELLER/Default/2024/2/391680177/CX/TP/TL/200043820/mathura-vrindavan.png"
+                  src="/tour/badrinath-dham.png"
                   alt="car"
                   width={600} // Approximate width, adjust as needed
                   height={400} // Approximate height, adjust as needed

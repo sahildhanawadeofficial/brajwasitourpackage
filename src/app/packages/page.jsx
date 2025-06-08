@@ -30,37 +30,28 @@ const HomeContent = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="about-left">
-                                <h1>Mathura Vrindavan Taxi Services</h1>
+                                <h1>Uttarakhand Yatra Taxi Services</h1>
                                 <p>
-                                    Launched in 2015, <b>Mathura-Vrindavan Taxi services</b> in Mathura offers highly
-                                    professional & premium services for all types of occasions and guests. We have luxury taxis
-                                    with well-trained & groomed drivers. Special supervision by our agent during the trip.
+                                    Established to provide reliable and premium taxi services across Uttarakhand, <b>Uttarakhand Yatra Taxi Services</b> offers professional transportation for all types of pilgrimages and travel needs. Our fleet includes luxury taxis driven by well-trained and courteous drivers, with special supervision throughout your journey.
                                 </p>
 
                                 <p>
-                                    We offer the Top-rated skilled and trained Chauffeurs to make your drive secure &
-                                    comfortable. Drivers are the most important people when it comes to travelling. They are not
-                                    only who take you to your destination, but they also guide you in exploring the places which
-                                    come along the way. We have the best professional drivers, who will take you safely to your
-                                    destination and will also help you in exploring.
+                                    We pride ourselves on providing skilled and experienced chauffeurs to ensure a safe and comfortable trip. Our drivers not only navigate the often challenging terrain of the Himalayas but also serve as knowledgeable guides to help you explore the sacred and scenic destinations along the way.
                                 </p>
 
                                 <p>
-                                    We commit to providing the most economic taxi services in Mathura - Vrindavan as well as
-                                    luxury services as per your need and comfort. We understand that travelling to a city
-                                    without a taxi can be really inconvenient, some aim to provide the most economical taxi
-                                    services in Mathura Vrindavan.
+                                    We are committed to offering economical as well as luxury taxi services across Uttarakhand, catering to your preferences and comfort. Traveling in Uttarakhand without a reliable taxi can be difficult, and our goal is to make your yatra (pilgrimage) smooth, safe, and enjoyable.
                                 </p>
 
                                 <br />
                                 <br />
 
                                 <div className="about-list">
-                                    <h3>We Offer Car Rent Service For:-</h3>
+                                    <h3>We Offer Taxi Services For:-</h3>
                                     <ul>
-                                        <li><i className="fa fa-check"></i> Pick & drop for Delhi Airport & Station.</li>
-                                        <li><i className="fa fa-check"></i> Local city tour.</li>
-                                        <li><i className="fa fa-check"></i> Outstation tour.</li>
+                                        <li><i className="fa fa-check"></i> Pick & drop from Dehradun Airport & Railway Station.</li>
+                                        <li><i className="fa fa-check"></i> Local city tours and sightseeing.</li>
+                                        <li><i className="fa fa-check"></i> Outstation and pilgrimage tours including Char Dham Yatra.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -68,7 +59,7 @@ const HomeContent = () => {
                         <div className="col-lg-6">
                             <div className="about-right">
                                 <Image
-                                    src="/img/about.png"
+                                    src="/img/about.webp"
                                     alt="car"
                                     width={600}
                                     height={400}
@@ -84,13 +75,13 @@ const HomeContent = () => {
             <section
                 className="hero-section"
                 style={{
-                    background: "url('/index') no-repeat center center / cover",
+                    background: "url('/images/uttarakhand-hero.jpg') no-repeat center center / cover",
                 }}
             >
                 <div className="container">
                     <div className="hero-content">
-                        <h1>Explore the Beauty of Mathura and Vrindavan</h1>
-                        <p>Your journey to the most sacred and historical destinations starts here!</p>
+                        <h1>Explore the Divine and Scenic Uttarakhand</h1>
+                        <p>Your trusted partner for comfortable taxi rides to Uttarakhand's most sacred and breathtaking destinations!</p>
                         {/* <a href="#packages" className="btnmy btn-spe">Explore Packages</a> */}
                     </div>
                 </div>
@@ -101,12 +92,22 @@ const HomeContent = () => {
 
             {/* Service Area End */}
 
-
             <PromoArea
-                heading={`Book Mathura Taxi service`}
-                para1={<>You will get the best <b>Mathura taxi service</b> to travel the distance most comfortable and also very budget-friendly.There are also a wide variety of services for your comfortable travel experience while planning a trip to Mathura.</>}
-                para2={<>For booking a <strong>taxi service in Mathura</strong> you will get a list of cars with their price and you can choose one from it according to the passenger capacity and your budget. It can be a <Link href="/packages">Mathura Vrindavan tour</Link> which will be very easily accomplished by booking a taxi service which will give you a comfortable right and will be very economical.</>}
+                heading={`Book Uttarakhand Yatra Taxi Service`}
+                para1={<>Experience the best <b>Uttarakhand taxi service</b> for comfortable, safe, and budget-friendly travel across the Himalayan state. We offer a wide range of taxi options to suit your travel needs and ensure a memorable journey.</>}
+                para2={<>Booking a <strong>taxi service in Uttarakhand</strong> is simple — choose from our list of vehicles based on passenger capacity and budget. Whether it’s a <Link href="/packages">Char Dham Yatra</Link> or a leisure trip, our taxi services make your travel hassle-free, economical, and comfortable.</>}
             />
+
+
+
+
+
+
+
+
+
+
+
 
             {/* 
             <HireTaxiSedan carData={[

@@ -5,11 +5,11 @@ import React from 'react';
 const services = [
     {
         number: '01',
-        title: 'City Tour',
+        title: 'Uttarakhand Local City Tour',
         img: '/img/city-transport.webp',
         alt: 'city transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Explore Dehradun, Haridwar, Rishikesh, and more with our reliable taxi service designed for local sightseeing.',
     },
     {
         number: '02',
@@ -17,39 +17,39 @@ const services = [
         img: '/img/airport-transport.webp',
         alt: 'airport transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Smooth transfers to and from Jolly Grant and Pantnagar Airports with punctual and courteous drivers.',
     },
     {
         number: '03',
-        title: 'Outstation Tour',
+        title: 'Outstation Tour from Uttarakhand',
         img: '/img/hospital-transport.webp',
         alt: 'hospital transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Travel comfortably to Delhi, Chandigarh, Jaipur, and other cities with our well-maintained outstation cabs.',
     },
     {
         number: '04',
-        title: 'Same Day Mathura Tours',
+        title: 'Same Day Pilgrimage Tours',
         img: '/img/wedding-ceremony.webp',
         alt: 'wedding transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Visit sacred sites like Haridwar, Rishikesh, or Neelkanth Mahadev in a single day with our custom yatra taxis.',
     },
     {
         number: '05',
-        title: 'Whole City Tour',
+        title: 'Complete Hill Station Tour',
         img: '/img/hotel-transport.webp',
         alt: 'hotel transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Discover Nainital, Mussoorie, Almora, and Auli with our hill station packages tailored for comfort and views.',
     },
     {
         number: '06',
-        title: 'Baggage transport',
+        title: 'Group & Luggage Transport',
         img: '/img/luggege-transport.webp',
         alt: 'baggage transport',
         description:
-            'Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum dolor consectetur adipiscing elit.',
+            'Need to move extra baggage or travel in groups for char dham or treks? We’ve got you covered with large taxis.',
     },
 ];
 
@@ -61,7 +61,7 @@ const ServiceSection = () => {
                     <div className="col-md-12">
                         <div className="site-heading">
                             <h4>Our Services</h4>
-                            <h2>We are Providing Best and Budget Friendly Taxi Services in India</h2>
+                            <h2>Best & Budget-Friendly Taxi Services in Uttarakhand</h2>
                         </div>
                     </div>
                 </div>

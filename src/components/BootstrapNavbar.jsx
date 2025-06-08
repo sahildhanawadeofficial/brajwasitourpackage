@@ -59,11 +59,11 @@ const BootstrapNavbar = () => {
                                 Packages
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="packagesDropdown">
-                                <li><Link className="dropdown-item" href="/packages/chardham-yatra">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/char-dham-trour">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/kedarnath-one-of-the-char-dham-shiva-temple">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/badrinath-vishnu-temple-char-dham">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/kedarnath-tour-2024">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/badrinath-tour">Badrinath – Vishnu Temple, Char Dham</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Cluster of Ancient Shiva Temples</Link></li>
@@ -100,18 +100,18 @@ const BootstrapNavbar = () => {
                                 Popular Routes
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="routesDropdown">
-                                <li><Link className="dropdown-item" href="/popularroutes/agra-to-delhi-taxi-hire-on-rent">Agra to Delhi</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/agra-to-jaipur-taxi-hire-on-rent">Agra to Jaipur</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/agra-to-mathura-taxi-hire-on-rent">Agra to Mathura</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/delhi-to-agra-taxi-hire-on-rent">Delhi to Agra</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/delhi-to-jaipur-taxi-hire-on-rent">Delhi to Jaipur</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/delhi-to-mathura-taxi-hire-on-rent">Delhi to Mathura</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/jaipur-to-agra-taxi-hire-on-rent">Jaipur to Agra</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/jaipur-to-delhi-taxi-hire-on-rent">Jaipur to Delhi</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/jaipur-to-mathura-taxi-hire-on-rent">Jaipur to Mathura</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-agra-taxi-hire-on-rent">Mathura to Agra</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-delhi-taxi-hire-on-rent">Mathura to Delhi</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-jaipur-taxi-hire-on-rent">Mathura to Jaipur</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-rishikesh-taxi-hire-on-rent">Dehradun to Rishikesh</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-mussoorie-taxi-hire-on-rent">Dehradun to Mussoorie</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-badrinath-taxi-hire-on-rent">Haridwar to Badrinath</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-kedarnath-taxi-hire-on-rent">Haridwar to Kedarnath</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/rishikesh-to-gangotri-taxi-hire-on-rent">Rishikesh to Gangotri</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/rishikesh-to-yamunotri-taxi-hire-on-rent">Rishikesh to Yamunotri</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-auli-taxi-hire-on-rent">Dehradun to Auli</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-joshimath-taxi-hire-on-rent">Haridwar to Joshimath</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-nainital-taxi-hire-on-rent">Dehradun to Nainital</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-nainital-taxi-hire-on-rent">Kathgodam to Nainital</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-bhimtal-taxi-hire-on-rent">Kathgodam to Bhimtal</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-ranikhet-taxi-hire-on-rent">Kathgodam to Ranikhet</Link></li>
                             </ul>
                         </li>
 

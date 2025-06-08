@@ -3,11 +3,22 @@
 import { useState } from 'react';
 import Breadcrumb from '@/components/Breadcrumb';
 import { toast } from 'react-toastify';
-// Assuming 'bootstrap/dist/css/bootstrap.min.css' is imported globally or in a layout file
-// If not, ensure it's imported correctly for the styles to apply.
+import {
+    FaUser,
+    FaPhone,
+    FaEnvelope,
+    FaGlobe,
+    FaFacebook,
+    FaTwitter,
+    FaLinkedin,
+    FaPinterest,
+    FaSkype,
+    FaVimeo,
+    FaPaperPlane,
+    FaSpinner
+} from 'react-icons/fa';
 
 const ContactPage = () => {
-    // State to manage form input values
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -16,12 +27,10 @@ const ContactPage = () => {
         message: ''
     });
 
-    // State for loading and displaying messages to the user
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState('');
     const [isError, setIsError] = useState(false);
 
-    // Generic handler for all form input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prevData => ({
@@ -30,37 +39,26 @@ const ContactPage = () => {
         }));
     };
 
-    // Handler for form submission
     const handleSubmit = async (e) => {
-        e.preventDefault(); // Prevent default form submission
-
-        setLoading(true); // Set loading to true to disable button
-        setMessage(''); // Clear previous messages
-        setIsError(false); // Reset error state
+        e.preventDefault();
+        setLoading(true);
+        setMessage('');
+        setIsError(false);
 
         try {
-            const response = await fetch('/api/mail', { // Send to your Next.js API route
+            const response = await fetch('/api/mail', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData), // Send formData as JSON
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
             });
 
-            const result = await response.json(); // Parse the JSON response from your API
+            const result = await response.json();
 
-            if (response.ok) { // Check if the response status is 2xx
-                toast.success('Inquiry sent! We will contact you soon.')
+            if (response.ok) {
+                toast.success('Inquiry sent! We will contact you soon.');
                 setMessage(result.message || "Thank you for your message! We'll be connecting with you very soon.");
                 setIsError(false);
-                // Reset form fields after successful submission
-                setFormData({
-                    name: '',
-                    email: '',
-                    subject: '',
-                    phone: '',
-                    message: ''
-                });
+                setFormData({ name: '', email: '', subject: '', phone: '', message: '' });
             } else {
                 setMessage(result.error || "Failed to send message. Please try again.");
                 setIsError(true);
@@ -70,7 +68,7 @@ const ContactPage = () => {
             setMessage("Network error. Please try again later.");
             setIsError(true);
         } finally {
-            setLoading(false); // Reset loading state
+            setLoading(false);
         }
     };
 
@@ -84,7 +82,7 @@ const ContactPage = () => {
                         <div className="col-lg-7">
                             <div className="contact-left">
                                 <h3>Get in touch</h3>
-                                <form onSubmit={handleSubmit}> {/* Add onSubmit handler */}
+                                <form onSubmit={handleSubmit}>
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="single-contact-field">
@@ -92,16 +90,16 @@ const ContactPage = () => {
                                                     type="text"
                                                     placeholder="Your Name"
                                                     name="name"
-                                                    value={formData.name} // Controlled component
-                                                    onChange={handleChange} // Update state on change
-                                                    required // Make field required
+                                                    value={formData.name}
+                                                    onChange={handleChange}
+                                                    required
                                                 />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="single-contact-field">
                                                 <input
-                                                    type="email" // Use type="email" for better validation
+                                                    type="email"
                                                     placeholder="Email Address"
                                                     name="email"
                                                     value={formData.email}
@@ -127,7 +125,7 @@ const ContactPage = () => {
                                         <div className="col-md-6">
                                             <div className="single-contact-field">
                                                 <input
-                                                    type="tel" // Use type="tel" for phone numbers
+                                                    type="tel"
                                                     placeholder="Phone Number"
                                                     name="phone"
                                                     value={formData.phone}
@@ -155,20 +153,15 @@ const ContactPage = () => {
                                             <div className="single-contact-field">
                                                 <button type="submit" className="gauto-theme-btn" disabled={loading}>
                                                     {loading ? (
-                                                        <>
-                                                            <i className="fa fa-spinner fa-spin"></i> Sending...
-                                                        </>
+                                                        <><FaSpinner className="fa-spin" /> Sending...</>
                                                     ) : (
-                                                        <>
-                                                            <i className="fa fa-paper-plane"></i> Send Message
-                                                        </>
+                                                        <><FaPaperPlane /> Send Message</>
                                                     )}
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
-                                {/* Display feedback message */}
                                 {message && (
                                     <div className={`mt-3 alert ${isError ? 'alert-danger' : 'alert-success'}`} role="alert">
                                         {message}
@@ -178,29 +171,22 @@ const ContactPage = () => {
                         </div>
                         <div className="col-lg-5">
                             <div className="contact-right">
-                                <h3>Contact information</h3>
+                                <h3>Contact Information</h3>
                                 <div className="contact-details">
-                                    <p>
-                                        <i className="fa fa-map-marker"></i> 35-A Mayur Vihar, Dholi Pyau Road,
-                                        <br /> Mathura (U.P.) 281001
-                                    </p>
-                                    <div className="single-contact-btn">
-                                        <h4>Email Us</h4>
-                                        <a href="mailto:info@mathuravrindavantaxiservices.com">info@mathuravrindavantaxiservices.com</a>
-                                    </div>
-                                    <div className="single-contact-btn">
-                                        <h4>Call Us</h4>
-                                        <a href="tel:+919759071258">+919759071258</a>
-                                    </div>
+                                    <p><FaUser /> Birendra Singh</p>
+                                    <p><FaPhone /> +91 9634655654 / +91 8630420363</p>
+                                    <p><FaEnvelope /> <a href="mailto:yatraukheaven@gmail.com">yatraukheaven@gmail.com</a></p>
+                                    <p><FaGlobe /> <a href="https://www.yatrauk.in" target="_blank" rel="noopener noreferrer">www.yatrauk.in</a></p>
+
                                     <div className="social-links-contact">
                                         <h4>Follow Us:</h4>
                                         <ul>
-                                            <li><a href="#" aria-label="Facebook"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#" aria-label="Twitter"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#" aria-label="LinkedIn"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="#" aria-label="Pinterest"><i className="fa fa-pinterest"></i></a></li>
-                                            <li><a href="#" aria-label="Skype"><i className="fa fa-skype"></i></a></li>
-                                            <li><a href="#" aria-label="Vimeo"><i className="fa fa-vimeo"></i></a></li>
+                                            <li><a href="#" aria-label="Facebook"><FaFacebook /></a></li>
+                                            <li><a href="#" aria-label="Twitter"><FaTwitter /></a></li>
+                                            <li><a href="#" aria-label="LinkedIn"><FaLinkedin /></a></li>
+                                            <li><a href="#" aria-label="Pinterest"><FaPinterest /></a></li>
+                                            <li><a href="#" aria-label="Skype"><FaSkype /></a></li>
+                                            <li><a href="#" aria-label="Vimeo"><FaVimeo /></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -210,19 +196,8 @@ const ContactPage = () => {
                 </div>
             </section>
 
-            <div className="footer-bottom-area99">
-                {/* WARNING: The iframe src "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7449.791381195055!2d82.714759!3d20.996818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf9d58284b057e319!2sMathura-Vrindavan%20taxi%20service!5e0!3m2!1sen!2sin!4v1636717249673!5m2!1sen!2sin"
-                    is highly unusual and likely incorrect for a standard Google Maps embed.
-                    It might not work or could pose security risks.
-                    
-                    RECOMMENDATION: Use a proper Google Maps Embed API URL.
-                    Go to Google Maps, find your location, click 'Share', then 'Embed a map',
-                    and copy the iframe src. It will look something like:
-                    "https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=35-A+Mayur+Vihar,..."
-                */}
-            </div>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8778848417937!2d77.6749968751515!3d27.575806676101915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397371c667e6f83b%3A0x63359d9c22e4d0d!2s35-A%2C%20Mayur%20Vihar%2C%20Dholi%20Pyau%20Road%2C%20Mathura%2C%20Uttar%20Pradesh%20281001%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" // REPLACE WITH YOUR ACTUAL GOOGLE MAPS EMBED URL
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8778848417937!2d77.6749968751515!3d27.575806676101915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397371c667e6f83b%3A0x63359d9c22e4d0d!2s35-A%2C%20Mayur%20Vihar%2C%20Dholi%20Pyau%20Road%2C%20Mathura%2C%20Uttar%20Pradesh%20281001%2C%20India!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
