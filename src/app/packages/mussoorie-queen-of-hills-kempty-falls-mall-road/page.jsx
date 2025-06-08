@@ -131,7 +131,7 @@ const Page = () => {
                                                 <td>{type}</td>
                                                 <td>{price}</td>
                                                 <td>₹300/-</td>
-                                                <td><button className="btn btn-danger btn-sm">Enquiry Now</button></td>
+                                                <td><button className="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now</button></td>
                                             </tr>
                                         ))}
                                     </tbody>
