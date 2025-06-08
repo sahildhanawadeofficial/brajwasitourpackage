@@ -6,12 +6,18 @@ import { toast } from 'react-toastify';
 // If not, ensure it's imported correctly for the styles to apply.
 
 const FindTaxiForm = () => {
+
+    const today = new Date();
+    const formattedDate = `${String(today.getDate()).padStart(2, '0')}-${String(
+        today.getMonth() + 1
+    ).padStart(2, '0')}-${today.getFullYear()}`;
+
     const [formData, setFormData] = useState({
         email: '',
         number: '',
         selecttempo: '',
-        arriavaldate: '',
-        journeyTime: ''
+        arriavaldate: formattedDate,
+        journeyTime: '06:00'
     });
 
     const [loading, setLoading] = useState(false);
