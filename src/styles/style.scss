@@ -6509,3 +6509,330 @@ header {
 .modal-header {
 	background-color: #ffbe0b;
 }
+
+
+
+
+
+
+
+.blogs-section {
+	padding: 4rem 0;
+
+	.section-title {
+		text-align: center;
+		font-size: 2.5rem;
+		margin-bottom: 3rem;
+		color: #1a202c; // dark shade
+		font-weight: 700;
+	}
+
+	.blogs-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+	}
+
+	.blog-card {
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+		&:hover {
+			transform: translateY(-8px);
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.blog-image {
+			width: 100%;
+			height: 180px;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: transform 0.4s ease;
+			}
+
+			&:hover img {
+				transform: scale(1.05);
+			}
+		}
+
+		.blog-content {
+			padding: 1.5rem;
+
+			h3 {
+				font-size: 1.4rem;
+				margin-bottom: 0.75rem;
+				color: #2d3748;
+			}
+
+			p {
+				font-size: 1rem;
+				color: #4a5568;
+				margin-bottom: 1.25rem;
+				line-height: 1.5;
+			}
+
+			.read-more {
+				font-weight: 600;
+				color: #3182ce;
+				text-decoration: none;
+				transition: color 0.3s ease;
+
+				&:hover {
+					color: #2b6cb0;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// styles/style.scss
+
+// Variables for consistent theming (optional but recommended)
+$primary-color: #0056b3; // Darker blue for accents
+$secondary-color: #6c757d; // Grey for text
+$accent-color: #28a745; // Green for highlights
+$light-bg: #f8f9fa; // Light background
+$dark-text: #343a40; // Dark text
+$border-color: #dee2e6; // Light border
+
+// Mixins for reusability (optional)
+@mixin container-styles {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+@mixin button-styles {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: $primary-color;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background-color: darken($primary-color, 10%);
+	}
+}
+
+
+
+/* Header Styles */
+.blog-header {
+	background-color: #ffffff;
+	padding: 20px 0;
+	border-bottom: 1px solid $border-color;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.site-title {
+		margin: 0;
+		font-size: 1.8em;
+		color: $primary-color;
+	}
+
+	.main-nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+
+		li {
+			margin-left: 20px;
+		}
+
+		a {
+			text-decoration: none;
+			color: $dark-text;
+			font-weight: bold;
+			transition: color 0.3s ease;
+
+			&:hover {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+/* Main Content Styles */
+.blog-main {
+	padding: 40px 0;
+}
+
+.blog-post {
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	@include container-styles; // Apply container styling here too for the post card
+}
+
+.post-header {
+	text-align: center;
+	margin-bottom: 30px;
+
+	.post-feature-image {
+		max-width: 100%;
+		height: auto;
+		border-radius: 8px;
+		margin-bottom: 20px;
+		object-fit: cover; // Ensures the image covers the area without distortion
+	}
+
+	.post-title {
+		font-size: 2.5em;
+		color: $primary-color;
+		margin-bottom: 10px;
+	}
+
+	.post-meta {
+		font-size: 0.9em;
+		color: $secondary-color;
+	}
+}
+
+.post-content {
+	h2 {
+		font-size: 1.8em;
+		color: $primary-color;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		border-bottom: 2px solid $primary-color;
+		padding-bottom: 5px;
+	}
+
+	p {
+		margin-bottom: 15px;
+		text-align: justify;
+	}
+
+	ul {
+		list-style: disc;
+		margin-left: 20px;
+		margin-bottom: 15px;
+
+		li {
+			margin-bottom: 5px;
+		}
+	}
+
+	strong {
+		color: $dark-text;
+	}
+}
+
+.place-section {
+	margin-bottom: 40px;
+	padding: 20px;
+	background-color: $light-bg;
+	border-left: 5px solid $accent-color;
+	border-radius: 0 8px 8px 0;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+
+	h2 {
+		color: $accent-color; // Use accent color for section titles
+		border-bottom: none; // Remove border from specific section titles
+		padding-bottom: 0;
+	}
+}
+
+
+/* Footer Styles */
+.blog-footer {
+	background-color: $dark-text;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+	border-top: 1px solid lighten($dark-text, 10%);
+
+	p {
+		margin: 0;
+		font-size: 0.9em;
+	}
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.blog-header .container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.blog-header .main-nav ul {
+		margin-top: 15px;
+		justify-content: center;
+		flex-wrap: wrap; // Allows navigation items to wrap
+
+		li {
+			margin: 0 10px 10px 10px; // Adjust margins for better wrapping
+		}
+	}
+
+	.post-title {
+		font-size: 1.8em;
+	}
+
+	.post-content h2 {
+		font-size: 1.5em;
+	}
+
+	.blog-post {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.blog-main {
+		padding: 20px 0;
+	}
+
+	.blog-post {
+		padding: 15px;
+	}
+
+	.post-title {
+		font-size: 1.5em;
+	}
+
+	.post-content h2 {
+		font-size: 1.3em;
+	}
+}
