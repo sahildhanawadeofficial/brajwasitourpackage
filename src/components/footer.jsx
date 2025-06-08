@@ -142,7 +142,7 @@ const Footer = () => {
                   <div className="footer-address">
                     <h3>Head office</h3>
                     <p>
-                      Janambhoomi Link Road<span>Uttarakhand,  281004</span>
+                      Shop no.4 opposite Railway Station Devpura Haridwar<span> Uttarakhand, 249401</span>
                     </p>
                     <ul>
                       <li>Phone: 9634656654</li>

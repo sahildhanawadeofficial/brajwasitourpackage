@@ -17,14 +17,20 @@ export default function RootLayout({ children }) {
                         <div className="blog-page-right">
 
                             <div className="sidebar-widget">
-                                <h3>Related Blogs</h3>
+                                <h3>Related Routes</h3>
                                 <ul className="service-menu">
-                                    <li><Link href="/blog/top-5-places-to-visit-in-uttarakhand">Top 5 Places to Visit in Uttarakhand</Link></li>
-                                    <li><Link href="/blog/how-to-prepare-for-char-dham-yatra">How to Prepare for Char Dham Yatra</Link></li>
-                                    <li><Link href="/blog/best-time-to-visit-uttarakhand">Best Time to Visit Uttarakhand for a Taxi Tour</Link></li>
-                                    <li><Link href="/blog/benefits-of-hiring-local-taxi-service-uttarakhand">Benefits of Hiring a Local Taxi Service in Uttarakhand</Link></li>
-                                    <li><Link href="/blog/spiritual-temples-in-uttarakhand">Spiritual Journey Through Uttarakhand: Temples You Must Visit</Link></li>
-                                    <li><Link href="/blog/scenic-routes-in-uttarakhand">Scenic Routes You Can Explore with a Private Taxi in Uttarakhand</Link></li>
+                                    <li><Link href="/popularroutes/dehradun-to-rishikesh-taxi-hire-on-rent">Dehradun to Rishikesh</Link></li>
+                                    <li><Link href="/popularroutes/dehradun-to-mussoorie-taxi-hire-on-rent">Dehradun to Mussoorie</Link></li>
+                                    <li><Link href="/popularroutes/haridwar-to-badrinath-taxi-hire-on-rent">Haridwar to Badrinath</Link></li>
+                                    <li><Link href="/popularroutes/haridwar-to-kedarnath-taxi-hire-on-rent">Haridwar to Kedarnath</Link></li>
+                                    <li><Link href="/popularroutes/rishikesh-to-gangotri-taxi-hire-on-rent">Rishikesh to Gangotri</Link></li>
+                                    <li><Link href="/popularroutes/rishikesh-to-yamunotri-taxi-hire-on-rent">Rishikesh to Yamunotri</Link></li>
+                                    <li><Link href="/popularroutes/dehradun-to-auli-taxi-hire-on-rent">Dehradun to Auli</Link></li>
+                                    <li><Link href="/popularroutes/haridwar-to-joshimath-taxi-hire-on-rent">Haridwar to Joshimath</Link></li>
+                                    <li><Link href="/popularroutes/dehradun-to-nainital-taxi-hire-on-rent">Dehradun to Nainital</Link></li>
+                                    <li><Link href="/popularroutes/kathgodam-to-nainital-taxi-hire-on-rent">Kathgodam to Nainital</Link></li>
+                                    <li><Link href="/popularroutes/kathgodam-to-bhimtal-taxi-hire-on-rent">Kathgodam to Bhimtal</Link></li>
+                                    <li><Link href="/popularroutes/kathgodam-to-ranikhet-taxi-hire-on-rent">Kathgodam to Ranikhet</Link></li>
                                 </ul>
 
                             </div>

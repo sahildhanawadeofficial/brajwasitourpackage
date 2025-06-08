@@ -48,15 +48,13 @@ export default function RootLayout({ children }) {
                                         <li><a href="https://wa.me/+919634656654"><i className="fa fa-whatsapp"
                                             aria-hidden="true"></i> +91-9634656654</a></li>
                                         <li> <a href="mailto:yatraukheaven@gmail.com"><i
-                                            className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here)</a>
+                                            className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here) yatraukheaven@gmail.com</a>
                                         </li>
                                     </ul>
                                     <br />
 
                                     <h4>Address</h4>
-                                    <p><i className="fa fa-map-marker" aria-hidden="true"></i> 35-A Mayur Vihar, Dholi Pyau
-                                        Road,
-                                        Uttarakhand (U.K.) 281001</p>
+                                    <p><i className="fa fa-map-marker" aria-hidden="true"></i> Shop no.4 opposite Railway Station Devpura Haridwar, Uttarakhand (U.K.) 249401</p>
                                 </div>
                             </div>
                         </div>
