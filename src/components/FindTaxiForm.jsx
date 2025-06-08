@@ -8,9 +8,8 @@ import { toast } from 'react-toastify';
 const FindTaxiForm = () => {
 
     const today = new Date();
-    const formattedDate = `${String(today.getDate()).padStart(2, '0')}-${String(
-        today.getMonth() + 1
-    ).padStart(2, '0')}-${today.getFullYear()}`;
+    const formattedDate = today.toISOString().split('T')[0]; // "2025-06-08"
+
 
     const [formData, setFormData] = useState({
         email: '',
