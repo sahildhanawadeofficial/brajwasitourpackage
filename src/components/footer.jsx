@@ -118,11 +118,11 @@ const Footer = () => {
                 <div className="single-footer quick_links">
                   <h3>Top Taxi / Car</h3>
                   <ul className="quick-links">
-                    <li><Link href="/packages/char-dham-trour">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                    <li><Link href="/2024/02/char-dham-trour.html">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
                     <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                     <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                    <li><Link href="/packages/kedarnath-tour-2024">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                    <li><Link href="/packages/badrinath-tour">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                    <li><Link href="/2024/02/kedarnath-tour-2024.html">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                    <li><Link href="/2024/02/badrinath-tour.html">Badrinath – Vishnu Temple, Char Dham</Link></li>
                     <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
                     <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
                     <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>

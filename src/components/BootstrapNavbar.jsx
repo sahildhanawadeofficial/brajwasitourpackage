@@ -59,11 +59,11 @@ const BootstrapNavbar = () => {
                                 Packages
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="packagesDropdown">
-                                <li><Link className="dropdown-item" href="/packages/char-dham-trour">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
+                                <li><Link className="dropdown-item" href="/2024/02/char-dham-trour.html">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/kedarnath-tour-2024">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/badrinath-tour">Badrinath – Vishnu Temple, Char Dham</Link></li>
+                                <li><Link className="dropdown-item" href="/2024/02/kedarnath-tour-2024.html">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
+                                <li><Link className="dropdown-item" href="/2024/02/badrinath-tour.html">Badrinath – Vishnu Temple, Char Dham</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
                                 <li><Link className="dropdown-item" href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Cluster of Ancient Shiva Temples</Link></li>
