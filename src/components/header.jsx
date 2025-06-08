@@ -16,14 +16,14 @@ const Header = () => {
             <div className="col-md-6">
               <div className="header-top-left">
                 <p>
-                  Need Help?: <FaPhone /> Call: +91 9520578080
+                  Need Help?: <FaPhone /> Call: +91 9634656654
                 </p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="header-top-right">
-                <Link href="#"><FaEnvelope className="icon" /> gotaxibooking@gmail.com</Link>
-                <Link href="#"><FaPhone className="icon" /> Call us: +91-9520578080</Link>
+                <Link href="#"><FaEnvelope className="icon" /> yatraukheaven@gmail.com</Link>
+                <Link href="#"><FaPhone className="icon" /> Call us: +91-9634656654</Link>
               </div>
             </div>
           </div>

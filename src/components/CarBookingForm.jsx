@@ -203,7 +203,7 @@ const CarBookingForm = () => {
                                 </div>
                             </div>
                             <div className="modal-footer border-top-0 d-flex justify-content-center">
-                                <button type="submit" className="btn btn-danger btn-block" disabled={loading}>
+                                <button type="submit" className="btn btn-success btn-block" disabled={loading}>
                                     {loading ? (
                                         <>
                                             <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
