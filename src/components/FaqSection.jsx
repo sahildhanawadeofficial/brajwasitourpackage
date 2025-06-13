@@ -10,8 +10,8 @@ const faqs = [
         answer: (
             <>
                 You can book your Braj Darshan tour easily via our website or by calling our support number:
-                <Link href="tel:+919634656654" passHref legacyBehavior>
-                    <a> +91 9634656654</a>
+                <Link href="tel:+918126990023" passHref legacyBehavior>
+                    <a> +91 8126990023</a>
                 </Link>.
                 <p>The booking process is simple:</p>
                 <p> ● Select your preferred tour (1-day, 2-day, or festival special).</p>

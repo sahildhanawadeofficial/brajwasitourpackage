@@ -107,7 +107,7 @@ const TaxiServices = ({ taxis }) => {
                                     </p>
                                     <div className="d-flex justify-content-between mt-3">
                                         <a
-                                            href="tel:+919520578080"
+                                            href="tel:+918126990023"
                                             className="btn btn-primary"
                                             style={{ flex: 1, marginRight: '5px' }}
                                         >

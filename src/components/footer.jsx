@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       {/* WhatsApp Button (Left) */}
       <a
-        href="https://api.whatsapp.com/send?phone=919634656654&text=Hello, I’m interested in Brajwasi Tour Packages"
+        href="https://api.whatsapp.com/send?phone=918126990023&text=Hello, I’m interested in Brajwasi Tour Packages"
         target="_blank"
         className="float-button whatsapp"
         title="Chat on WhatsApp"
@@ -17,7 +17,7 @@ const Footer = () => {
       </a>
 
       {/* Call Button (Right) */}
-      <a href="tel:+919634656654" className="float-button call" title="Call Us">
+      <a href="tel:+918126990023" className="float-button call" title="Call Us">
         <MdPhoneInTalk className="icon" />
       </a>
 
@@ -96,8 +96,8 @@ const Footer = () => {
                       Vrindavan, Mathura, Uttar Pradesh – 281121
                     </p>
                     <ul>
-                      <li>Phone: +91 9634656654</li>
-                      <li>WhatsApp: +91 9634656654</li>
+                      <li>Phone: +91 8126990023</li>
+                      <li>WhatsApp: +91 8126990023</li>
                       <li>Email: brajwasitours@gmail.com</li>
                     </ul>
                     <br />

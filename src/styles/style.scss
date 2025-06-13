@@ -1852,7 +1852,7 @@ button.gauto-theme-btn:hover {
 
 .gauto-main-header-area {
 	padding: 6px 0;
-	background-color: #FFBE0B;
+	background-color: oklch(68.5% 0.169 237.323);
 }
 
 .header-promo {
@@ -1891,14 +1891,14 @@ button.gauto-theme-btn:hover {
 }
 
 .header-promo-info {
-	color: #000;
-	font-size: 1rem;
+	color: white;
+	font-size: 1.05rem;
 }
 
 .header-promo-info h3 {
-	font-size: 1em;
+	font-size: 1.05em;
 	line-height: 30px;
-	color: #3c3d40;
+	color: white;
 	font-weight: 500;
 	font-family: "Poppins", sans-serif;
 }
@@ -5804,7 +5804,7 @@ a.call-btn {
 }
 
 .call-btn:hover {
-	background: #FF006E;
+	background: oklch(76.9% 0.188 70.08);
 }
 
 .whatsapp-btn {
@@ -5822,7 +5822,7 @@ a.call-btn {
 .e-btn {
 	width: 100%;
 	margin-top: 20px;
-	background: #FF006E;
+	background: oklch(76.9% 0.188 70.08);
 	color: #fff;
 	border: none;
 	cursor: pointer;
@@ -6168,7 +6168,7 @@ table tbody tr:hover {
 	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	background-color: oklch(43.8% 0.218 303.724);
+	background-color: oklch(64.5% 0.246 16.439);
 	padding: 10px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -6527,7 +6527,7 @@ header {
 
 
 .modal-header {
-	background-color: #ffbe0b;
+	background-color: oklch(68.5% 0.169 237.323);
 }
 
 

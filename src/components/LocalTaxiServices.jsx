@@ -80,7 +80,7 @@ export default function LocalTaxiServices({ taxiPackages }) {
                                         <p style={{ fontSize: '14px', color: '#555' }}>{pkg.additionalCharges}</p>
                                     </div>
                                     <div className="d-flex justify-content-between mt-3">
-                                        <Link href="tel:+919520578080" className="btn btn-primary" style={{ flex: 1, marginRight: '5px' }}>
+                                        <Link href="tel:+918126990023" className="btn btn-primary" style={{ flex: 1, marginRight: '5px' }}>
                                             Call Us
                                         </Link>
                                         {/* For the Enquiry button, assuming it triggers a modal.

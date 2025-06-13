@@ -41,10 +41,10 @@ export default function RootLayout({ children }) {
                                 <div className="col-md-12 col-sm-12 pt-4 text-link pb-4 my-de">
                                     <h4>Contact Details</h4>
                                     <ul>
-                                        <li><a href="tel:+919634656654"><i className="fa fa-phone" aria-hidden="true"></i>
-                                            +91-9634656654</a></li>
-                                        <li><a href="https://wa.me/+919634656654"><i className="fa fa-whatsapp"
-                                            aria-hidden="true"></i> +91-9634656654</a></li>
+                                        <li><a href="tel:+918126990023"><i className="fa fa-phone" aria-hidden="true"></i>
+                                            +91-8126990023</a></li>
+                                        <li><a href="https://wa.me/+918126990023"><i className="fa fa-whatsapp"
+                                            aria-hidden="true"></i> +91-8126990023</a></li>
                                         <li> <a href="mailto:yatraukheaven@gmail.com"><i
                                             className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here) yatraukheaven@gmail.com</a>
                                         </li>

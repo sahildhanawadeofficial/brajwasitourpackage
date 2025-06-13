@@ -40,7 +40,7 @@ export default function AboutUsSection() {
                                 <Link href="mailto:brijwasi.tours@gmail.com">
                                     brijwasi.tours@gmail.com
                                 </Link>
-                                {' '} or call us at <b>+91 9634656654</b>.
+                                {' '} or call us at <b>+91 8126990023</b>.
                             </p>
 
                             <div className="about-page-call">
@@ -50,8 +50,8 @@ export default function AboutUsSection() {
                                 <div className="call-info">
                                     <p>Need any help?</p>
                                     <h4>
-                                        <Link href="tel:+919634656654" passHref legacyBehavior>
-                                            <a>+91 9634656654</a>
+                                        <Link href="tel:+918126990023" passHref legacyBehavior>
+                                            <a>+91 8126990023</a>
                                         </Link>
                                     </h4>
                                 </div>
