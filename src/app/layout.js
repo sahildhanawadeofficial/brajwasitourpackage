@@ -38,13 +38,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Yatra UK – Explore the Divine Beauty of Uttarakhand",
-  description: "Discover top pilgrimage routes, scenic hill stations, and adventure destinations across Uttarakhand with Yatra UK. Plan your spiritual and nature-filled journey today.",
+  title: "Brajwasi Tour Package – Experience the Divine Land of Braj",
+  description: "Explore the sacred cities of Mathura, Vrindavan, Barsana, Nandgaon and more with Brajwasi Tour Package. Book your spiritual journey and customized travel experiences in the land of Shri Krishna.",
   keywords: [
-    "Yatra UK", "Uttarakhand tourism", "Char Dham Yatra", "Uttarakhand taxi services",
-    "Hill stations in India", "Pilgrimage travel", "Adventure in Uttarakhand", "Tour packages"
+    "Brajwasi Tour Package", "Mathura Vrindavan tour", "Barsana Nandgaon tourism",
+    "Krishna Bhumi travel", "Braj tour packages", "Phoolon ki Holi",
+    "Vrindavan taxi service", "Spiritual tour Mathura", "Customized Braj packages"
   ],
 };
+
 
 export default function RootLayout({ children }) {
   return (
