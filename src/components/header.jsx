@@ -16,14 +16,14 @@ const Header = () => {
             <div className="col-md-6">
               <div className="header-top-left">
                 <p>
-                  Need Help?: <FaPhone /> Call: +91 9634656654
+                  Need Help?: <FaPhone /> Call: +91 9876543210
                 </p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="header-top-right">
-                <Link href="#"><FaEnvelope className="icon" /> yatraukheaven@gmail.com</Link>
-                <Link href="#"><FaPhone className="icon" /> Call us: +91-9634656654</Link>
+                <Link href="#"><FaEnvelope className="icon" /> brajwasitourpackage@gmail.com</Link>
+                <Link href="#"><FaPhone className="icon" /> Call us: +91-9876543210</Link>
               </div>
             </div>
           </div>
@@ -34,9 +34,7 @@ const Header = () => {
       {/* Marquee Area */}
       <div className="marquee">
         <marquee behavior="scroll" direction="left">
-          🌸 हमारी वेबसाइट पर आपका हार्दिक स्वागत है! 🌸 अब आनंद लें मथुरा-वृंदावन टूर पैकेज के नवीनतम ऑफ़र का।
-          हम आपको कराते हैं दर्शन — वृंदावन, मथुरा, बरसाना, गोवर्धन, नंदगांव, 84 कोस यात्रा, पारिवारिक टूर, वरिष्ठ नागरिक दर्शन टूर, और मथुरा-वृंदावन से अयोध्या तक के विशेष टूर।
-          🚕 नई टूर पैकेज और कैब सेवाएं अब उपलब्ध हैं — अभी बुक करें और भक्ति के इस सुंदर सफर का हिस्सा बनें!
+          🚩 ब्रजवासी टूर पैकेज में आपका स्वागत है 🚩 84 कोस यात्रा, बरसाना, नंदगांव, गोकुल, वृंदावन, मथुरा और गोवर्धन यात्रा के लिए अभी बुक करें। 🚕 अनुभवी ड्राइवर, स्वच्छ गाड़ियाँ और धार्मिक अनुभव की गारंटी। 📞 संपर्क करें: +91 9876543210 | ✉️ brajwasitourpackage@gmail.com
         </marquee>
       </div>
 
@@ -48,8 +46,8 @@ const Header = () => {
               <div className="site-logo">
                 <Link href="/">
                   <Image
-                    src="/images/yatra-uk-logo2.jpeg"
-                    alt="gauto"
+                    src="/images/brajwasi-logo.jpeg"
+                    alt="Brajwasi Tour Package Logo"
                     width={200}
                     height={50}
                   />
@@ -68,8 +66,8 @@ const Header = () => {
                     />
                   </div>
                   <div className="header-promo-info">
-                    <h3>Shop no.4 opposite Railway Station Devpura Haridwar,</h3>
-                    <p>Uttarakhand (U.K.) 249401</p>
+                    <h3>Near Prem Mandir, Vrindavan, Mathura</h3>
+                    <p>Uttar Pradesh, 281121</p>
                   </div>
                 </div>
                 <div className="single-header-promo d-flex">
@@ -82,7 +80,7 @@ const Header = () => {
                     />
                   </div>
                   <div className="header-promo-info">
-                    <p>24X7 Service</p>
+                    <p>24x7 Pilgrimage Support</p>
                   </div>
                 </div>
               </div>
@@ -90,7 +88,7 @@ const Header = () => {
             <div className="col-lg-3">
               <div className="header-action">
                 <Link href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <FaBookmark className="icon" /> MAKE ENQUIRY NOW
+                  <FaBookmark className="icon" /> ENQUIRE NOW
                 </Link>
               </div>
             </div>

@@ -18,20 +18,19 @@ export default function RootLayout({ children }) {
 
                             <div className="sidebar-widget">
                                 <h3>Related Routes</h3>
-                                <ul className="service-menu">
-                                    <li><Link href="/popularroutes/dehradun-to-rishikesh-taxi-hire-on-rent">Dehradun to Rishikesh</Link></li>
-                                    <li><Link href="/popularroutes/dehradun-to-mussoorie-taxi-hire-on-rent">Dehradun to Mussoorie</Link></li>
-                                    <li><Link href="/popularroutes/haridwar-to-badrinath-taxi-hire-on-rent">Haridwar to Badrinath</Link></li>
-                                    <li><Link href="/popularroutes/haridwar-to-kedarnath-taxi-hire-on-rent">Haridwar to Kedarnath</Link></li>
-                                    <li><Link href="/popularroutes/rishikesh-to-gangotri-taxi-hire-on-rent">Rishikesh to Gangotri</Link></li>
-                                    <li><Link href="/popularroutes/rishikesh-to-yamunotri-taxi-hire-on-rent">Rishikesh to Yamunotri</Link></li>
-                                    <li><Link href="/popularroutes/dehradun-to-auli-taxi-hire-on-rent">Dehradun to Auli</Link></li>
-                                    <li><Link href="/popularroutes/haridwar-to-joshimath-taxi-hire-on-rent">Haridwar to Joshimath</Link></li>
-                                    <li><Link href="/popularroutes/dehradun-to-nainital-taxi-hire-on-rent">Dehradun to Nainital</Link></li>
-                                    <li><Link href="/popularroutes/kathgodam-to-nainital-taxi-hire-on-rent">Kathgodam to Nainital</Link></li>
-                                    <li><Link href="/popularroutes/kathgodam-to-bhimtal-taxi-hire-on-rent">Kathgodam to Bhimtal</Link></li>
-                                    <li><Link href="/popularroutes/kathgodam-to-ranikhet-taxi-hire-on-rent">Kathgodam to Ranikhet</Link></li>
-                                </ul>
+                                <li><Link href="/popularroutes/mathura-to-vrindavan-taxi-hire-on-rent">Mathura to Vrindavan</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-gokul-taxi-hire-on-rent">Mathura to Gokul</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-govardhan-taxi-hire-on-rent">Mathura to Govardhan</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-barsana-taxi-hire-on-rent">Mathura to Barsana</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-nandgaon-taxi-hire-on-rent">Mathura to Nandgaon</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-radhakund-taxi-hire-on-rent">Mathura to Radhakund</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-prem-mandir-vrindavan-taxi-hire-on-rent">Mathura to Prem Mandir Vrindavan</Link></li>
+                                <li><Link href="/popularroutes/mathura-to-iskcon-temple-vrindavan-taxi-hire-on-rent">Mathura to ISKCON Temple Vrindavan</Link></li>
+                                <li><Link href="/popularroutes/vrindavan-to-gokul-taxi-hire-on-rent">Vrindavan to Gokul</Link></li>
+                                <li><Link href="/popularroutes/vrindavan-to-govardhan-taxi-hire-on-rent">Vrindavan to Govardhan</Link></li>
+                                <li><Link href="/popularroutes/vrindavan-to-barsana-taxi-hire-on-rent">Vrindavan to Barsana</Link></li>
+                                <li><Link href="/popularroutes/vrindavan-to-nandgaon-taxi-hire-on-rent">Vrindavan to Nandgaon</Link></li>
+
 
                             </div>
 

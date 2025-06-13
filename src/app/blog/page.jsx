@@ -5,50 +5,48 @@ import Link from "next/link";
 const blogsData = [
     {
         id: 1,
-        title: "Top 5 Places to Visit in Uttarakhand",
-        excerpt: "Discover the must-visit destinations that showcase Uttarakhand's natural beauty and spiritual heritage...",
-        imageUrl: "/tour/kedarnath-dham.png",
-        slug: "top-5-places-to-visit-in-uttarakhand",
+        title: "Top 10 Must-Visit Places in Braj Bhoomi",
+        excerpt: "Explore the sacred and scenic landmarks of Mathura, Vrindavan, Govardhan, Barsana, and more in the heart of Braj.",
+        imageUrl: "/tour/braj-barsana.png",
+        slug: "top-places-to-visit-in-braj-bhoomi",
     },
     {
         id: 2,
-        title: "How to Prepare for Char Dham Yatra",
-        excerpt: "Planning a pilgrimage to Char Dham? Here's a complete guide to help you prepare for the journey safely and comfortably...",
-        imageUrl: "/tour/badrinath-dham.png",
-        slug: "how-to-prepare-for-char-dham-yatra",
+        title: "84 Kosi Parikrama Guide: Spiritual Significance and Route Map",
+        excerpt: "Understand the divine importance of the 84 Kosi Parikrama and how you can complete it with comfort and devotion.",
+        imageUrl: "/tour/govardhan-parikrama.png",
+        slug: "84-kosi-parikrama-guide",
     },
     {
         id: 3,
-        title: "Best Time to Visit Uttarakhand for a Taxi Tour",
-        excerpt: "Learn about the ideal seasons and weather conditions for exploring Uttarakhand by taxi for an enjoyable experience...",
-        imageUrl: "/tour/jageshwar-temples.png",
-        slug: "best-time-to-visit-uttarakhand",
+        title: "Lathmar Holi in Barsana and Nandgaon: Experience Divine Play",
+        excerpt: "Witness one of the most unique Holi celebrations where devotion, tradition, and color come together in Barsana and Nandgaon.",
+        imageUrl: "/tour/holi-celebration.png",
+        slug: "lathmar-holi-barsana-nandgaon",
     },
     {
         id: 4,
-        title: "Benefits of Hiring a Local Taxi Service in Uttarakhand",
-        excerpt: "Explore the advantages of booking a local taxi—from cost savings to local expertise that makes your journey safer and more enriching...",
-        imageUrl: "/tour/mussoorie-hill-station.png",
-        slug: "benefits-of-hiring-local-taxi-service-uttarakhand",
+        title: "Vrindavan Temple Darshan: Best Time, Aarti Schedule & Travel Tips",
+        excerpt: "Plan your spiritual tour to Vrindavan with this practical guide to temple timings, aartis, and transportation.",
+        imageUrl: "/tour/braj-nandgaon.png",
+        slug: "vrindavan-temple-darshan-guide",
     },
     {
         id: 5,
-        title: "Spiritual Journey Through Uttarakhand: Temples You Must Visit",
-        excerpt: "From Kedarnath to Badrinath, dive into the spiritual essence of Uttarakhand with a guide to the most revered temples across the state...",
-        imageUrl: "/tour/yamunotri-yamuna-source.png",
-        slug: "spiritual-temples-in-uttarakhand",
+        title: "Why Choose Brajwasi Tour Package for Your Braj Yatra",
+        excerpt: "Learn how our local expertise, devotional itineraries, and comfortable taxi services make your pilgrimage seamless.",
+        imageUrl: "/tour/phoolon-ki-holi.png",
+        slug: "why-choose-brajwasi-tour-package",
     },
     {
         id: 6,
-        title: "Scenic Routes You Can Explore with a Private Taxi in Uttarakhand",
-        excerpt: "Witness breathtaking mountain views, river valleys, and hidden gems by taking these scenic drives through Uttarakhand in your own private cab...",
-        imageUrl: "/tour/nainital-boating-ropeway.png",
-        slug: "scenic-routes-in-uttarakhand",
+        title: "2 to 5 Day Itinerary for Mathura-Vrindavan Tour",
+        excerpt: "A perfect itinerary to explore temples, ghats, and cultural gems of Mathura-Vrindavan, ideal for weekend or extended trips.",
+        imageUrl: "/tour/brijwasi-lands-inn.png",
+        slug: "mathura-vrindavan-tour-itinerary",
     },
-
-
-    // Add more blog objects here...
 ];
+
 
 const Blogs = () => {
     return (

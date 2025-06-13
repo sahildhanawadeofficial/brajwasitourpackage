@@ -5,7 +5,7 @@ import React from 'react';
 const services = [
     {
         number: '01',
-        title: 'Uttarakhand Local City Tour',
+        title: 'Brajwasi Tour',
         img: '/img/city-transport.webp',
         alt: 'city transport',
         description:
@@ -21,7 +21,7 @@ const services = [
     },
     {
         number: '03',
-        title: 'Outstation Tour from Uttarakhand',
+        title: 'Outstation Tour from Brajwasi',
         img: '/img/hospital-transport.webp',
         alt: 'hospital transport',
         description:
@@ -61,7 +61,7 @@ const ServiceSection = () => {
                     <div className="col-md-12">
                         <div className="site-heading">
                             <h4>Our Services</h4>
-                            <h2>Best & Budget-Friendly Taxi Services in Uttarakhand</h2>
+                            <h2>Best & Budget-Friendly Taxi Services in Brajwasi</h2>
                         </div>
                     </div>
                 </div>

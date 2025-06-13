@@ -6,33 +6,20 @@ const GallerySection = () => {
     const imageBasePath = "/tour";
 
     const imageFileNames = [
-        "almora-town-view.png",
-        "auli-skiing-cable-car.png",
-        "badrinath-dham.png",
-        "binsar-mountain-wildlife.png",
-        "chaukori-tea-gardens-himalayas.png",
-        "chopta-mini-switzerland.png",
-        "dhanaulti-camping.png",
-        "gangotri-ganga-origin.png",
-        "haridwar-ganga-aarti.png",
-        "hemkund-sahib.png",
-        "jageshwar-temples.png",
-        "jim-corbett-national-park.png",
-        "kausani-himalayan-tea.png",
-        "kedarnath-dham.png",
-        "khirsu-quiet-hill-town.png",
-        "lansdowne-pine-forests.png",
-        "mukteshwar-trekking.png",
-        "munsiyari-johar-valley-trekking.png",
-        "mussoorie-hill-station.png",
-        "nainital-boating-ropeway.png",
-        "peora-kumaon-hidden-gem.png",
-        "pithoragarh-nepal-border-views.png",
-        "ranikhet-golf-temple.png",
-        "rishikesh-aarti-rafting.png",
-        "valley-of-flowers.png",
-        "yamunotri-yamuna-source.png",
+        "govardhan-parikrama.png",
+        "braj-mathura.png",
+        "braj-vrindavan.png",
+        "braj-barsana.png",
+        "braj-nandgaon.png",
+        "brijwasi-lands-inn.png",
+        "mathura-vrindavan-hotel.png",
+        "holi-celebration.png",
+        "phoolon-ki-holi.png",
+        "customized-package.png",
+        "vrindavan-by-car.png",
+        "from-delhi.png"
     ];
+
 
     const galleryImages = imageFileNames.map((filename, index) => ({
         id: index + 1,

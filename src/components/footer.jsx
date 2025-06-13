@@ -3,13 +3,12 @@ import Link from 'next/link';
 import { FaWhatsapp } from "react-icons/fa";
 import { MdPhoneInTalk } from "react-icons/md";
 
-
 const Footer = () => {
   return (
     <>
       {/* WhatsApp Button (Left) */}
       <a
-        href="https://api.whatsapp.com/send?phone=9634656654&text=Hello"
+        href="https://api.whatsapp.com/send?phone=919634656654&text=Hello, I’m interested in Brajwasi Tour Packages"
         target="_blank"
         className="float-button whatsapp"
         title="Chat on WhatsApp"
@@ -27,59 +26,29 @@ const Footer = () => {
         <div className="footer-top-area">
           <div className="container">
             <div className="row">
-              {/* Footer Logo and Description */}
+              {/* Brand Info */}
               <div className="col-lg-5">
                 <div className="single-footer">
                   <div className="footer-logo">
                     <Link href="/">
-                      <img
-                        src="/images/yatra-uk-logo2.jpeg"
-                        alt="footer-logo"
-                      />
+                      <img src="/images/brajwasi-logo.jpeg" alt="Brajwasi Tour Logo" />
                     </Link>
                   </div>
                   <p>
-                    Launched in 2015, Uttarakhand-Yatra Taxi services in Uttarakhand offers highly
-                    professional & premium services for all types of occasions and guests. We have
-                    luxury taxi with well trained & groomed drivers. Special supervision by our
-                    agent during trip.
+                    Brajwasi Tour Packages specializes in devotional and spiritual journeys across Mathura, Vrindavan,
+                    Barsana, and the entire Braj region. From 84 Kosh Yatras to Holi festivals and personalized car rentals,
+                    we ensure a seamless, sacred, and comfortable travel experience for every devotee.
                   </p>
                   <div className="ffollow">
                     <h3>Follow us</h3>
-                    <p>Join and Follow us, Get Daily Discount. Thank You!</p>
+                    <p>Stay connected for tour updates, festival packages & exclusive offers!</p>
                     <br />
                     <ul>
-                      <li>
-                        <a
-                          href="https://www.facebook.com/Mathura-Vrindavan-Taxi-Services-109828825158132"
-                          target="_blank"
-                        >
-                          <i className="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/gotaxibooking/" target="_blank">
-                          <i className="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/in/brajmohan-kumar-07261b247"
-                          target="_blank"
-                        >
-                          <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/MathuraTaxi" target="_blank">
-                          <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://in.pinterest.com/gotaxibooking/" target="_blank">
-                          <i className="fa fa-pinterest" aria-hidden="true"></i>
-                        </a>
-                      </li>
+                      <li><a href="https://facebook.com" target="_blank"><i className="fa fa-facebook" /></a></li>
+                      <li><a href="https://instagram.com" target="_blank"><i className="fa fa-instagram" /></a></li>
+                      <li><a href="https://linkedin.com" target="_blank"><i className="fa fa-linkedin" /></a></li>
+                      <li><a href="https://twitter.com" target="_blank"><i className="fa fa-twitter" /></a></li>
+                      <li><a href="https://pinterest.com" target="_blank"><i className="fa fa-pinterest" /></a></li>
                     </ul>
                   </div>
                 </div>
@@ -91,75 +60,57 @@ const Footer = () => {
                   <h3>Quick Links</h3>
                   <ul className="quick-links">
                     <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                    <li><Link href="/service">Service</Link></li>
-                    <li><a href="#" data-toggle="modal" data-target="#exampleModal">Taxi / Car Booking</a></li>
-                    <li><Link href="/packages">Packages</Link></li>
+                    <li><Link href="/about">About Us</Link></li>
+                    <li><Link href="/tour-packages">Tour Packages</Link></li>
                     <li><Link href="/gallery">Gallery</Link></li>
-                    <li><Link href="/payment">Payment</Link></li>
-                    <li><Link href="/contact-us">Contact Us</Link></li>
                     <li><Link href="/blog">Blog</Link></li>
+                    <li><Link href="/contact-us">Contact</Link></li>
+                    <li><Link href="/payment">Payment</Link></li>
+                    <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                   </ul>
-                  <a
-                    href="http://www.dmca.com/Protection/Status.aspx?ID=b2d53945-c8cd-4138-9068-de518442e955"
-                    title="DMCA.com Protection Status"
-                    className="dmca-badge"
-                  >
-                    <img
-                      src="https://i.ibb.co/QRr8nVM/dmca-badge-w100-5x1-01.png"
-                      alt="DMCA.com Protection Status"
-                    />
-                  </a>
                 </div>
               </div>
 
-              {/* Top Taxi/Car Links */}
+              {/* Tour Highlights */}
               <div className="col-lg-2 col-6">
                 <div className="single-footer quick_links">
-                  <h3>Top Taxi / Car</h3>
+                  <h3>Top Tours</h3>
                   <ul className="quick-links">
-                    <li><Link href="/2024/02/char-dham-trour.html">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
-                    <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
-                    <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                    <li><Link href="/2024/02/kedarnath-tour-2024.html">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                    <li><Link href="/2024/02/badrinath-tour.html">Badrinath – Vishnu Temple, Char Dham</Link></li>
-                    <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
-                    <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
-                    <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>
-                    <li><Link href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage</Link></li>
-                    <li><Link href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes & Ropeway</Link></li>
-                    <li><Link href="/packages/mussoorie-queen-of-hills-kempty-falls-mall-road">Mussoorie – Queen of Hills</Link></li>
-                    <li><Link href="/packages/almora-culture-views-peaceful-town">Almora – Culture & Views</Link></li>
-                    <li><Link href="/packages/ranikhet-forests-golf-course-temples">Ranikhet – Golf Course & Temples</Link></li>
+                    <li><Link href="/packages/84-kosh-yatra-5-day">84 Kosh Yatra – 5 Day</Link></li>
+                    <li><Link href="/packages/holi-special-package">Holi Special Tour</Link></li>
+                    <li><Link href="/packages/barsana-lathmar-holi">Barsana Lathmar Holi</Link></li>
+                    <li><Link href="/packages/janmashtami-celebration">Janmashtami Celebration</Link></li>
+                    <li><Link href="/packages/vrindavan-car-rental">Vrindavan Car Rental</Link></li>
+                    <li><Link href="/packages/custom-tour">Customized Braj Tour</Link></li>
                   </ul>
-
                 </div>
               </div>
 
-              {/* Address Section */}
+              {/* Contact Details */}
               <div className="col-lg-3">
                 <div className="single-footer">
                   <div className="footer-address">
-                    <h3>Head office</h3>
+                    <h3>Contact Info</h3>
                     <p>
-                      Shop no.4 opposite Railway Station Devpura Haridwar<span> Uttarakhand, 249401</span>
+                      Brajwasi Tours Office, Near Prem Mandir Gate No. 2,<br />
+                      Vrindavan, Mathura, Uttar Pradesh – 281121
                     </p>
                     <ul>
-                      <li>Phone: 9634656654</li>
-                      <li>Whatsapp: 9634656654</li>
-                      <li>Email: yatraukheaven@gmail.com</li>
+                      <li>Phone: +91 9634656654</li>
+                      <li>WhatsApp: +91 9634656654</li>
+                      <li>Email: brajwasitours@gmail.com</li>
                     </ul>
                     <br />
                     <div className="map-here">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.1988571938296!2d77.64614227424518!3d27.494190384862854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397373c0d8a3703d%3A0xc08eb069397f3292!2sJaswant%20Taxi%20Service!5e0!3m2!1sen!2sin!4v1747672956736!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7028.228546137225!2d77.6832!3d27.5806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397371d4a9f49e85%3A0x9fdbd8782f59d1f!2sPrem%20Mandir!5e0!3m2!1sen!2sin!4v1718112235675"
                         width="100%"
                         height="120"
                         style={{ border: 0 }}
-                        allowFullScreen=""
+                        allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                      ></iframe>
+                      />
                     </div>
                   </div>
                 </div>
@@ -174,17 +125,12 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="copyright">
-                  <p>
-                    Copyrights © 2024 <i className="fa fa-heart"></i> Gotaxi Booking{' '}
-                    <a href="#">All Rights Reserved</a>
-                  </p>
+                  <p>© 2024 Brajwasi Tours. All Rights Reserved.</p>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 text-md-end">
                 <div className="copyright12">
-                  <p>
-                    Radhey <a href="#">Radhey</a>
-                  </p>
+                  <p>जय श्री राधे <a href="#">Radhe Radhe</a></p>
                 </div>
               </div>
             </div>

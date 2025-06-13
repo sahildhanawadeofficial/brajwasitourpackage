@@ -1,86 +1,88 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaPlus, FaMinus } from 'react-icons/fa'; // ← React Icons
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 const faqs = [
     {
         id: 'one',
-        question: 'How do I book the Char Dham Yatra with Uttarakhand Yatra?',
+        question: 'How do I book a Braj Darshan tour with Brajwasi Tour Packages?',
         answer: (
             <>
-                You can easily book your Char Dham Yatra through our website or by calling our 24x7 support number:
+                You can book your Braj Darshan tour easily via our website or by calling our support number:
                 <Link href="tel:+919634656654" passHref legacyBehavior>
                     <a> +91 9634656654</a>
                 </Link>.
                 <p>The booking process is simple:</p>
-                <p> ● Choose your preferred yatra package (Economy, Standard, or Deluxe).</p>
-                <p> ● Confirm the number of travelers and travel dates.</p>
-                <p> ● Make a partial payment to confirm your booking. The rest can be paid during the trip.</p>
-                <p> ● You’ll receive confirmation along with detailed itinerary and packing checklist via WhatsApp/email.</p>
+                <p> ● Select your preferred tour (1-day, 2-day, or festival special).</p>
+                <p> ● Share the number of travelers and preferred travel dates.</p>
+                <p> ● Confirm with a partial payment. Remaining amount is payable at the start of the trip.</p>
+                <p> ● You'll receive full itinerary and travel guide over WhatsApp/email.</p>
             </>
         ),
     },
     {
         id: 'two',
-        question: 'What is the best time for Char Dham Yatra?',
+        question: 'Which places are covered in the Braj Darshan tour?',
         answer: (
             <>
-                The best time for Char Dham Yatra is between <strong>May to June</strong> and <strong>September to mid-November</strong>.
-                <p>● The yatra starts in <strong>late April or early May</strong> every year, depending on temple openings.</p>
-                <p>● Avoid peak monsoon season (July–August) due to landslides and heavy rainfall.</p>
+                Our tours include sacred destinations in the Braj region:
+                <p>● Mathura (Shri Krishna Janmabhoomi)</p>
+                <p>● Vrindavan (Banke Bihari, Prem Mandir, ISKCON)</p>
+                <p>● Barsana (Shri Radha Rani Temple)</p>
+                <p>● Nandgaon, Govardhan Parikrama, Gokul, and Radha Kund</p>
+                <p>You can also request custom inclusions based on your interests.</p>
             </>
         ),
     },
     {
         id: 'three',
-        question: 'What is included in the Char Dham Yatra package?',
+        question: 'What is included in the tour package?',
         answer: (
             <>
-                Our packages include:
-                <p>● Transport (Tempo Traveller/Innova/Jeep)</p>
-                <p>● Hotel accommodation on double/triple sharing</p>
-                <p>● Daily meals (Breakfast & Dinner)</p>
-                <p>● Driver cum guide</p>
-                <p>● Sightseeing as per itinerary</p>
-                <p>● All tolls, parking, and fuel costs</p>
-                <p><strong>Note:</strong> Helicopter tickets, pony/palki and personal expenses are not included by default.</p>
+                Our packages typically include:
+                <p>● Pickup/drop from Delhi, Agra, or Mathura Railway Station</p>
+                <p>● Sightseeing via private taxi (Sedan, SUV, or Tempo Traveller)</p>
+                <p>● Darshan coordination at key temples</p>
+                <p>● Tour guide (on request)</p>
+                <p><strong>Note:</strong> Meals and hotel stays are optional and depend on the package type.</p>
             </>
         ),
     },
     {
         id: 'four',
-        question: 'Is Char Dham Yatra physically demanding?',
+        question: 'Do you offer special festival tours like Holi or Janmashtami?',
         answer: (
             <>
-                Yes, some parts of the yatra involve moderate to high physical activity, especially in Kedarnath and Yamunotri.
-                <p>● Trekking distance for Kedarnath is ~16 km from Gaurikund (helicopter/palki options available).</p>
-                <p>● Yamunotri involves a 6 km uphill trek from Janki Chatti.</p>
-                <p><strong>We recommend:</strong> Senior citizens and people with health issues consult a doctor before the trip.</p>
+                Yes! We offer specially curated packages during:
+                <p>● Holi in Barsana & Nandgaon (Lathmar Holi)</p>
+                <p>● Janmashtami celebrations in Mathura and Vrindavan</p>
+                <p>● Radhashtami, Govardhan Puja, and other Braj festivals</p>
+                <p>Book in advance — these dates fill fast and require pre-confirmation.</p>
             </>
         ),
     },
     {
         id: 'five',
-        question: 'Is registration mandatory for Char Dham Yatra?',
+        question: 'Can I customize the tour plan?',
         answer: (
             <>
-                Yes, <strong>registration is mandatory</strong> for every yatri by the Uttarakhand Government.
-                <p>We assist you with registration after your booking is confirmed.</p>
-                <p>You’ll need a valid <strong>photo ID proof</strong>, <strong>passport-sized photo</strong>, and <strong>COVID vaccination certificate</strong> (if applicable).</p>
+                Absolutely. We specialize in customized group and family tours.
+                <p>● You can choose travel start/end points, number of days, hotel class, and sightseeing priorities.</p>
+                <p>● Just call us or message on WhatsApp to get a tailored itinerary within minutes.</p>
             </>
         ),
     },
     {
         id: 'six',
-        question: 'What type of accommodation is provided?',
+        question: 'What type of vehicles do you provide?',
         answer: (
             <>
-                We provide clean and hygienic hotels/guest houses based on your selected package.
-                <p>● Basic/Economy: Budget guest houses or dharamshalas</p>
-                <p>● Standard: 2-3 star category hotels</p>
-                <p>● Deluxe: Premium stays wherever available</p>
-                <p>We ensure hot water availability, clean bedding, and proximity to temples wherever possible.</p>
+                We provide clean, air-conditioned vehicles based on your group size and preference:
+                <p>● Sedan (Dzire, Etios) – for 2–4 people</p>
+                <p>● SUV (Innova, Ertiga) – for 5–7 people</p>
+                <p>● Tempo Traveller – for 9 to 16 people</p>
+                <p>● Bus (on request) – for larger groups and yatras</p>
             </>
         ),
     },

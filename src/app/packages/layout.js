@@ -19,19 +19,19 @@ export default function RootLayout({ children }) {
                             <div className="sidebar-widget">
                                 <h3>Related Tour Packages</h3>
                                 <ul className="service-menu">
-                                    <li><Link href="/2024/02/char-dham-trour.html">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
-                                    <li><Link href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
-                                    <li><Link href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                                    <li><Link href="/2024/02/kedarnath-tour-2024.html">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                                    <li><Link href="/2024/02/badrinath-tour.html">Badrinath – Vishnu Temple, Char Dham</Link></li>
-                                    <li><Link href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
-                                    <li><Link href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
-                                    <li><Link href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Ancient Shiva Temples</Link></li>
-                                    <li><Link href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage</Link></li>
-                                    <li><Link href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes & Ropeway</Link></li>
-                                    <li><Link href="/packages/mussoorie-queen-of-hills-kempty-falls-mall-road">Mussoorie – Queen of Hills</Link></li>
-                                    <li><Link href="/packages/almora-culture-views-peaceful-town">Almora – Culture & Views</Link></li>
-                                    <li><Link href="/packages/ranikhet-forests-golf-course-temples">Ranikhet – Golf Course & Temples</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/5-Day-Braj-84-Kosh-Yatra">5-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/6-Day-Braj-84-Kosh-Yatra">6-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/7-Day-Braj-84-Kosh-Yatra">7-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/8-Day-Braj-84-Kosh-Yatra">8-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/9-Day-Braj-84-Kosh-Yatra">9-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/10-Day-Braj-84-Kosh-Yatra">10-Day Braj 84 Kosh Yatra</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/3-Day-Mathura-Vrindavan-With-Brijwasi-Lands-Inn">3-Day Mathura Vrindavan With Brijwasi Lands Inn</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/4-Day-Mathura-Vrindavan-Package">4-Day Mathura Vrindavan Package</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/Holi-Celebration-Tour-Package">Holi Celebration Tour Package</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/Phoolon-Ki-Holi-Tour-Package">Phoolon Ki Holi Tour Package</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/Customized-Mathura-Vrindavan-Package">Customized Mathura Vrindavan Package</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/Vrindavan-Tour-By-Car">Vrindavan Tour By Car</Link></li>
+                                    <li><Link className="dropdown-item" href="/packages/Mathura-Vrindavan-Tour-From-Delhi">Mathura Vrindavan Tour From Delhi</Link></li>
                                 </ul>
 
                             </div>

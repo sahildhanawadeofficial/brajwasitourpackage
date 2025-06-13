@@ -24,7 +24,7 @@ const BootstrapNavbar = () => {
     return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
             <div className="container-fluid">
-                <Link className="navbar-brand" href="/">Uttarakhand Yatra</Link>
+                <Link className="navbar-brand" href="/">Brajwasi Tour</Link>
 
                 <button
                     className="navbar-toggler"
@@ -59,34 +59,21 @@ const BootstrapNavbar = () => {
                                 Packages
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="packagesDropdown">
-                                <li><Link className="dropdown-item" href="/2024/02/char-dham-trour.html">Chardham Yatra -  Yamunotri, Gangotri, Kedarnath, and Badrinath</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/yamunotri-source-of-river-yamuna">Yamunotri – Source of River Yamuna</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/gangotri-origin-of-river-ganga">Gangotri – Origin of River Ganga</Link></li>
-                                <li><Link className="dropdown-item" href="/2024/02/kedarnath-tour-2024.html">Kedarnath – One of the Char Dham, Shiva Temple</Link></li>
-                                <li><Link className="dropdown-item" href="/2024/02/badrinath-tour.html">Badrinath – Vishnu Temple, Char Dham</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/haridwar-ganga-aarti-har-ki-pauri-temples">Haridwar – Ganga Aarti, Har Ki Pauri, Temples</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/rishikesh-yoga-capital-ganga-aarti-rafting">Rishikesh – Yoga Capital, Ganga Aarti, Rafting</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/jageshwar-cluster-of-ancient-shiva-temples">Jageshwar – Cluster of Ancient Shiva Temples</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/hemkund-sahib-sikh-pilgrimage-site-in-the-himalayas">Hemkund Sahib – Sikh Pilgrimage Site in the Himalayas</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/nainital-lakes-boating-mall-road-ropeway">Nainital – Lakes, Boating, Mall Road, Ropeway</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/mussoorie-queen-of-hills-kempty-falls-mall-road">Mussoorie – Queen of Hills, Kempty Falls, Mall Road</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/almora-culture-views-peaceful-town">Almora – Culture, Views, Peaceful Town</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/ranikhet-forests-golf-course-temples">Ranikhet – Forests, Golf Course, Temples</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/kausani-himalayan-views-tea-gardens">Kausani – Himalayan Views, Tea Gardens</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/chopta-mini-switzerland-of-india-base-for-tungnath">Chopta – Mini Switzerland of India, Base for Tungnath</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/lansdowne-quiet-military-town-pine-forests">Lansdowne – Quiet Military Town, Pine Forests</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/auli-skiing-cable-car-panoramic-himalayan-views">Auli – Skiing, Cable Car, Panoramic Himalayan Views</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/valley-of-flowers-unesco-site-rare-flora">Valley of Flowers – UNESCO Site, Rare Flora</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/jim-corbett-national-park-tigers-safaris-bird-watching">Jim Corbett National Park – Tigers, Safaris, Bird Watching</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/binsar-wildlife-sanctuary-mountain-views">Binsar – Wildlife Sanctuary, Mountain Views</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/mukteshwar-rock-climbing-trekking-views">Mukteshwar – Rock Climbing, Trekking, Views</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/dhanaulti-eco-parks-camping">Dhanaulti – Eco Parks, Camping</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/peora-hidden-gem-in-kumaon-region">Peora – Hidden Gem in Kumaon Region</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/munsiyari-gateway-to-the-johar-valley-trekking-hub">Munsiyari – Gateway to the Johar Valley, Trekking Hub</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/pithoragarh-scenic-town-near-nepal-border">Pithoragarh – Scenic Town Near Nepal Border</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/chaukori-tea-gardens-and-himalaya-views">Chaukori – Tea Gardens and Himalaya Views</Link></li>
-                                <li><Link className="dropdown-item" href="/packages/khirsu-offbeat-quiet-hill-town">Khirsu – Offbeat, Quiet Hill Town</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/5-Day-Braj-84-Kosh-Yatra">5-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/6-Day-Braj-84-Kosh-Yatra">6-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/7-Day-Braj-84-Kosh-Yatra">7-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/8-Day-Braj-84-Kosh-Yatra">8-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/9-Day-Braj-84-Kosh-Yatra">9-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/10-Day-Braj-84-Kosh-Yatra">10-Day Braj 84 Kosh Yatra</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/3-Day-Mathura-Vrindavan-With-Brijwasi-Lands-Inn">3-Day Mathura Vrindavan With Brijwasi Lands Inn</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/4-Day-Mathura-Vrindavan-Package">4-Day Mathura Vrindavan Package</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/Holi-Celebration-Tour-Package">Holi Celebration Tour Package</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/Phoolon-Ki-Holi-Tour-Package">Phoolon Ki Holi Tour Package</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/Customized-Mathura-Vrindavan-Package">Customized Mathura Vrindavan Package</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/Vrindavan-Tour-By-Car">Vrindavan Tour By Car</Link></li>
+                                <li><Link className="dropdown-item" href="/packages/Mathura-Vrindavan-Tour-From-Delhi">Mathura Vrindavan Tour From Delhi</Link></li>
                             </ul>
+
                         </li>
 
                         <li className="nav-item">
@@ -100,18 +87,18 @@ const BootstrapNavbar = () => {
                                 Popular Routes
                             </a>
                             <ul className="dropdown-menu" aria-labelledby="routesDropdown">
-                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-rishikesh-taxi-hire-on-rent">Dehradun to Rishikesh</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-mussoorie-taxi-hire-on-rent">Dehradun to Mussoorie</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-badrinath-taxi-hire-on-rent">Haridwar to Badrinath</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-kedarnath-taxi-hire-on-rent">Haridwar to Kedarnath</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/rishikesh-to-gangotri-taxi-hire-on-rent">Rishikesh to Gangotri</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/rishikesh-to-yamunotri-taxi-hire-on-rent">Rishikesh to Yamunotri</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-auli-taxi-hire-on-rent">Dehradun to Auli</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/haridwar-to-joshimath-taxi-hire-on-rent">Haridwar to Joshimath</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/dehradun-to-nainital-taxi-hire-on-rent">Dehradun to Nainital</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-nainital-taxi-hire-on-rent">Kathgodam to Nainital</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-bhimtal-taxi-hire-on-rent">Kathgodam to Bhimtal</Link></li>
-                                <li><Link className="dropdown-item" href="/popularroutes/kathgodam-to-ranikhet-taxi-hire-on-rent">Kathgodam to Ranikhet</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-vrindavan-taxi-hire-on-rent">Mathura to Vrindavan</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-gokul-taxi-hire-on-rent">Mathura to Gokul</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-govardhan-taxi-hire-on-rent">Mathura to Govardhan</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-barsana-taxi-hire-on-rent">Mathura to Barsana</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-nandgaon-taxi-hire-on-rent">Mathura to Nandgaon</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-radhakund-taxi-hire-on-rent">Mathura to Radhakund</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-prem-mandir-vrindavan-taxi-hire-on-rent">Mathura to Prem Mandir Vrindavan</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/mathura-to-iskcon-temple-vrindavan-taxi-hire-on-rent">Mathura to ISKCON Temple Vrindavan</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/vrindavan-to-gokul-taxi-hire-on-rent">Vrindavan to Gokul</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/vrindavan-to-govardhan-taxi-hire-on-rent">Vrindavan to Govardhan</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/vrindavan-to-barsana-taxi-hire-on-rent">Vrindavan to Barsana</Link></li>
+                                <li><Link className="dropdown-item" href="/popularroutes/vrindavan-to-nandgaon-taxi-hire-on-rent">Vrindavan to Nandgaon</Link></li>
                             </ul>
                         </li>
 

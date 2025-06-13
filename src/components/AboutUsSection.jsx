@@ -8,34 +8,37 @@ export default function AboutUsSection() {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="about-page-left">
-                            <h2>About Us – Uttarakhand Yatra Taxi Services</h2>
+                            <h2>About Us – Brajwasi Tour Packages</h2>
 
                             <p>
-                                Uttarakhand Yatra Taxi Services is a trusted name in pilgrimage and hill travel across the majestic state of Uttarakhand.
-                                Since our inception in 2021, we've helped thousands of yatris and tourists explore sacred destinations including the <strong>Char Dham Yatra (Yamunotri, Gangotri, Kedarnath, Badrinath)</strong>, as well as scenic hill stations like <strong>Mussoorie, Nainital, Auli, Chopta, Valley of Flowers</strong> and more.
+                                <strong>Brajwasi Tour Packages</strong> is your trusted travel partner for spiritual and cultural tours in the Braj region —
+                                encompassing <strong>Mathura, Vrindavan, Barsana, Nandgaon, Gokul, and Govardhan</strong>. Since 2021, we've served thousands of pilgrims
+                                and travelers in discovering the divine essence of Shri Krishna's leelas and temples.
                             </p>
 
                             <h2>Why Choose Us:</h2>
                             <p>
-                                We offer reliable taxi services with experienced, local drivers who know the mountains inside out. Our fleet includes well-maintained <strong>Sedans, SUVs, MUVs, Tempo Travellers, and Buses</strong> with seating from 4 to 45. Safety, comfort, and punctuality are our top priorities.
+                                We offer personalized tour packages, reliable transport, and experienced local guides who know every sacred ghat, temple, and hidden gem in Braj.
+                                Our fleet includes well-maintained <strong>sedans, SUVs, MUVs, and Tempo Travellers</strong> — ideal for individuals, families, or large groups.
                             </p>
                             <p>
-                                Whether you're starting your yatra from <strong>Delhi, Mumbai, Kolkata, Ahmedabad, Chennai</strong>, or any part of India, we provide flexible pickup and custom travel itineraries to meet your needs.
+                                Whether you're traveling from <strong>Delhi, Agra, Jaipur, Lucknow</strong> or anywhere in India, we arrange smooth travel, darshan,
+                                and accommodations to make your Braj journey meaningful and hassle-free.
                             </p>
 
                             <h3>Our Services Include:</h3>
                             <ul>
-                                <li>Char Dham Yatra packages with end-to-end support</li>
-                                <li>Pickup/drop from any city or airport in India</li>
-                                <li>Local sightseeing tours in Rishikesh, Haridwar, and other major locations</li>
-                                <li>Multi-lingual guide availability (Hindi, English, others on request)</li>
-                                <li>Fully customizable tour packages</li>
+                                <li>Mathura Vrindavan Tour Packages (1-day to multi-day)</li>
+                                <li>Pickup/drop from Delhi, Agra, and local railway stations</li>
+                                <li>Guided tours for Barsana, Nandgaon, Govardhan Parikrama</li>
+                                <li>Special Holi, Janmashtami, and festival tour arrangements</li>
+                                <li>Hotel stays included in selected packages</li>
                             </ul>
 
                             <p>
                                 Have questions? Email us at {' '}
-                                <Link href="mailto:yatraukheaven@gmail.com">
-                                    yatraukheaven@gmail.com
+                                <Link href="mailto:brijwasi.tours@gmail.com">
+                                    brijwasi.tours@gmail.com
                                 </Link>
                                 {' '} or call us at <b>+91 9634656654</b>.
                             </p>
@@ -60,7 +63,7 @@ export default function AboutUsSection() {
                         <div className="about-page-right">
                             <Image
                                 src="/img/about-page.webp"
-                                alt="Char Dham Yatra Taxi Services"
+                                alt="Brajwasi Tour Packages"
                                 width={600}
                                 height={400}
                                 style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }}

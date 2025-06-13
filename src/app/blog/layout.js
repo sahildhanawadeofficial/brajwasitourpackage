@@ -19,13 +19,14 @@ export default function RootLayout({ children }) {
                             <div className="sidebar-widget">
                                 <h3>Related Blogs</h3>
                                 <ul className="service-menu">
-                                    <li><Link href="/blog/top-5-places-to-visit-in-uttarakhand">Top 5 Places to Visit in Uttarakhand</Link></li>
-                                    <li><Link href="/blog/how-to-prepare-for-char-dham-yatra">How to Prepare for Char Dham Yatra</Link></li>
-                                    <li><Link href="/blog/best-time-to-visit-uttarakhand">Best Time to Visit Uttarakhand for a Taxi Tour</Link></li>
-                                    <li><Link href="/blog/benefits-of-hiring-local-taxi-service-uttarakhand">Benefits of Hiring a Local Taxi Service in Uttarakhand</Link></li>
-                                    <li><Link href="/blog/spiritual-temples-in-uttarakhand">Spiritual Journey Through Uttarakhand: Temples You Must Visit</Link></li>
-                                    <li><Link href="/blog/scenic-routes-in-uttarakhand">Scenic Routes You Can Explore with a Private Taxi in Uttarakhand</Link></li>
+                                    <li><Link href="/blog/top-places-to-visit-in-braj-bhoomi">Top Places to Visit in Braj Bhoomi</Link></li>
+                                    <li><Link href="/blog/84-kosi-parikrama-guide">Complete Guide to 84 Kosi Parikrama</Link></li>
+                                    <li><Link href="/blog/lathmar-holi-barsana-nandgaon">Lathmar Holi: Barsana and Nandgaon Experience</Link></li>
+                                    <li><Link href="/blog/vrindavan-temple-darshan-guide">Top Temples to Visit in Vrindavan</Link></li>
+                                    <li><Link href="/blog/why-choose-brajwasi-tour-package">Why Choose Brajwasi Tour Package?</Link></li>
+                                    <li><Link href="/blog/mathura-vrindavan-tour-itinerary">Mathura-Vrindavan 2-Day Tour Itinerary</Link></li>
                                 </ul>
+
 
                             </div>
 
