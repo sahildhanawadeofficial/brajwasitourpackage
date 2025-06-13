@@ -37,7 +37,7 @@ const HomeContent = () => {
               <div className="about-left">
                 <h1>Brajwasi Tour Package Taxi Services</h1>
                 <p>
-                  Since 2015, <b>Brajwasi Taxi Service</b> has been the trusted name for safe, reliable, and spiritual travel across Braj Bhoomi. Whether you're visiting temples, exploring sacred villages, or attending festivals like Holi and Janmashtami, we make your journey serene and seamless.
+                  Since 2015, <b>Brajwasi Taxi Service</b> has been the trusted name for safe, reliable, and spiritual travel across Braj Bhoomi. Whether you&apos;re visiting temples, exploring sacred villages, or attending festivals like Holi and Janmashtami, we make your journey serene and seamless.
                 </p>
 
                 <p>
@@ -270,7 +270,7 @@ const HomeContent = () => {
                   The <b>5-day Braj 84 Kosh Yatra</b> is perfect for those seeking a spiritual connection with a tight schedule — covering major sites with devotional depth.
                 </p>
                 <p>
-                  The <b>6-day and 7-day packages</b> allow for more immersive darshans, peaceful exploration, and time for reflection in the Braj region's holy villages and temples.
+                  The <b>6-day and 7-day packages</b> allow for more immersive darshans, peaceful exploration, and time for reflection in the Braj region&apos;s holy villages and temples.
                 </p>
                 <p>
                   The <b>8-day yatra</b> is ideal for seekers wanting a complete parikrama with opportunities for meditation, kirtan participation, and spiritual retreat moments.
@@ -456,7 +456,7 @@ const HomeContent = () => {
             para={
               <>
                 Explore Braj your way with our <strong>Customized & Themed Packages</strong>, designed for flexibility and personalization.
-                Whether you're traveling solo or in a group, these tours adapt to your schedule, preferences, and travel style.
+                Whether you&apos;re traveling solo or in a group, these tours adapt to your schedule, preferences, and travel style.
               </>
             }
             morecontent={
