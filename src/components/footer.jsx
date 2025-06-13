@@ -92,13 +92,13 @@ const Footer = () => {
                   <div className="footer-address">
                     <h3>Contact Info</h3>
                     <p>
-                      Brajwasi Tours Office, Near Prem Mandir Gate No. 2,<br />
-                      Vrindavan, Mathura, Uttar Pradesh – 281121
+                      Brajwasi Tours Office,<br />
+                      Vrindavan
                     </p>
                     <ul>
                       <li>Phone: +91 8126990023</li>
                       <li>WhatsApp: +91 8126990023</li>
-                      <li>Email: brajwasitours@gmail.com</li>
+                      <li>Email: choudharyyogesh752@gmail.com</li>
                     </ul>
                     <br />
                     <div className="map-here">

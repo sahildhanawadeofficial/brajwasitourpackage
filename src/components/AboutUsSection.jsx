@@ -37,8 +37,8 @@ export default function AboutUsSection() {
 
                             <p>
                                 Have questions? Email us at {' '}
-                                <Link href="mailto:brijwasi.tours@gmail.com">
-                                    brijwasi.tours@gmail.com
+                                <Link href="mailto:choudharyyogesh752@gmail.com">
+                                    choudharyyogesh752@gmail.com
                                 </Link>
                                 {' '} or call us at <b>+91 8126990023</b>.
                             </p>

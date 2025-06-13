@@ -41,14 +41,14 @@ export default function RootLayout({ children }) {
                                             +91-8126990023</a></li>
                                         <li><a href="https://wa.me/+918126990023"><i className="fa fa-whatsapp"
                                             aria-hidden="true"></i> +91-8126990023</a></li>
-                                        <li> <a href="mailto:yatraukheaven@gmail.com"><i
-                                            className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here) yatraukheaven@gmail.com</a>
+                                        <li> <a href="mailto:choudharyyogesh752@gmail.com"><i
+                                            className="fa fa-envelope" aria-hidden="true"></i> Email us (Click Here) choudharyyogesh752@gmail.com</a>
                                         </li>
                                     </ul>
                                     <br />
 
                                     <h4>Address</h4>
-                                    <p><i className="fa fa-map-marker" aria-hidden="true"></i> Shop no.4 opposite Railway Station Devpura Haridwar, Uttarakhand (U.K.) 249401</p>
+                                    <p><i className="fa fa-map-marker" aria-hidden="true"></i> Brajwasi Tours Office, vrindavan</p>
                                 </div>
                             </div>
                         </div>
