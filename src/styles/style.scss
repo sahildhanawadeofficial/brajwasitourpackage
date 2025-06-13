@@ -2760,28 +2760,47 @@ button.gauto-theme-btn:hover {
 #offerTab {
 	text-align: center;
 	width: 100%;
-	display: block;
-	border: medium none;
-	margin: 30px 0
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5em;
 }
 
 #offerTab li {
 	display: inline-block;
 	margin: 0 5px;
+	border: .3em solid transparent !important;
+	outline: .3em solid transparent !important;
 }
+
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-	border: medium none
+	border: medium none;
+	background-color: black !important;
+	color: white !important;
+	border: .3em solid white !important;
+	outline: .3em solid black !important;
 }
 
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
-	border: medium none
+	border: medium none;
+
+	background-color: black !important;
+	color: white !important;
+	border: .3em solid white !important;
+	outline: .3em solid black !important;
 }
 
 .nav-tabs .nav-link {
-	border: medium none
+	border: medium none;
+	background-color: black !important;
+	color: white !important;
+	// border: .2em solid white !important;
+	// outline: .2em solid black !important;
+
 }
 
 #offerTab li.nav-item a.nav-link,
@@ -2794,6 +2813,7 @@ button.gauto-theme-btn:hover {
 	font-size: 14px;
 	position: relative;
 	z-index: 1;
+
 }
 
 #offerTab li.nav-item a.nav-link:after {
