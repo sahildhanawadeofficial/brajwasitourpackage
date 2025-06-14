@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Mathura-Vrindavan 2-Day Tour Itinerary",
+    description: "Explore a well-planned 2-day itinerary to cover the best of Mathura and Vrindavan’s spiritual sites.",
+    keywords: ["Mathura Vrindavan itinerary", "2 day Braj tour", "Krishna travel plan", "Braj tour guide"]
+};
 
 const MathuraVrindavanTourBlog = () => {
     const blogData = {

@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Vrindavan to Nandgaon Taxi Hire",
+    description: "Travel from Vrindavan to Nandgaon by taxi and explore Krishna's foster family village.",
+    keywords: ["Vrindavan to Nandgaon taxi", "Nandgaon tour", "Krishna village", "religious taxi service"]
+};
 
 const taxiImage = "/tour/braj-nandgaon.png"; // Replace with actual image path
 

@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to ISKCON Temple Vrindavan Taxi Hire",
+    description: "Hire a taxi from Mathura to the famous ISKCON Temple in Vrindavan for a serene spiritual experience.",
+    keywords: ["Mathura to ISKCON Vrindavan", "ISKCON temple taxi", "spiritual Vrindavan tour", "Hare Krishna"]
+};
 
 const taxiImage = "/tour/braj-vrindavan.png"; // Replace with correct image path if available
 

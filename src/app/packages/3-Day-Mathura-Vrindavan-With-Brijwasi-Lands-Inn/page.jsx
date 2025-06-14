@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "3-Day Mathura Vrindavan With Brijwasi Lands Inn",
+    description: "Enjoy a 3-day spiritual retreat in Mathura and Vrindavan with premium stay at Brijwasi Lands Inn.",
+    keywords: ["3-day Mathura tour", "Vrindavan trip", "Brijwasi Lands Inn", "Krishna temples"]
+};
 
 const Page = () => {
     return (

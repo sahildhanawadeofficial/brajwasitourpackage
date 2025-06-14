@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to Prem Mandir Vrindavan Taxi Hire",
+    description: "Book a taxi from Mathura to Prem Mandir in Vrindavan and admire its divine architecture and aura.",
+    keywords: ["Mathura to Prem Mandir taxi", "Prem Mandir Vrindavan", "spiritual travel", "Krishna temple"]
+};
 
 const taxiImage = "/tour/prem-mandir-vrindavan.png"; // Update the image path accordingly
 

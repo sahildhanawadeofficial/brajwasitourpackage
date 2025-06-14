@@ -4,6 +4,11 @@ import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const taxiImage = "/tour/vrindavan-by-car.png"; // Update the image path if needed
+export const metadata = {
+    title: "Mathura to Vrindavan Taxi Hire",
+    description: "Book a comfortable taxi from Mathura to Vrindavan for a spiritual journey through the land of Krishna.",
+    keywords: ["Mathura to Vrindavan taxi", "Vrindavan cab", "Mathura travel", "Krishna temples transport"]
+};
 
 const Page = () => {
     return (

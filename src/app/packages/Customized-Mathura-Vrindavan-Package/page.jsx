@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "Customized Mathura Vrindavan Package",
+    description: "Design your own Mathura and Vrindavan tour with our fully customizable pilgrimage package.",
+    keywords: ["custom Vrindavan tour", "Mathura travel package", "Krishna temples tour", "customized pilgrimage"]
+};
 
 const Page = () => {
     return (

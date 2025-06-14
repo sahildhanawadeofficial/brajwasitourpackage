@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "4-Day Mathura Vrindavan Package",
+    description: "Explore the spiritual charm of Mathura and Vrindavan with this 4-day religious tour package.",
+    keywords: ["4-day Mathura Vrindavan tour", "Krishna Janmbhoomi", "Vrindavan temples", "religious travel"]
+};
 
 const Page = () => {
     return (

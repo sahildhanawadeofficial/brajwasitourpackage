@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Lathmar Holi: Barsana and Nandgaon Experience",
+    description: "Dive into the colorful traditions of Lathmar Holi celebrated in Barsana and Nandgaon, the villages of Radha and Krishna.",
+    keywords: ["Lathmar Holi", "Barsana Holi", "Nandgaon festival", "Braj Holi celebration"]
+};
 
 const LathmarHoliBlog = () => {
     const blogData = {

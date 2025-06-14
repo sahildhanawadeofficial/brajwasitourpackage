@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "Phoolon Ki Holi Tour Package",
+    description: "Experience the divine beauty of Phoolon Ki Holi in Vrindavan, a unique celebration of flowers and devotion.",
+    keywords: ["Phoolon ki Holi", "Vrindavan flower Holi", "Krishna Holi celebration", "Holi tour"]
+};
 
 const Page = () => {
     return (

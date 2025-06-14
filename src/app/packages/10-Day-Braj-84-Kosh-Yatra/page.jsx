@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "10-Day Braj 84 Kosh Yatra",
+    description: "Immerse yourself in devotion with this 10-day Braj 84 Kosh Yatra, covering every significant temple and site.",
+    keywords: ["10-day Braj Yatra", "84 Kosh darshan", "Mathura Vrindavan temples", "pilgrimage package"]
+};
 
 const Page = () => {
     return (

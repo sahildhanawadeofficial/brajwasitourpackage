@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Vrindavan to Govardhan Taxi Hire",
+    description: "Hire a taxi from Vrindavan to Govardhan and explore the sacred hill lifted by Lord Krishna.",
+    keywords: ["Vrindavan to Govardhan taxi", "Govardhan hill tour", "Krishna lila site", "spiritual taxi"]
+};
 
 const taxiImage = "/tour/govardhan-parikrama.png"; // Replace with actual image path
 

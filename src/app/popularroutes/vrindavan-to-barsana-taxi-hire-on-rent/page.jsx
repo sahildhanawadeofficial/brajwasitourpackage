@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Vrindavan to Barsana Taxi Hire",
+    description: "Book a taxi from Vrindavan to Barsana and visit the holy town of Radha Rani.",
+    keywords: ["Vrindavan to Barsana taxi", "Radha temples", "Barsana travel", "spiritual Vrindavan tour"]
+};
 
 const taxiImage = "/tour/braj-barsana.png"; // Update this to a relevant image if needed
 

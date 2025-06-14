@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Vrindavan to Gokul Taxi Hire",
+    description: "Book a taxi from Vrindavan to Gokul to visit the divine childhood abode of Lord Krishna.",
+    keywords: ["Vrindavan to Gokul taxi", "Gokul cab", "Krishna childhood tour", "Vrindavan travel"]
+};
 
 const taxiImage = "/tour/braj-vrindavan.png"; // Replace with actual image path if needed
 

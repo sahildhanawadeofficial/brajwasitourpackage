@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "Vrindavan Tour By Car",
+    description: "Explore Vrindavan at your pace with our comfortable and private car tour service.",
+    keywords: ["Vrindavan car tour", "private taxi Vrindavan", "Krishna temples by car", "Mathura Vrindavan cab"]
+};
 
 const Page = () => {
     return (

@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to Radhakund Taxi Hire",
+    description: "Travel from Mathura to Radhakund with ease and experience one of the holiest kunds in Braj.",
+    keywords: ["Mathura to Radhakund taxi", "Radha kund tour", "spiritual Braj tour", "Mathura cab"]
+};
 
 const taxiImage = "/tour/radhakund.png"; // Update the path if image differs
 

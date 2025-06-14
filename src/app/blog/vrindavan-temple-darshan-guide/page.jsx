@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Complete Guide to 84 Kosi Parikrama",
+    description: "Explore the complete guide to the 84 Kosi Parikrama, a spiritual journey through the holy Braj region.",
+    keywords: ["84 Kosi Parikrama", "Braj Yatra", "Krishna pilgrimage", "Parikrama guide"]
+};
 
 const VrindavanTempleDarshanGuideBlog = () => {
     const blogData = {

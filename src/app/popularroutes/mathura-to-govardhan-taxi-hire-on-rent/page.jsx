@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to Govardhan Taxi Hire",
+    description: "Travel from Mathura to Govardhan comfortably and explore the sacred Govardhan Hill.",
+    keywords: ["Mathura to Govardhan taxi", "Govardhan tour", "Krishna pilgrimage", "Govardhan hill"]
+};
 
 const taxiImage = "/tour/govardhan-parikrama.png"; // Update with appropriate image if available
 

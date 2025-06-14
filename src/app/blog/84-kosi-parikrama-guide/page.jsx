@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Top Temples to Visit in Vrindavan",
+    description: "Plan your spiritual tour with this list of top temples to visit in Vrindavan, the divine land of Krishna.",
+    keywords: ["Vrindavan temples", "top temples Krishna", "Vrindavan darshan guide", "Braj pilgrimage"]
+};
 
 const EightyFourKosiParikramaGuide = () => {
     const blogData = {

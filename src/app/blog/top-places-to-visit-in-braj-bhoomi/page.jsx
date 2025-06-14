@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Top Places to Visit in Braj Bhoomi",
+    description: "Discover the top sacred and historical places to visit in Braj Bhoomi, the divine land of Lord Krishna.",
+    keywords: ["Braj Bhoomi travel", "top places Braj", "Krishna pilgrimage", "Mathura Vrindavan tourism"]
+};
 
 const BrajBhoomiTopPlacesBlog = () => {
     const blogData = {

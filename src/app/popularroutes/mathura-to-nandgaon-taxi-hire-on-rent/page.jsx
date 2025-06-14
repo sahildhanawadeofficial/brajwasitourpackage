@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to Nandgaon Taxi Hire",
+    description: "Hire a taxi from Mathura to Nandgaon and explore the village of Krishna's foster father Nanda.",
+    keywords: ["Mathura to Nandgaon taxi", "Krishna village", "Nandgaon travel", "spiritual taxi service"]
+};
 
 const taxiImage = "/tour/braj-nandgaon.png"; // Update the image path accordingly
 

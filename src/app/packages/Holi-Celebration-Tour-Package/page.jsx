@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FaMapMarkerAlt, FaClock, FaCar, FaUtensils, FaCheck, FaTimes } from 'react-icons/fa';
+export const metadata = {
+    title: "Holi Celebration Tour Package",
+    description: "Celebrate the vibrant festival of Holi in the land of Krishna with our exclusive Holi tour package.",
+    keywords: ["Holi in Vrindavan", "Holi tour Mathura", "Krishna Holi", "color festival tour"]
+};
 
 const Page = () => {
     return (

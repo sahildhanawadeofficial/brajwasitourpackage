@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+export const metadata = {
+    title: "Mathura to Barsana Taxi Hire",
+    description: "Book a taxi from Mathura to Barsana, the birthplace of Radha, and visit beautiful temples.",
+    keywords: ["Mathura to Barsana taxi", "Radha birthplace", "Barsana temple tour", "spiritual trip"]
+};
 
 const taxiImage = "/tour/braj-barsana.png"; // Update image if needed
 

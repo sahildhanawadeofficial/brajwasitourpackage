@@ -3,6 +3,13 @@ import Image from 'next/image';
 import QuickInquiry from '@/components/QuickInquiry';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
+export const metadata = {
+    title: "Mathura to Gokul Taxi Hire",
+    description: "Hire a taxi from Mathura to Gokul and visit the divine town where Lord Krishna spent his childhood.",
+    keywords: ["Mathura to Gokul taxi", "Gokul cab service", "Krishna childhood place", "Mathura tour"]
+};
+
+
 const taxiImage = "/tour/braj-mathura.png"; // Replace with a Gokul-specific image if available
 
 const Page = () => {

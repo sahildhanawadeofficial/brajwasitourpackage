@@ -6,6 +6,11 @@ import Image from 'next/image'; // For optimized images
 
 // Make sure your style.scss is imported somewhere in your global styles or layout
 // For example, in pages/_app.js: import '../styles/style.scss';
+export const metadata = {
+    title: "Why Choose Brajwasi Tour Package?",
+    description: "Find out why Brajwasi Tour Packages are the best choice for experiencing the spiritual charm of Braj Bhoomi.",
+    keywords: ["Brajwasi tour package", "Braj travel benefits", "Krishna temple tour", "best Braj tour"]
+};
 
 const WhyChooseBrajwasiTourPackageBlog = () => {
     const blogData = {
